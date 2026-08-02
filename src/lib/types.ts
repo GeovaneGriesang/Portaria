@@ -17,6 +17,14 @@ export type TipoPortaria =
   | "licenca"
   | "diaria"
   | "rsc"
+  | "abono_permanencia"
+  | "aceleracao_promocao"
+  | "progressao"
+  | "pensao"
+  | "remocao"
+  | "substituicao"
+  | "cancelamento"
+  | "retificacao"
   | "outros";
 
 export interface Portaria {
@@ -39,7 +47,7 @@ export const TIPO_LABELS: Record<TipoPortaria, string> = {
   grupo_trabalho: "Grupo de trabalho",
   nucleo: "Núcleo",
   designacao: "Designação",
-  exoneracao: "Exoneração",
+  exoneracao: "Exoneração / dispensa",
   nomeacao: "Nomeação",
   gratificacao: "Gratificação / função (CD-FG)",
   cessao: "Cessão",
@@ -47,6 +55,14 @@ export const TIPO_LABELS: Record<TipoPortaria, string> = {
   licenca: "Licença",
   diaria: "Diária",
   rsc: "RSC",
+  abono_permanencia: "Abono de permanência",
+  aceleracao_promocao: "Aceleração da promoção",
+  progressao: "Progressão / promoção por titulação",
+  pensao: "Pensão civil",
+  remocao: "Remoção / redistribuição",
+  substituicao: "Substituição em portaria anterior",
+  cancelamento: "Cancelamento de ato anterior",
+  retificacao: "Retificação",
   outros: "Outros",
 };
 

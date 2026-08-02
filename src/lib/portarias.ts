@@ -5,20 +5,23 @@ import type { Portaria } from "./types";
 const DATA_DIR = path.join(process.cwd(), "data", "portarias");
 
 /**
- * Lê todos os `data/portarias/<ano>.json` (um arquivo por ano, ver plano do
- * projeto) e devolve a lista completa, ordenada da portaria mais recente
- * para a mais antiga. Sem cache entre requisições: o volume de dados é
- * pequeno o bastante (algumas centenas a poucos milhares de registros) para
- * que reler do disco a cada request seja imperceptível, e evita servir dados
- * desatualizados depois que eu atualizar um JSON via ingestão de boletim novo.
+ * Lê todos os `<dir>/<ano>.json` (um arquivo por ano) e devolve a lista
+ * completa, ordenada da portaria mais recente para a mais antiga. Sem cache
+ * entre requisições: para o volume real observado (alguns milhares de
+ * registros por ano), reler do disco a cada request ainda é imperceptível, e
+ * evita servir dados desatualizados depois que eu atualizar um JSON via
+ * ingestão de boletim novo.
+ *
+ * O parâmetro `dir` existe para que os testes apontem para fixtures isoladas
+ * (tests/fixtures/portarias) em vez dos dados reais em data/portarias.
  */
-export function getPortarias(): Portaria[] {
-  if (!fs.existsSync(DATA_DIR)) return [];
+export function getPortarias(dir: string = DATA_DIR): Portaria[] {
+  if (!fs.existsSync(dir)) return [];
 
-  const arquivos = fs.readdirSync(DATA_DIR).filter((nome) => nome.endsWith(".json"));
+  const arquivos = fs.readdirSync(dir).filter((nome) => nome.endsWith(".json"));
 
   const portarias = arquivos.flatMap((nome) => {
-    const conteudo = fs.readFileSync(path.join(DATA_DIR, nome), "utf-8");
+    const conteudo = fs.readFileSync(path.join(dir, nome), "utf-8");
     return JSON.parse(conteudo) as Portaria[];
   });
 

@@ -6,6 +6,7 @@ import { isAtiva } from "@/lib/status";
 import type { Portaria } from "@/lib/types";
 import { BulkDownloadBar } from "./BulkDownloadBar";
 import { DashboardStats } from "./DashboardStats";
+import { DataNotice } from "./DataNotice";
 import { FilterPanel, type Filtros } from "./FilterPanel";
 import { ResultsList } from "./ResultsList";
 
@@ -77,6 +78,8 @@ export function PortariasExplorer({ portarias }: PortariasExplorerProps) {
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-6 sm:px-6">
+      <DataNotice portarias={portarias} />
+
       <DashboardStats portarias={portariasFiltradas} />
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[300px_1fr]">

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2025-0980",
+    "numero": "0980/2025",
+    "ano": 2025,
+    "mes": 1,
+    "arquivo": "portarias/2025/01/portaria-0980-2025.pdf",
+    "unidade": "Reitoria",
+    "tipos": ["comissao", "nucleo"],
+    "ementa": "Institui núcleo e comissão de acompanhamento do planejamento estratégico",
+    "servidores": [
+      { "nome": "Renata Borges Almeida", "siape": "2211009", "cargo": "Contadora" },
+      { "nome": "Diego Fontoura Lopes", "siape": "2211010", "cargo": "Administrador" }
+    ],
+    "dataInicio": "2025-01-01",
+    "dataFim": "2026-01-01"
+  }
+]

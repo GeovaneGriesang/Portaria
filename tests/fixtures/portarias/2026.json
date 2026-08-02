@@ -1,0 +1,139 @@
+[
+  {
+    "id": "2026-1001",
+    "numero": "1001/2026",
+    "ano": 2026,
+    "mes": 1,
+    "arquivo": "portarias/2026/01/portaria-1001-2026.pdf",
+    "unidade": "Reitoria",
+    "tipos": ["designacao", "nucleo"],
+    "ementa": "Designa membros para o Núcleo de Acessibilidade da Reitoria",
+    "servidores": [
+      { "nome": "Ana Paula Fagundes", "siape": "1234567", "cargo": "Técnica em Assuntos Educacionais" }
+    ],
+    "dataInicio": "2026-01-05",
+    "dataFim": "2027-01-05"
+  },
+  {
+    "id": "2026-1050",
+    "numero": "1050/2026",
+    "ano": 2026,
+    "mes": 2,
+    "arquivo": "portarias/2026/02/portaria-1050-2026.pdf",
+    "unidade": "Câmpus Pelotas",
+    "tipos": ["comissao"],
+    "ementa": "Institui comissão de sindicância",
+    "servidores": [
+      { "nome": "Carlos Eduardo Nunes", "siape": "2233445", "cargo": "Administrador" },
+      { "nome": "Marina Costa Beber", "siape": "2233446", "cargo": "Assistente em Administração" }
+    ],
+    "dataInicio": "2026-02-01",
+    "dataFim": "2026-07-31"
+  },
+  {
+    "id": "2026-1102",
+    "numero": "1102/2026",
+    "ano": 2026,
+    "mes": 3,
+    "arquivo": "portarias/2026/03/portaria-1102-2026.pdf",
+    "unidade": "Câmpus Venâncio Aires",
+    "tipos": ["grupo_trabalho"],
+    "ementa": "Institui grupo de trabalho para os 15 anos do câmpus",
+    "servidores": [
+      { "nome": "Geovane Griesang", "siape": "3344556", "cargo": "Técnico de Tecnologia da Informação" },
+      { "nome": "Bruna Zart Feltes", "siape": "3344557", "cargo": "Pedagoga" },
+      { "nome": "Rodrigo Silveira Prass", "siape": "3344558", "cargo": "Professor" }
+    ],
+    "dataInicio": "2026-03-10"
+  },
+  {
+    "id": "2026-1150",
+    "numero": "1150/2026",
+    "ano": 2026,
+    "mes": 3,
+    "arquivo": "portarias/2026/03/portaria-1150-2026.pdf",
+    "unidade": "Câmpus Bagé",
+    "tipos": ["nomeacao"],
+    "ementa": "Nomeia servidor aprovado em concurso público",
+    "servidores": [{ "nome": "Felipe Augusto Konzen", "siape": "4455667", "cargo": "Assistente em Administração" }],
+    "dataInicio": "2026-03-15"
+  },
+  {
+    "id": "2026-1200",
+    "numero": "1200/2026",
+    "ano": 2026,
+    "mes": 4,
+    "arquivo": "portarias/2026/04/portaria-1200-2026.pdf",
+    "unidade": "Câmpus Charqueadas",
+    "tipos": ["exoneracao"],
+    "ementa": "Exonera servidor de função gratificada",
+    "servidores": [{ "nome": "Juliana Pereira Ramos", "siape": "5566778", "cargo": "FG-2" }],
+    "dataInicio": "2026-04-01",
+    "dataFim": "2026-04-01"
+  },
+  {
+    "id": "2026-1234",
+    "numero": "1234/2026",
+    "ano": 2026,
+    "mes": 4,
+    "arquivo": "portarias/2026/04/portaria-1234-2026.pdf",
+    "unidade": "Câmpus Pelotas - Visconde da Graça",
+    "tipos": ["gratificacao"],
+    "ementa": "Designa servidor para função gratificada FG-1",
+    "servidores": [{ "nome": "Thiago Machado Duarte", "siape": "6677889", "cargo": "FG-1" }],
+    "dataInicio": "2026-04-05",
+    "dataFim": "2028-04-05"
+  },
+  {
+    "id": "2026-1300",
+    "numero": "1300/2026",
+    "ano": 2026,
+    "mes": 5,
+    "arquivo": "portarias/2026/05/portaria-1300-2026.pdf",
+    "unidade": "Câmpus Sapucaia do Sul",
+    "tipos": ["cessao"],
+    "ementa": "Autoriza cessão de servidor para outro órgão",
+    "servidores": [{ "nome": "Camila Rocha Vianna", "siape": "7788990", "cargo": "Assistente Social" }],
+    "dataInicio": "2026-05-01",
+    "dataFim": "2026-10-31"
+  },
+  {
+    "id": "2026-1345",
+    "numero": "1345/2026",
+    "ano": 2026,
+    "mes": 5,
+    "arquivo": "portarias/2026/05/portaria-1345-2026.pdf",
+    "unidade": "Câmpus Passo Fundo",
+    "tipos": ["afastamento"],
+    "ementa": "Concede afastamento para capacitação",
+    "servidores": [{ "nome": "Eduardo Lima Schneider", "siape": "8899001", "cargo": "Professor" }],
+    "dataInicio": "2026-05-20",
+    "dataFim": "2026-06-20"
+  },
+  {
+    "id": "2026-1400",
+    "numero": "1400/2026",
+    "ano": 2026,
+    "mes": 6,
+    "arquivo": "portarias/2026/06/portaria-1400-2026.pdf",
+    "unidade": "Câmpus Gravataí",
+    "tipos": ["licenca"],
+    "ementa": "Concede licença capacitação",
+    "servidores": [{ "nome": "Patrícia Almeida Souza", "siape": "9900112", "cargo": "Bibliotecária" }],
+    "dataInicio": "2026-06-01",
+    "dataFim": "2026-12-01"
+  },
+  {
+    "id": "2026-1450",
+    "numero": "1450/2026",
+    "ano": 2026,
+    "mes": 7,
+    "arquivo": "portarias/2026/07/portaria-1450-2026.pdf",
+    "unidade": "Câmpus Lajeado",
+    "tipos": ["rsc"],
+    "ementa": "Reconhece Saberes e Competências (RSC) de servidor TAE",
+    "servidores": [{ "nome": "Marcelo Vieira Timm", "siape": "1122334", "cargo": "Técnico de Laboratório" }],
+    "dataInicio": "2026-07-01",
+    "dataFim": "2029-07-01"
+  }
+]

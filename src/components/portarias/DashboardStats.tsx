@@ -56,10 +56,18 @@ export function DashboardStats({ portarias }: DashboardStatsProps) {
         <StatTile label="Ativas" valor={ativas} />
         <StatTile label="Expiradas" valor={expiradas} />
       </div>
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-        <Breakdown titulo="Por tipo" contagem={porTipo} formatarChave={(tipo) => TIPO_LABELS[tipo]} />
-        <Breakdown titulo="Por unidade" contagem={porUnidade} formatarChave={(unidade) => unidade} />
-      </div>
+      <details className="group rounded-lg border border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-900">
+        <summary className="cursor-pointer select-none list-none px-4 py-3 text-sm font-medium text-neutral-700 marker:content-none dark:text-neutral-300">
+          <span className="inline-flex items-center gap-1.5">
+            <span className="transition-transform group-open:rotate-90">▸</span>
+            Detalhamento por tipo e unidade
+          </span>
+        </summary>
+        <div className="grid grid-cols-1 gap-3 border-t border-neutral-200 p-4 sm:grid-cols-2 dark:border-neutral-800">
+          <Breakdown titulo="Por tipo" contagem={porTipo} formatarChave={(tipo) => TIPO_LABELS[tipo]} />
+          <Breakdown titulo="Por unidade" contagem={porUnidade} formatarChave={(unidade) => unidade} />
+        </div>
+      </details>
     </section>
   );
 }
