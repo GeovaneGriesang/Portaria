@@ -8,7 +8,14 @@ import { BulkDownloadBar } from "./BulkDownloadBar";
 import { DashboardStats } from "./DashboardStats";
 import { DataNotice } from "./DataNotice";
 import { FilterPanel, type Filtros } from "./FilterPanel";
+import { ProgressBar } from "./ProgressBar";
 import { ResultsList } from "./ResultsList";
+
+// Delay so a busca de fato mostra a barra de progresso em vez de "piscar" —
+// o filtro em si é rápido, mas com ~18 mil portarias renderizar a lista
+// nova ainda toma um tempo perceptível, e refazer isso a cada tecla digitada
+// (em vez de só ao clicar "Buscar") é o que pesava no desempenho antes.
+const ATRASO_BUSCA_MS = 300;
 
 interface PortariasExplorerProps {
   portarias: Portaria[];
@@ -49,13 +56,22 @@ function passaFiltro(portaria: Portaria, filtros: Filtros): boolean {
 }
 
 export function PortariasExplorer({ portarias }: PortariasExplorerProps) {
-  const [filtros, setFiltros] = useState<Filtros>(FILTROS_INICIAIS);
+  const [filtrosAplicados, setFiltrosAplicados] = useState<Filtros>(FILTROS_INICIAIS);
+  const [buscando, setBuscando] = useState(false);
   const [selecionadas, setSelecionadas] = useState<Set<string>>(new Set());
 
   const portariasFiltradas = useMemo(
-    () => portarias.filter((portaria) => passaFiltro(portaria, filtros)),
-    [portarias, filtros],
+    () => portarias.filter((portaria) => passaFiltro(portaria, filtrosAplicados)),
+    [portarias, filtrosAplicados],
   );
+
+  function buscar(novosFiltros: Filtros) {
+    setBuscando(true);
+    setTimeout(() => {
+      setFiltrosAplicados(novosFiltros);
+      setBuscando(false);
+    }, ATRASO_BUSCA_MS);
+  }
 
   function toggleSelecionada(id: string) {
     setSelecionadas((atual) => {
@@ -83,12 +99,15 @@ export function PortariasExplorer({ portarias }: PortariasExplorerProps) {
       <DashboardStats portarias={portariasFiltradas} />
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[300px_1fr]">
-        <FilterPanel filtros={filtros} onChange={setFiltros} />
-        <ResultsList
-          portarias={portariasFiltradas}
-          selecionadas={selecionadas}
-          onToggleSelecionada={toggleSelecionada}
-        />
+        <FilterPanel filtrosIniciais={filtrosAplicados} onBuscar={buscar} buscando={buscando} />
+        <div className="flex flex-col gap-3">
+          {buscando && <ProgressBar />}
+          <ResultsList
+            portarias={portariasFiltradas}
+            selecionadas={selecionadas}
+            onToggleSelecionada={toggleSelecionada}
+          />
+        </div>
       </div>
 
       <BulkDownloadBar

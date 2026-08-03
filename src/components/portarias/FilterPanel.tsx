@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { TIPO_LABELS, UNIDADES, type TipoPortaria } from "@/lib/types";
 
 export type StatusFiltro = "todas" | "ativas" | "expiradas";
@@ -12,8 +13,9 @@ export interface Filtros {
 }
 
 interface FilterPanelProps {
-  filtros: Filtros;
-  onChange: (filtros: Filtros) => void;
+  filtrosIniciais: Filtros;
+  onBuscar: (filtros: Filtros) => void;
+  buscando: boolean;
 }
 
 const CHECKBOX_LABEL_CLASS =
@@ -21,23 +23,33 @@ const CHECKBOX_LABEL_CLASS =
 const CHECKBOX_CLASS =
   "mt-0.5 h-4 w-4 shrink-0 rounded border-neutral-300 text-if-green focus:ring-if-green dark:border-neutral-700";
 
-export function FilterPanel({ filtros, onChange }: FilterPanelProps) {
+export function FilterPanel({ filtrosIniciais, onBuscar, buscando }: FilterPanelProps) {
+  const [filtros, setFiltros] = useState<Filtros>(filtrosIniciais);
+
   function alternarTipo(tipo: TipoPortaria) {
     const novosTipos = new Set(filtros.tipos);
     if (novosTipos.has(tipo)) novosTipos.delete(tipo);
     else novosTipos.add(tipo);
-    onChange({ ...filtros, tipos: novosTipos });
+    setFiltros({ ...filtros, tipos: novosTipos });
   }
 
   function alternarUnidade(unidade: string) {
     const novasUnidades = new Set(filtros.unidades);
     if (novasUnidades.has(unidade)) novasUnidades.delete(unidade);
     else novasUnidades.add(unidade);
-    onChange({ ...filtros, unidades: novasUnidades });
+    setFiltros({ ...filtros, unidades: novasUnidades });
+  }
+
+  function handleSubmit(evento: React.FormEvent) {
+    evento.preventDefault();
+    onBuscar(filtros);
   }
 
   return (
-    <section className="flex flex-col gap-5 rounded-lg border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
+    <form
+      onSubmit={handleSubmit}
+      className="flex flex-col gap-5 rounded-lg border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900"
+    >
       <div>
         <label htmlFor="busca-servidor" className="mb-1 block text-sm font-medium text-neutral-700 dark:text-neutral-300">
           Servidor (nome ou SIAPE)
@@ -46,7 +58,7 @@ export function FilterPanel({ filtros, onChange }: FilterPanelProps) {
           id="busca-servidor"
           type="text"
           value={filtros.busca}
-          onChange={(evento) => onChange({ ...filtros, busca: evento.target.value })}
+          onChange={(evento) => setFiltros({ ...filtros, busca: evento.target.value })}
           placeholder="Ex.: Ana Paula ou 1234567"
           className="w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 focus:border-if-green focus:outline-none focus:ring-1 focus:ring-if-green dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-100"
         />
@@ -96,13 +108,21 @@ export function FilterPanel({ filtros, onChange }: FilterPanelProps) {
                 name="status-vigencia"
                 className="h-4 w-4 border-neutral-300 text-if-green focus:ring-if-green dark:border-neutral-700"
                 checked={filtros.status === status}
-                onChange={() => onChange({ ...filtros, status })}
+                onChange={() => setFiltros({ ...filtros, status })}
               />
               {status === "todas" ? "Todas" : status === "ativas" ? "Ativas" : "Expiradas"}
             </label>
           ))}
         </div>
       </div>
-    </section>
+
+      <button
+        type="submit"
+        disabled={buscando}
+        className="rounded-md bg-if-green px-4 py-2 text-sm font-medium text-white hover:bg-if-green/90 disabled:cursor-not-allowed disabled:opacity-60"
+      >
+        {buscando ? "Buscando…" : "Buscar"}
+      </button>
+    </form>
   );
 }

@@ -61,7 +61,7 @@ export function BulkDownloadBar({
   }
 
   return (
-    <div className="sticky bottom-4 z-10 flex flex-col gap-2 rounded-lg border border-neutral-200 bg-white/95 p-3 shadow-lg backdrop-blur sm:flex-row sm:items-center sm:justify-between dark:border-neutral-800 dark:bg-neutral-900/95">
+    <div className="sticky bottom-4 z-10 flex flex-col gap-2 rounded-lg border-2 border-if-green bg-white/95 p-3 shadow-lg backdrop-blur sm:flex-row sm:items-center sm:justify-between dark:bg-neutral-900/95">
       <div className="flex flex-wrap items-center gap-3 text-sm text-neutral-600 dark:text-neutral-300">
         <span>
           {portariasSelecionadas.length} de {totalFiltrado} selecionada{portariasSelecionadas.length === 1 ? "" : "s"}
