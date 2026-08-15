@@ -67,7 +67,7 @@ export function BulkDownloadBar({
           {portariasSelecionadas.length} de {totalFiltrado} selecionada{portariasSelecionadas.length === 1 ? "" : "s"}
         </span>
         <button type="button" onClick={onSelecionarTodas} className="text-if-green hover:underline">
-          Selecionar todas
+          Selecionar todas desta página
         </button>
         <button type="button" onClick={onLimparSelecao} className="text-neutral-500 hover:underline dark:text-neutral-400">
           Limpar seleção

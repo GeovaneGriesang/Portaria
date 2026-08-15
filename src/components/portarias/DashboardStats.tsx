@@ -1,18 +1,8 @@
-import { isAtiva } from "@/lib/status";
-import { TIPO_LABELS, type Portaria, type TipoPortaria } from "@/lib/types";
+import type { Estatisticas } from "@/lib/estatisticas";
+import { TIPO_LABELS, type TipoPortaria } from "@/lib/types";
 
 interface DashboardStatsProps {
-  portarias: Portaria[];
-}
-
-function contarPor<T extends string>(portarias: Portaria[], obter: (p: Portaria) => T[]): Map<T, number> {
-  const contagem = new Map<T, number>();
-  for (const portaria of portarias) {
-    for (const chave of obter(portaria)) {
-      contagem.set(chave, (contagem.get(chave) ?? 0) + 1);
-    }
-  }
-  return contagem;
+  estatisticas: Estatisticas;
 }
 
 function StatTile({ label, valor }: { label: string; valor: number }) {
@@ -24,8 +14,18 @@ function StatTile({ label, valor }: { label: string; valor: number }) {
   );
 }
 
-function Breakdown<T extends string>({ titulo, contagem, formatarChave }: { titulo: string; contagem: Map<T, number>; formatarChave: (chave: T) => string }) {
-  const linhas = Array.from(contagem.entries()).sort((a, b) => b[1] - a[1]);
+function Breakdown({
+  titulo,
+  contagem,
+  formatarChave,
+}: {
+  titulo: string;
+  contagem: Record<string, number | undefined>;
+  formatarChave: (chave: string) => string;
+}) {
+  const linhas = Object.entries(contagem)
+    .filter((entrada): entrada is [string, number] => entrada[1] !== undefined)
+    .sort((a, b) => b[1] - a[1]);
 
   return (
     <div className="rounded-lg border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
@@ -43,18 +43,13 @@ function Breakdown<T extends string>({ titulo, contagem, formatarChave }: { titu
   );
 }
 
-export function DashboardStats({ portarias }: DashboardStatsProps) {
-  const ativas = portarias.filter((p) => isAtiva(p)).length;
-  const expiradas = portarias.length - ativas;
-  const porTipo = contarPor<TipoPortaria>(portarias, (p) => p.tipos);
-  const porUnidade = contarPor<string>(portarias, (p) => [p.unidade]);
-
+export function DashboardStats({ estatisticas }: DashboardStatsProps) {
   return (
     <section className="flex flex-col gap-4">
       <div className="grid grid-cols-3 gap-3">
-        <StatTile label="Portarias encontradas" valor={portarias.length} />
-        <StatTile label="Ativas" valor={ativas} />
-        <StatTile label="Expiradas" valor={expiradas} />
+        <StatTile label="Portarias encontradas" valor={estatisticas.total} />
+        <StatTile label="Ativas" valor={estatisticas.ativas} />
+        <StatTile label="Expiradas" valor={estatisticas.expiradas} />
       </div>
       <details className="group rounded-lg border border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-900">
         <summary className="cursor-pointer select-none list-none px-4 py-3 text-sm font-medium text-neutral-700 marker:content-none dark:text-neutral-300">
@@ -64,8 +59,12 @@ export function DashboardStats({ portarias }: DashboardStatsProps) {
           </span>
         </summary>
         <div className="grid grid-cols-1 gap-3 border-t border-neutral-200 p-4 sm:grid-cols-2 dark:border-neutral-800">
-          <Breakdown titulo="Por tipo" contagem={porTipo} formatarChave={(tipo) => TIPO_LABELS[tipo]} />
-          <Breakdown titulo="Por unidade" contagem={porUnidade} formatarChave={(unidade) => unidade} />
+          <Breakdown
+            titulo="Por tipo"
+            contagem={estatisticas.porTipo}
+            formatarChave={(tipo) => TIPO_LABELS[tipo as TipoPortaria]}
+          />
+          <Breakdown titulo="Por unidade" contagem={estatisticas.porUnidade} formatarChave={(unidade) => unidade} />
         </div>
       </details>
     </section>

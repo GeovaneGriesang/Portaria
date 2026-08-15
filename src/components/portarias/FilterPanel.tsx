@@ -1,20 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { type Filtros, type StatusFiltro, type TamanhoPagina } from "@/lib/filtro";
 import { TIPO_LABELS, UNIDADES, type TipoPortaria } from "@/lib/types";
-
-export type StatusFiltro = "todas" | "ativas" | "expiradas";
-
-export interface Filtros {
-  busca: string;
-  tipos: Set<TipoPortaria>;
-  unidades: Set<string>;
-  status: StatusFiltro;
-}
 
 interface FilterPanelProps {
   filtrosIniciais: Filtros;
-  onBuscar: (filtros: Filtros) => void;
+  tamanhoPaginaInicial: TamanhoPagina;
+  onBuscar: (filtros: Filtros, tamanhoPagina: TamanhoPagina) => void;
   buscando: boolean;
 }
 
@@ -23,8 +16,9 @@ const CHECKBOX_LABEL_CLASS =
 const CHECKBOX_CLASS =
   "mt-0.5 h-4 w-4 shrink-0 rounded border-neutral-300 text-if-green focus:ring-if-green dark:border-neutral-700";
 
-export function FilterPanel({ filtrosIniciais, onBuscar, buscando }: FilterPanelProps) {
+export function FilterPanel({ filtrosIniciais, tamanhoPaginaInicial, onBuscar, buscando }: FilterPanelProps) {
   const [filtros, setFiltros] = useState<Filtros>(filtrosIniciais);
+  const [tamanhoPagina, setTamanhoPagina] = useState<TamanhoPagina>(tamanhoPaginaInicial);
 
   function alternarTipo(tipo: TipoPortaria) {
     const novosTipos = new Set(filtros.tipos);
@@ -42,7 +36,7 @@ export function FilterPanel({ filtrosIniciais, onBuscar, buscando }: FilterPanel
 
   function handleSubmit(evento: React.FormEvent) {
     evento.preventDefault();
-    onBuscar(filtros);
+    onBuscar(filtros, tamanhoPagina);
   }
 
   return (
@@ -114,6 +108,22 @@ export function FilterPanel({ filtrosIniciais, onBuscar, buscando }: FilterPanel
             </label>
           ))}
         </div>
+      </div>
+
+      <div>
+        <label htmlFor="tamanho-pagina" className="mb-1 block text-sm font-medium text-neutral-700 dark:text-neutral-300">
+          Resultados por página
+        </label>
+        <select
+          id="tamanho-pagina"
+          value={tamanhoPagina}
+          onChange={(evento) => setTamanhoPagina(evento.target.value as TamanhoPagina)}
+          className="w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-900 focus:border-if-green focus:outline-none focus:ring-1 focus:ring-if-green dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-100"
+        >
+          <option value="20">20</option>
+          <option value="50">50</option>
+          <option value="todas">Todas</option>
+        </select>
       </div>
 
       <button

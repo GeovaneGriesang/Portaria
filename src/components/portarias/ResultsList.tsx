@@ -7,7 +7,7 @@ import { TIPO_LABELS, type Portaria } from "@/lib/types";
 interface ResultsListProps {
   portarias: Portaria[];
   selecionadas: Set<string>;
-  onToggleSelecionada: (id: string) => void;
+  onToggleSelecionada: (portaria: Portaria) => void;
 }
 
 function formatarDataBr(iso: string): string {
@@ -39,7 +39,7 @@ export function ResultsList({ portarias, selecionadas, onToggleSelecionada }: Re
               type="checkbox"
               aria-label={`Selecionar portaria ${portaria.numero}`}
               checked={selecionadas.has(portaria.id)}
-              onChange={() => onToggleSelecionada(portaria.id)}
+              onChange={() => onToggleSelecionada(portaria)}
               className="mt-1 h-4 w-4 shrink-0 rounded border-neutral-300 text-if-green focus:ring-if-green dark:border-neutral-700"
             />
 

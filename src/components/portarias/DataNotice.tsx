@@ -1,13 +1,10 @@
-import { periodoCobertura } from "@/lib/cobertura";
-import type { Portaria } from "@/lib/types";
+import type { PeriodoCobertura } from "@/lib/cobertura";
 
 interface DataNoticeProps {
-  portarias: Portaria[];
+  periodo: PeriodoCobertura | null;
 }
 
-export function DataNotice({ portarias }: DataNoticeProps) {
-  const periodo = periodoCobertura(portarias);
-
+export function DataNotice({ periodo }: DataNoticeProps) {
   return (
     <p className="text-xs text-neutral-500 dark:text-neutral-400">
       {periodo && (

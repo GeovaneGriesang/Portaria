@@ -1,121 +1,139 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { normalizar } from "@/lib/normalize";
-import { isAtiva } from "@/lib/status";
+import { useState } from "react";
+import { assetUrl } from "@/lib/basePath";
+import type { PeriodoCobertura } from "@/lib/cobertura";
+import type { Estatisticas } from "@/lib/estatisticas";
+import { FILTROS_INICIAIS, paramsDeFiltros, type Filtros, type TamanhoPagina } from "@/lib/filtro";
 import type { Portaria } from "@/lib/types";
 import { BulkDownloadBar } from "./BulkDownloadBar";
 import { DashboardStats } from "./DashboardStats";
 import { DataNotice } from "./DataNotice";
-import { FilterPanel, type Filtros } from "./FilterPanel";
+import { FilterPanel } from "./FilterPanel";
+import { Pagination } from "./Pagination";
 import { ProgressBar } from "./ProgressBar";
 import { ResultsList } from "./ResultsList";
+import type { RespostaBusca } from "@/app/api/portarias/route";
 
-// Delay so a busca de fato mostra a barra de progresso em vez de "piscar" —
-// o filtro em si é rápido, mas com ~18 mil portarias renderizar a lista
-// nova ainda toma um tempo perceptível, e refazer isso a cada tecla digitada
-// (em vez de só ao clicar "Buscar") é o que pesava no desempenho antes.
-const ATRASO_BUSCA_MS = 300;
+const TAMANHO_PAGINA_INICIAL: TamanhoPagina = "20";
 
 interface PortariasExplorerProps {
+  estatisticasIniciais: Estatisticas;
+  periodoInicial: PeriodoCobertura | null;
+}
+
+interface Resultado {
+  total: number;
+  pagina: number;
   portarias: Portaria[];
+  estatisticas: Estatisticas;
 }
 
-const FILTROS_INICIAIS: Filtros = {
-  busca: "",
-  tipos: new Set(),
-  unidades: new Set(),
-  status: "todas",
-};
-
-function passaFiltro(portaria: Portaria, filtros: Filtros): boolean {
-  if (filtros.busca.trim()) {
-    const alvoNome = normalizar(filtros.busca);
-    const alvoSiape = filtros.busca.trim();
-    const bate = portaria.servidores.some(
-      (servidor) => normalizar(servidor.nome).includes(alvoNome) || (servidor.siape ?? "").includes(alvoSiape),
-    );
-    if (!bate) return false;
-  }
-
-  if (filtros.tipos.size > 0 && !portaria.tipos.some((tipo) => filtros.tipos.has(tipo))) {
-    return false;
-  }
-
-  if (filtros.unidades.size > 0 && !filtros.unidades.has(portaria.unidade)) {
-    return false;
-  }
-
-  if (filtros.status !== "todas") {
-    const ativa = isAtiva(portaria);
-    if (filtros.status === "ativas" && !ativa) return false;
-    if (filtros.status === "expiradas" && ativa) return false;
-  }
-
-  return true;
-}
-
-export function PortariasExplorer({ portarias }: PortariasExplorerProps) {
+export function PortariasExplorer({ estatisticasIniciais, periodoInicial }: PortariasExplorerProps) {
   const [filtrosAplicados, setFiltrosAplicados] = useState<Filtros>(FILTROS_INICIAIS);
+  const [tamanhoPaginaAplicado, setTamanhoPaginaAplicado] = useState<TamanhoPagina>(TAMANHO_PAGINA_INICIAL);
+  const [resultado, setResultado] = useState<Resultado | null>(null);
   const [buscando, setBuscando] = useState(false);
-  const [selecionadas, setSelecionadas] = useState<Set<string>>(new Set());
+  const [erro, setErro] = useState<string | null>(null);
+  const [selecionadas, setSelecionadas] = useState<Map<string, Portaria>>(new Map());
 
-  const portariasFiltradas = useMemo(
-    () => portarias.filter((portaria) => passaFiltro(portaria, filtrosAplicados)),
-    [portarias, filtrosAplicados],
-  );
-
-  function buscar(novosFiltros: Filtros) {
+  async function buscar(filtros: Filtros, tamanhoPagina: TamanhoPagina, pagina: number) {
     setBuscando(true);
-    setTimeout(() => {
-      setFiltrosAplicados(novosFiltros);
+    setErro(null);
+    try {
+      const params = paramsDeFiltros(filtros, pagina, tamanhoPagina);
+      const resposta = await fetch(assetUrl(`/api/portarias?${params.toString()}`));
+      if (!resposta.ok) throw new Error("Não foi possível buscar as portarias.");
+
+      const dados: RespostaBusca = await resposta.json();
+      setResultado(dados);
+      setFiltrosAplicados(filtros);
+      setTamanhoPaginaAplicado(tamanhoPagina);
+    } catch {
+      setErro("Não foi possível buscar as portarias. Tente novamente.");
+    } finally {
       setBuscando(false);
-    }, ATRASO_BUSCA_MS);
+    }
   }
 
-  function toggleSelecionada(id: string) {
+  function toggleSelecionada(portaria: Portaria) {
     setSelecionadas((atual) => {
-      const novo = new Set(atual);
-      if (novo.has(id)) novo.delete(id);
-      else novo.add(id);
+      const novo = new Map(atual);
+      if (novo.has(portaria.id)) novo.delete(portaria.id);
+      else novo.set(portaria.id, portaria);
       return novo;
     });
   }
 
-  function selecionarTodas() {
-    setSelecionadas(new Set(portariasFiltradas.map((p) => p.id)));
+  function selecionarTodasDaPagina() {
+    if (!resultado) return;
+    setSelecionadas((atual) => {
+      const novo = new Map(atual);
+      for (const portaria of resultado.portarias) novo.set(portaria.id, portaria);
+      return novo;
+    });
   }
 
   function limparSelecao() {
-    setSelecionadas(new Set());
+    setSelecionadas(new Map());
   }
 
-  const portariasSelecionadas = portariasFiltradas.filter((p) => selecionadas.has(p.id));
+  const tamanhoPaginaNumero = tamanhoPaginaAplicado === "todas" ? resultado?.total || 1 : Number(tamanhoPaginaAplicado);
+  const totalPaginas = resultado ? Math.max(1, Math.ceil(resultado.total / tamanhoPaginaNumero)) : 1;
+  const portariasSelecionadas = Array.from(selecionadas.values());
+  const idsSelecionados = new Set(selecionadas.keys());
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-6 sm:px-6">
-      <DataNotice portarias={portarias} />
+      <DataNotice periodo={periodoInicial} />
 
-      <DashboardStats portarias={portariasFiltradas} />
+      <DashboardStats estatisticas={resultado?.estatisticas ?? estatisticasIniciais} />
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[300px_1fr]">
-        <FilterPanel filtrosIniciais={filtrosAplicados} onBuscar={buscar} buscando={buscando} />
-        <div className="flex flex-col gap-3">
+        <FilterPanel
+          filtrosIniciais={filtrosAplicados}
+          tamanhoPaginaInicial={tamanhoPaginaAplicado}
+          onBuscar={(filtros, tamanhoPagina) => buscar(filtros, tamanhoPagina, 1)}
+          buscando={buscando}
+        />
+
+        <div className="flex flex-col gap-4">
           {buscando && <ProgressBar />}
-          <ResultsList
-            portarias={portariasFiltradas}
-            selecionadas={selecionadas}
-            onToggleSelecionada={toggleSelecionada}
-          />
+
+          {erro && <p className="text-sm text-if-red">{erro}</p>}
+
+          {!resultado && !buscando && !erro && (
+            <p className="rounded-lg border border-dashed border-neutral-300 p-8 text-center text-sm text-neutral-500 dark:border-neutral-700 dark:text-neutral-400">
+              Use os filtros ao lado e clique em &quot;Buscar&quot; para ver as portarias.
+            </p>
+          )}
+
+          {resultado && (
+            <div className={buscando ? "pointer-events-none opacity-50" : undefined}>
+              <ResultsList portarias={resultado.portarias} selecionadas={idsSelecionados} onToggleSelecionada={toggleSelecionada} />
+            </div>
+          )}
+
+          {resultado && (
+            <Pagination
+              pagina={resultado.pagina}
+              totalPaginas={totalPaginas}
+              total={resultado.total}
+              onIrParaPagina={(pagina) => buscar(filtrosAplicados, tamanhoPaginaAplicado, pagina)}
+              disabled={buscando}
+            />
+          )}
         </div>
       </div>
 
-      <BulkDownloadBar
-        totalFiltrado={portariasFiltradas.length}
-        portariasSelecionadas={portariasSelecionadas}
-        onSelecionarTodas={selecionarTodas}
-        onLimparSelecao={limparSelecao}
-      />
+      {resultado && (
+        <BulkDownloadBar
+          totalFiltrado={resultado.total}
+          portariasSelecionadas={portariasSelecionadas}
+          onSelecionarTodas={selecionarTodasDaPagina}
+          onLimparSelecao={limparSelecao}
+        />
+      )}
     </div>
   );
 }
