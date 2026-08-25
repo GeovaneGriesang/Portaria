@@ -113,14 +113,39 @@ BLOCO_NOMES_RE = re.compile(
     re.IGNORECASE | re.DOTALL,
 )
 
+# Cabecalho da tabela de beneficiarios usado em designacoes de colegiado/
+# comissao a partir de meados de 2022 ("Nome [completo] Segmento SIAPE[/
+# Matricula] [n.º]"). Ancora mais precisa que as frases de abertura abaixo:
+# a frase de abertura destas portarias (ex.: "designar a equipe abaixo
+# relacionada para, sob a coordenacao do primeiro, constituir o Colegiado do
+# Curso Superior de Tecnologia...") as vezes contem "abaixo relacionada"
+# BEM ANTES do cabecalho de verdade — comecar a varredura logo apos essa
+# frase pega o meio dela mesma, onde uma quebra de linha do pypdf pode
+# parecer um "Nome Sobrenome" e virar um falso beneficiario.
+# [\s\S] (nao so [^\n]) porque em algumas extracoes cada palavra do
+# cabecalho cai em sua propria linha ("Nome\nSegmento\nSIAPE/Matricula n.º").
+_PADRAO_CABECALHO_TABELA = fuzzy("nome") + r"[\s\S]{0,40}" + fuzzy("segmento") + r"[\s\S]{0,40}" + fuzzy("siape")
+CABECALHO_TABELA_RE = re.compile(_PADRAO_CABECALHO_TABELA, re.IGNORECASE)
+
 # Gatilho de listas tabulares (ex.: "conforme segue:\nNOME DE PARA VIGENCIA\n
 # Fulano de Tal\nI IV 03/12/2020"), onde nao ha um substantivo-ancora do tipo
 # "servidor" antes de cada nome — sao vistos em portarias de progressao,
-# aceleracao da promocao e incentivo a qualificacao com varios beneficiarios.
+# aceleracao da promocao e incentivo a qualificacao com varios beneficiarios,
+# e tambem (ultima alternativa) em designacoes de colegiado/comissao cuja
+# frase de abertura nao tem nenhuma das frases acima (ex.: "designar o grupo
+# relacionado para, sob a coordenacao do primeiro, constituir o
+# Colegiado...") — nesses casos o proprio cabecalho da tabela e o gatilho.
 GATILHO_TABELA_RE = re.compile(
-    fuzzy("conforme segue") + r"|" + fuzzy("abaixo relacionad") + r"\w*" + r"|" + fuzzy("quadro abaixo"),
+    fuzzy("conforme segue") + r"|" + fuzzy("abaixo relacionad") + r"\w*" + r"|" + fuzzy("quadro abaixo")
+    + r"|" + _PADRAO_CABECALHO_TABELA,
     re.IGNORECASE,
 )
+
+# Linha de rodape (codigo verificador/autenticacao do SUAP) que a extracao do
+# pypdf as vezes intercala NO MEIO da tabela de nomes (a posicao visual do
+# QR code cai dentro da area da tabela) — sem esse filtro ela e capturada
+# como se fosse mais um nome de servidor.
+RODAPE_VERIFICACAO_RE = re.compile(fuzzy("código verificador") + r"|" + fuzzy("código de autenticação"), re.IGNORECASE)
 
 HEADER_TABELA_PALAVRAS = {
     "nome", "de", "para", "vigencia", "relacao", "classe", "padrao", "nivel",
@@ -143,7 +168,7 @@ DESCRITORES_LIDERANTES = {"falecido", "falecida", "aposentado", "aposentada", "e
 PALAVRAS_NAO_NOME = {
     "portaria", "processo", "lei", "decreto", "edital", "instrucao",
     "resolucao", "art", "artigo", "quadro", "banca", "comissao", "portarias",
-    "direta", "indireta", "tae", "docente", "segmento", "siape",
+    "direta", "indireta", "tae", "docente", "discente", "segmento", "siape",
 }
 
 
@@ -268,12 +293,40 @@ def extrair_nome_de_linha_tabela(linha: str) -> tuple[str, str | None] | None:
     return " ".join(nome_palavras), siape
 
 
+SEGMENTOS_TABELA = {"docente", "tae", "discente"}
+
+
+def mesclar_linhas_tabela_uma_coluna(linhas: list[str]) -> list[str]:
+    """Em algumas extracoes cada campo da tabela (nome, segmento, SIAPE) cai
+    em sua propria linha, em vez de "Nome Segmento SIAPE" numa linha so —
+    remonta essas linhas para o formato que o parser abaixo espera. Nao
+    mexe em nada quando o layout ja vem numa linha so (a linha seguinte a
+    um nome nao vai bater com SEGMENTOS_TABELA nesse caso)."""
+    resultado: list[str] = []
+    i = 0
+    while i < len(linhas):
+        atual, proxima = linhas[i], linhas[i + 1] if i + 1 < len(linhas) else ""
+        if atual and remover_acentos(proxima).lower() in SEGMENTOS_TABELA:
+            seguinte = linhas[i + 2] if i + 2 < len(linhas) else ""
+            resultado.append(f"{atual} {proxima} {seguinte}".strip())
+            i += 3
+        else:
+            resultado.append(atual)
+            i += 1
+    return resultado
+
+
 def extrair_nomes_tabela(corpo: str) -> list[tuple[str, str | None]]:
     gatilho = GATILHO_TABELA_RE.search(corpo)
     if not gatilho:
         return []
 
-    linhas = [l.strip() for l in corpo[gatilho.end() :].split("\n")]
+    inicio = gatilho.end()
+    cabecalho = CABECALHO_TABELA_RE.search(corpo, inicio, inicio + 300)
+    if cabecalho:
+        inicio = cabecalho.end()
+
+    linhas = mesclar_linhas_tabela_uma_coluna([l.strip() for l in corpo[inicio:].split("\n")])
     encontrados: list[tuple[str, str | None]] = []
     nomes_vistos: set[str] = set()
     for i, linha in enumerate(linhas):
@@ -281,7 +334,7 @@ def extrair_nomes_tabela(corpo: str) -> list[tuple[str, str | None]]:
         # nao conta como sinal de fim de tabela — so pula.
         if not linha or not any(ch.isalpha() for ch in linha):
             continue
-        if eh_linha_cabecalho_tabela(linha) or eh_linha_apenas_codigo(linha):
+        if eh_linha_cabecalho_tabela(linha) or eh_linha_apenas_codigo(linha) or RODAPE_VERIFICACAO_RE.search(linha):
             continue
 
         resultado = extrair_nome_de_linha_tabela(linha)
@@ -434,6 +487,7 @@ def processar_arquivo(caminho: Path, unidades_canonicas: list[str]) -> dict | No
     servidores, servidores_baixa_confianca = extrair_servidores(corpo)
     ementa = extrair_ementa(corpo)
     data_inicio, data_fim = extrair_vigencia(corpo, data_assinatura_iso)
+    texto = normalizar_espacos(corpo)
 
     # A partir de 2022 a serie "de pessoal" passou a ser nomeada so
     # "Portaria_NNNN_..." (sem o "_de_pessoal"), mantendo o mesmo teor —
@@ -456,7 +510,7 @@ def processar_arquivo(caminho: Path, unidades_canonicas: list[str]) -> dict | No
     }
 
     baixa_confianca = unidade_baixa_confianca or servidores_baixa_confianca or tipos == ["outros"] or not servidores
-    return {"entrada": entrada, "baixa_confianca": baixa_confianca, "motivo_revisao": [], "versao": versao_num}
+    return {"entrada": entrada, "texto": texto, "baixa_confianca": baixa_confianca, "motivo_revisao": [], "versao": versao_num}
 
 
 def main() -> None:
@@ -512,6 +566,7 @@ def main() -> None:
             print(f"  ...{i}/{len(arquivos)}", file=sys.stderr)
 
     resultados = [r["entrada"] for r in por_id.values()]
+    textos = {r["entrada"]["id"]: r["texto"] for r in por_id.values()}
     baixa_confianca_lista = [nome_arquivo_por_id[id_] for id_, sinalizada in baixa_confianca_por_id.items() if sinalizada]
 
     DATA_PORTARIAS.mkdir(parents=True, exist_ok=True)
@@ -519,7 +574,12 @@ def main() -> None:
     with open(destino, "w", encoding="utf-8") as f:
         json.dump(resultados, f, ensure_ascii=False, indent=2)
 
+    destino_texto = DATA_PORTARIAS / f"{args.ano}.texto.json"
+    with open(destino_texto, "w", encoding="utf-8") as f:
+        json.dump(textos, f, ensure_ascii=False, indent=2)
+
     print(f"\nGravado {destino} com {len(resultados)} portarias.", file=sys.stderr)
+    print(f"Gravado {destino_texto} (texto integral do corpo operativo, para busca por conteúdo).", file=sys.stderr)
     print(
         f"Sinalizadas para revisao (unidade/servidor de baixa confianca ou tipo=outros): "
         f"{len(baixa_confianca_lista)} ({100*len(baixa_confianca_lista)/len(resultados):.1f}%)",

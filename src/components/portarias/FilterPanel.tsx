@@ -59,6 +59,34 @@ export function FilterPanel({ filtrosIniciais, tamanhoPaginaInicial, onBuscar, b
       </div>
 
       <div>
+        <label htmlFor="busca-numero" className="mb-1 block text-sm font-medium text-neutral-700 dark:text-neutral-300">
+          Número da portaria
+        </label>
+        <input
+          id="busca-numero"
+          type="text"
+          value={filtros.numero}
+          onChange={(evento) => setFiltros({ ...filtros, numero: evento.target.value })}
+          placeholder="Ex.: 1842/2021 ou 1842"
+          className="w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 focus:border-if-green focus:outline-none focus:ring-1 focus:ring-if-green dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-100"
+        />
+      </div>
+
+      <div>
+        <label htmlFor="busca-conteudo" className="mb-1 block text-sm font-medium text-neutral-700 dark:text-neutral-300">
+          Buscar no texto da portaria
+        </label>
+        <input
+          id="busca-conteudo"
+          type="text"
+          value={filtros.conteudo}
+          onChange={(evento) => setFiltros({ ...filtros, conteudo: evento.target.value })}
+          placeholder="Ex.: colegiado do TADS de Venâncio Aires"
+          className="w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 focus:border-if-green focus:outline-none focus:ring-1 focus:ring-if-green dark:border-neutral-700 dark:bg-neutral-950 dark:text-neutral-100"
+        />
+      </div>
+
+      <div>
         <span className="mb-2 block text-sm font-medium text-neutral-700 dark:text-neutral-300">Tipo de portaria</span>
         <div className="flex flex-col gap-2">
           {(Object.entries(TIPO_LABELS) as Array<[TipoPortaria, string]>).map(([tipo, label]) => (

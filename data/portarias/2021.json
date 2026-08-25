@@ -320,7 +320,49 @@
     "ementa": "- Designar os servidores e discentes abaixo relaciona dos para, sob a presidência da primeira, constituírem a Comissão de Divulgação do câmpus Passo Fundo r esponsável por divulgar o Processo Seletivo de Verão 2021.",
     "servidores": [
       {
-        "nome": "Seletivo de Verão"
+        "nome": "Silvana Lurdes Maschio",
+        "siape": "1865588"
+      },
+      {
+        "nome": "Alana Arena Schneider",
+        "siape": "1818703"
+      },
+      {
+        "nome": "Alexsander Furtado Carneiro",
+        "siape": "1857182"
+      },
+      {
+        "nome": "Bruna da Silva Pereira",
+        "siape": "1212093"
+      },
+      {
+        "nome": "Cláudio André Lopes de Oliveira",
+        "siape": "1574820"
+      },
+      {
+        "nome": "Fernanda Milani",
+        "siape": "1657260"
+      },
+      {
+        "nome": "Larissa Adrielly Posse"
+      },
+      {
+        "nome": "Letícia Cecconello",
+        "siape": "2067246"
+      },
+      {
+        "nome": "Maiara Karina Posse"
+      },
+      {
+        "nome": "Natália Dias"
+      },
+      {
+        "nome": "Rafael Nogueira Barros",
+        "siape": "1163434"
+      },
+      {
+        "nome": "Roseli Moterle",
+        "siape": "1659235"
       }
     ],
     "dataInicio": "2021-01-04",
@@ -2696,10 +2738,10 @@
         "siape": "3058147"
       },
       {
-        "nome": "Flávia Barcelos de Deus da Silveira Discente"
+        "nome": "Flávia Barcelos de Deus da Silveira"
       },
       {
-        "nome": "Guilherme Franco Macedo Discente"
+        "nome": "Guilherme Franco Macedo"
       }
     ],
     "dataInicio": "2021-01-19",
@@ -2742,7 +2784,7 @@
         "siape": "1136631"
       },
       {
-        "nome": "Guilherme Franco Macedo Discente"
+        "nome": "Guilherme Franco Macedo"
       }
     ],
     "dataInicio": "2021-01-19",
@@ -2801,7 +2843,7 @@
     "ementa": "Designar os servidores, discentes e representantes da comunidade externa abaixo relacionados para constituírem o Núcleo de Estudos e Pesquisas Afro-brasileiro s e Indígenas (Neabi), do câmpus Santana do Livramento IFSul",
     "servidores": [
       {
-        "nome": "Livramento IFSul:"
+        "nome": "Vanessa Mattoso Cardoso"
       }
     ],
     "dataInicio": "2021-01-19",
@@ -5461,7 +5503,20 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a coor denação do primeiro, constituírem a Comissão de Apoio ao Processo Seletivo de Professor Substituto do c âmpus IFSul Santana do Livramento, com a finalidade de subsidia",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Tiago Brum Ilarraz",
+        "siape": "2069674"
+      },
+      {
+        "nome": "Cacildo dos Santos Machado",
+        "siape": "1951528"
+      },
+      {
+        "nome": "William de Oliveira Dalosto",
+        "siape": "1751872"
+      }
+    ],
     "dataInicio": "2021-02-05",
     "dataFim": "2021-12-31"
   },
@@ -7238,10 +7293,12 @@
     "ementa": "Ratificar a designação dos servidores abaixo relacio nados que, sob a presidência do primeiro, constituem Equipe de Implantação e Gestão das Tecnologias Digitais Educacionais, em especial o Ambiente Virtual de Aprendiza",
     "servidores": [
       {
-        "nome": "Virtual de Aprendizagem"
+        "nome": "Mônica Neves Nunes",
+        "siape": "1112812"
       },
       {
-        "nome": "do Sul:"
+        "nome": "Mônica Xavier Py",
+        "siape": "1333323"
       }
     ],
     "dataInicio": "2021-02-23",
@@ -7319,7 +7376,12 @@
       "designacao"
     ],
     "ementa": "Ratificar a designação da servidora relacionada p ara constituir Equipe de Trabalho de apoio à chefia do Departamento de Ensino do câmpus Sapucaia do Sul, na emissão de documentos comprobatórios de atividades regulares",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Daniela Cardoso Salau Barboza",
+        "siape": "1577386"
+      }
+    ],
     "dataInicio": "2021-02-24",
     "dataFim": null
   },
@@ -7336,7 +7398,24 @@
     "ementa": "Ratificar a inclusão dos servidores abaixo relaciona dos na Portaria Nº 815/2020, que trata do Grupo de Apoio e Escuta - conversa com estudantes do curso Técnico em Mecânica, do câmpus Sapucaia do Sul.",
     "servidores": [
       {
-        "nome": "de Apoio e Escuta"
+        "nome": "André Capellão de Paula",
+        "siape": "1548856"
+      },
+      {
+        "nome": "Antônio Carlos de Madalena Genz",
+        "siape": "2248850"
+      },
+      {
+        "nome": "Maria Helena Polgati",
+        "siape": "3367477"
+      },
+      {
+        "nome": "Rafael Oliveira",
+        "siape": "3142904"
+      },
+      {
+        "nome": "Roger Sauandaj Elias",
+        "siape": "1467264"
       }
     ],
     "dataInicio": "2021-02-24",
@@ -8238,7 +8317,20 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a presid ência da primeira, constituírem Comissão de Processo Administrativo Disciplinar visando à apuração de even tuais responsabilidades administrativas descritas no Proce",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Patricia Thoma Eltz",
+        "siape": "1824449"
+      },
+      {
+        "nome": "Schirlei Gaelzer",
+        "siape": "1889485"
+      },
+      {
+        "nome": "Alex Mulattieri Suarez Orozco",
+        "siape": "1680792"
+      }
+    ],
     "dataInicio": "2021-03-01",
     "dataFim": null
   },
@@ -9968,7 +10060,35 @@
     "ementa": "Ratificar a designação dos servidores abaixo relacio nados para, a contar de 08 de março de 2021, constituírem o Núcleo Docente Estruturante (NDE) d o Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas",
     "servidores": [
       {
-        "nome": "Desenvolvimento de Sistemas, do"
+        "nome": "Fabio de Oliveira Dias",
+        "siape": "2219519"
+      },
+      {
+        "nome": "Felipe Leivas Teixeira",
+        "siape": "1387813"
+      },
+      {
+        "nome": "Fernando Abrahão Afonso",
+        "siape": "1940976"
+      },
+      {
+        "nome": "Hunder Everto Correa Junior"
+      },
+      {
+        "nome": "Letícia Grubert dos Santos",
+        "siape": "1994852"
+      },
+      {
+        "nome": "Luis Fernando da Silva",
+        "siape": "1190476"
+      },
+      {
+        "nome": "Marcelo dos Santos Dias",
+        "siape": "3083215"
+      },
+      {
+        "nome": "Michele Lermen",
+        "siape": "1048346"
       }
     ],
     "dataInicio": "2021-03-11",
@@ -9985,7 +10105,33 @@
       "designacao"
     ],
     "ementa": "Ratificar a designação, a contar de 08 de marçoi de 2021, dos servidores e discente relacionados para, sob a presidência do primeiro, constituírem o Cole giado do curso Tecnologia em Análise e Desenvolvimento de Sistema",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Hunder Everto Correa Junior"
+      },
+      {
+        "nome": "Letícia Grubert dos Santos",
+        "siape": "1994852"
+      },
+      {
+        "nome": "Marcelo Becker",
+        "siape": "2405639"
+      },
+      {
+        "nome": "Fabio de Oliveira Dias",
+        "siape": "2219519"
+      },
+      {
+        "nome": "Fabiana Centeno Fagundes",
+        "siape": "2344580"
+      },
+      {
+        "nome": "Fernanda Bueno Braga"
+      },
+      {
+        "nome": "Lucas de Macedo Vianna"
+      }
+    ],
     "dataInicio": "2021-03-11",
     "dataFim": null
   },
@@ -10000,7 +10146,30 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a pre sidência do primeiro, constituírem Grupo de Trabalho em Saúde responsável por assessorar o COE-E Local para avaliação da pandemia COVID-19 e elaborar os protocolos de s",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Thiago Terra Borges",
+        "siape": "2774002"
+      },
+      {
+        "nome": "Giancarlo Bacchieri"
+      },
+      {
+        "nome": "Virgilio Viana Ramires",
+        "siape": "1053106"
+      },
+      {
+        "nome": "Demetrius da Silva Martins",
+        "siape": "2571243"
+      },
+      {
+        "nome": "Margot Fetter Costa",
+        "siape": "1093175"
+      },
+      {
+        "nome": "Raquel Pereira Janelli da Silva"
+      }
+    ],
     "dataInicio": "2021-03-11",
     "dataFim": null
   },
@@ -10442,7 +10611,112 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a coordenação do primeiro e vice- coordenação da segunda, constituírem o Comitê de Ética em Pesquisa , uma instância interdisciplinar e independente, de caráter con",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Carlos Eugênio Fortes Teixeira",
+        "siape": "2333726"
+      },
+      {
+        "nome": "Marta Helena Blank Tessmann",
+        "siape": "2356661"
+      },
+      {
+        "nome": "Adriane Rodrigues Correa",
+        "siape": "1099373"
+      },
+      {
+        "nome": "André Luís Pereira",
+        "siape": "1876776"
+      },
+      {
+        "nome": "Carla Rosani Silva Fiori",
+        "siape": "1568549"
+      },
+      {
+        "nome": "Carlos Eduardo Schaedler",
+        "siape": "1892415"
+      },
+      {
+        "nome": "Cristiane Brauer Zaicovski",
+        "siape": "1634976"
+      },
+      {
+        "nome": "Diego Afonso da Silva Lima",
+        "siape": "2191264"
+      },
+      {
+        "nome": "Durval João de Barba Junior",
+        "siape": "1227147"
+      },
+      {
+        "nome": "Fernanda Kokowicz Pilatti",
+        "siape": "1282017"
+      },
+      {
+        "nome": "Gustavo Cardoso Born",
+        "siape": "3971952"
+      },
+      {
+        "nome": "Itamar Luís Hammes",
+        "siape": "1829941"
+      },
+      {
+        "nome": "Lacina Maria Freitas Teixeira",
+        "siape": "2418664"
+      },
+      {
+        "nome": "Leonardo Betemps Kontz",
+        "siape": "2298096"
+      },
+      {
+        "nome": "Luciana Neves Loponte",
+        "siape": "2164915"
+      },
+      {
+        "nome": "Manoel José Porto Junior",
+        "siape": "6274736"
+      },
+      {
+        "nome": "Mariana Jantsch de Souza",
+        "siape": "1059164"
+      },
+      {
+        "nome": "Malcus Cassiano Kuhn",
+        "siape": "1025855"
+      },
+      {
+        "nome": "Raquel Pereira Janelli da Silva",
+        "siape": "1561753"
+      },
+      {
+        "nome": "Raquel Silviana Neitzke",
+        "siape": "3063152"
+      },
+      {
+        "nome": "Rocelito Lopes de Andrade",
+        "siape": "2257171"
+      },
+      {
+        "nome": "Roger Luis Albernaz de Araújo",
+        "siape": "1276686"
+      },
+      {
+        "nome": "Samuel Rodrigues Félix",
+        "siape": "1966183"
+      },
+      {
+        "nome": "Tiago Rosa da Silva",
+        "siape": "3157626"
+      },
+      {
+        "nome": "Virgílio Viana Ramires",
+        "siape": "1053106"
+      },
+      {
+        "nome": "Walkiria Helena Cordenonzi",
+        "siape": "1822245"
+      }
+    ],
     "dataInicio": "2021-03-16",
     "dataFim": null
   },
@@ -10695,7 +10969,55 @@
       "designacao"
     ],
     "ementa": "Designar as servidoras e os servidores relacionados pa ra constituírem comissão de apoio à implantação da Lei nº 13.709, de 14 de agosto de 2018 - Lei Geral de Proteção de Dados Pessoais (LGPD), no IFSul.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Adriane Maria Delgado Menezes",
+        "siape": "1215416"
+      },
+      {
+        "nome": "Alexandre Tagliari Lazzaretti",
+        "siape": "1643743"
+      },
+      {
+        "nome": "Ana Paula Nogueira e Silva Técnico-administrativo",
+        "siape": "2669420"
+      },
+      {
+        "nome": "Antônio Carlos Barum Brod",
+        "siape": "274272"
+      },
+      {
+        "nome": "Bruno Cielo de Barros Correia Técnico-administrativo",
+        "siape": "35144"
+      },
+      {
+        "nome": "Carla Simone Guedes Pires Técnico-administrativo",
+        "siape": "1847491"
+      },
+      {
+        "nome": "César Augusto Azevedo Nogueira",
+        "siape": "2109868"
+      },
+      {
+        "nome": "Diego da Silva Isnardi"
+      },
+      {
+        "nome": "Eleno Gustavo Beduhn Konsgen Técnico-administrativo",
+        "siape": "1102846"
+      },
+      {
+        "nome": "Gustavo Alberto Schneider Técnico-administrativo",
+        "siape": "1818460"
+      },
+      {
+        "nome": "Percio Carvalho Pereira Técnico-administrativo",
+        "siape": "2679493"
+      },
+      {
+        "nome": "Rocelito Lopes de Andrade",
+        "siape": "2257171"
+      }
+    ],
     "dataInicio": "2021-03-17",
     "dataFim": null
   },
@@ -12442,17 +12764,14 @@
     "ementa": "Designar os/as servidores/as e as discentes abaixo rela cionados/as para, sob a responsabilidade da primeira, constituírem o Núcleo de Gestão Ambiental Int egrada - NUGAI, do câmpus Venâncio Aires: Nome Completo Segmento",
     "servidores": [
       {
-        "nome": "Nome Completo"
-      },
-      {
         "nome": "Vanilda Lídia Ferreira de Macedo",
         "siape": "2157833"
       },
       {
-        "nome": "Ágata Mello Dettenborn Discente"
+        "nome": "Ágata Mello Dettenborn"
       },
       {
-        "nome": "Camilli Siqueira Klaus Discente"
+        "nome": "Camilli Siqueira Klaus"
       },
       {
         "nome": "Cristian Oliveira da Conceição",
@@ -12500,12 +12819,6 @@
     "ementa": "Designar os/as servidores/as e os/as discentes abaixo re lacionados/as para, sob a responsabilidade da primeira, constituírem o Núcleo de A poio às Pessoas com Necessidades Específicas - NAPNE, do câmpus Venâncio Aires:",
     "servidores": [
       {
-        "nome": "NAPNE, do"
-      },
-      {
-        "nome": "Nome Completo"
-      },
-      {
         "nome": "Daiane Santiago Daniel",
         "siape": "1891537"
       },
@@ -12550,7 +12863,7 @@
         "siape": "2308952"
       },
       {
-        "nome": "Larissa Parkert Discente"
+        "nome": "Larissa Parkert"
       },
       {
         "nome": "Luciano Porto de Lima",
@@ -12565,7 +12878,7 @@
         "siape": "2035659"
       },
       {
-        "nome": "Raphael José Mathias da Rosa Discente"
+        "nome": "Raphael José Mathias da Rosa"
       },
       {
         "nome": "Ruth Mara Xavier Cruz",
@@ -12592,9 +12905,6 @@
     ],
     "ementa": "Designar as servidoras e a representante da comuni dade externa abaixo relacionadas para, sob a responsabilidade da primeira, constituírem o Núcleo de E studos Afro-brasileiros e Indígenas - NEABI, do câmpus Venâncio Air",
     "servidores": [
-      {
-        "nome": "Nome Completo"
-      },
       {
         "nome": "Gabriele Laís Mandler",
         "siape": "1830780"
@@ -12628,9 +12938,6 @@
     "ementa": "Designar os/as servidores/as e os/as discentes abaixo re lacionados/as para, sob a responsabilidade do primeiro, constituírem o Núcleo de Promoção e Prevenç ão em Saúde - NUPPS, do câmpus Venâncio Aires: Nome Completo Se",
     "servidores": [
       {
-        "nome": "Nome Completo"
-      },
-      {
         "nome": "Cristian Oliveira da Conceição",
         "siape": "1466753"
       },
@@ -12643,7 +12950,7 @@
         "siape": "1135372"
       },
       {
-        "nome": "Bruna Eduarda Hoscheidt Discente"
+        "nome": "Bruna Eduarda Hoscheidt"
       },
       {
         "nome": "Carolina Jantsch de Souza",
@@ -12654,17 +12961,17 @@
         "siape": "1872170"
       },
       {
-        "nome": "Eduarda Dullius Schmidt Discente"
+        "nome": "Eduarda Dullius Schmidt"
       },
       {
-        "nome": "Gabriela da Silva Huyer Discente"
+        "nome": "Gabriela da Silva Huyer"
       },
       {
         "nome": "Josiane Paula da Luz",
         "siape": "1836291"
       },
       {
-        "nome": "Laura Ferreira Discente"
+        "nome": "Laura Ferreira"
       },
       {
         "nome": "Marlon Mendes Minussi",
@@ -12675,7 +12982,7 @@
         "siape": "1891898"
       },
       {
-        "nome": "Thiago Paulo Both Discente"
+        "nome": "Thiago Paulo Both"
       }
     ],
     "dataInicio": "2021-03-26",
@@ -12695,23 +13002,20 @@
     "ementa": "Designar a servidora e os/as discentes abaixo relacio nados/as para, sob a responsabilidade da primeira, constituírem o Núcleo de Gênero e Diversidade - NUGED, do câmpus Venâncio Aires: Nome Completo Segmento Nº SIAPE/Ma",
     "servidores": [
       {
-        "nome": "Nome Completo"
-      },
-      {
         "nome": "Giselle Schweickardt",
         "siape": "1903860"
       },
       {
-        "nome": "Ágata Mello Dettenborn Discente"
+        "nome": "Ágata Mello Dettenborn"
       },
       {
-        "nome": "Laura Ferreira Discente"
+        "nome": "Laura Ferreira"
       },
       {
-        "nome": "Thiago Paulo Both Discente"
+        "nome": "Thiago Paulo Both"
       },
       {
-        "nome": "Verônica Aparecida Ferreira Discente"
+        "nome": "Verônica Aparecida Ferreira"
       }
     ],
     "dataInicio": "2021-03-26",
@@ -13623,7 +13927,7 @@
         "siape": "1793586"
       },
       {
-        "nome": "Marina Trindade Discente"
+        "nome": "Marina Trindade"
       }
     ],
     "dataInicio": "2021-04-05",
@@ -14251,7 +14555,65 @@
     "ementa": "Ratificar a designação, no período de 07/01/2 021 a 31/12/2021, da equipe abaixo relacionada que, sob a responsabilidade da primeira, constituem o Núcleo d e Gênero e Diversidade/NUGED, do câmpus Santana do Livramento:",
     "servidores": [
       {
-        "nome": "Santana do Livramento:"
+        "nome": "Josiane de Souza",
+        "siape": "1202835"
+      },
+      {
+        "nome": "Débora Ache Borsatti",
+        "siape": "1061334"
+      },
+      {
+        "nome": "Eliezer Santos Oliveira",
+        "siape": "2422433"
+      },
+      {
+        "nome": "Karina Langone Vieira",
+        "siape": "1289400"
+      },
+      {
+        "nome": "Sílvia Romeu Pitrez",
+        "siape": "1308924"
+      },
+      {
+        "nome": "Adriane Rodrigues Côrrea",
+        "siape": "1099373"
+      },
+      {
+        "nome": "Vanessa Mattoso Cardoso",
+        "siape": "1831172"
+      },
+      {
+        "nome": "Patrícia Soares Khairallah",
+        "siape": "2145640"
+      },
+      {
+        "nome": "Graciele Melo Dorneles",
+        "siape": "2073094"
+      },
+      {
+        "nome": "Lisandra Saldanha Abreu",
+        "siape": "2070249"
+      },
+      {
+        "nome": "Allison Iago Braz Pereira"
+      },
+      {
+        "nome": "Ana Cláudia Xavier de Oliveira"
+      },
+      {
+        "nome": "Camila da Rosa Ocaña"
+      },
+      {
+        "nome": "Marília Paula Venega Alvares"
+      },
+      {
+        "nome": "Pema Jampa"
+      },
+      {
+        "nome": "Josielhe Gonçalves"
+      },
+      {
+        "nome": "Isabella Braz Antonello Comunidade Externa CPF"
       }
     ],
     "dataInicio": "2021-04-06",
@@ -14271,7 +14633,25 @@
     "ementa": "Ratificar a designação, no período de 18/01/2 021 a 31/12/2021, da equipe abaixo relacionada que, sob a responsabilidade da primeira, constituem o Núcleo d e Gestão Ambiental Integrada/NUGAI, do câmpus Santana do Livram",
     "servidores": [
       {
-        "nome": "Santana do Livramento:"
+        "nome": "Milene Priebe e Silva"
+      },
+      {
+        "nome": "Adriane Rodrigues Correa"
+      },
+      {
+        "nome": "Aline Schmidt San Martin"
+      },
+      {
+        "nome": "Circi Nayar Oliveira Lourenco"
+      },
+      {
+        "nome": "Karina Langone Vieira"
+      },
+      {
+        "nome": "Mauren Correa dos Santos Benites"
+      },
+      {
+        "nome": "Silvia Romeu Pitrez"
       }
     ],
     "dataInicio": "2021-04-06",
@@ -14359,7 +14739,47 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência da primeira, constituírem a Equipe de Elaboração do PDTI 2022 - 2025 - EqEPDTI: responsável p ela elaboração do Plano Diretor de Tecnologia da Informação 2022",
     "servidores": [
       {
-        "nome": "Elaboração do PDTI"
+        "nome": "Carla Simone Guedes Pires",
+        "siape": "1847491"
+      },
+      {
+        "nome": "Aline Rossales Sengik",
+        "siape": "1551174"
+      },
+      {
+        "nome": "Ademir Dorneles de Dorneles",
+        "siape": "1612582"
+      },
+      {
+        "nome": "Bruno Ernesto Techera de Motta",
+        "siape": "2178693"
+      },
+      {
+        "nome": "Celso Henrique Garcia Vieira",
+        "siape": "1098703"
+      },
+      {
+        "nome": "Cleber Luiz da Silva Telles",
+        "siape": "1459515"
+      },
+      {
+        "nome": "Diogo Nelson Rovadosky",
+        "siape": "1574875"
+      },
+      {
+        "nome": "Everton Reckziegel",
+        "siape": "3005865"
+      },
+      {
+        "nome": "Fernando Quatrin Campagnolo",
+        "siape": "1330964"
+      },
+      {
+        "nome": "Guilherme da Silva Xavier",
+        "siape": "1278282"
+      },
+      {
+        "nome": "Marcelo Felipe Saraiva Borba"
       }
     ],
     "dataInicio": "2021-04-08",
@@ -14431,7 +14851,36 @@
     "ementa": "Ratificar a designação da equipe abaixo relacion ada que, sob a responsabilidade/presidência do primeiro e, no período de 07/01/2021 a 31/12/2021, constituem o Núcleo de Apoio a Pessoas com Necessidades Específicas/NAPN",
     "servidores": [
       {
-        "nome": "Necessidades Específicas/NAPNE, do"
+        "nome": "Klaus Boesch",
+        "siape": "3177531"
+      },
+      {
+        "nome": "Adriane Rodrigues Correa",
+        "siape": "1099373"
+      },
+      {
+        "nome": "Graciele Melo Dorneles",
+        "siape": "2073094"
+      },
+      {
+        "nome": "Marcela Quintana Langone",
+        "siape": "1019728"
+      },
+      {
+        "nome": "Martha Fervenza Ribeiro",
+        "siape": "2270149"
+      },
+      {
+        "nome": "Patricia Soares Khairallah",
+        "siape": "2145640"
+      },
+      {
+        "nome": "Vanessa Mattoso Cardoso",
+        "siape": "1831172"
+      },
+      {
+        "nome": "Vera Lucia Salim da Fonseca",
+        "siape": "2254795"
       }
     ],
     "dataInicio": "2021-04-09",
@@ -14658,16 +15107,16 @@
         "siape": "3367477"
       },
       {
-        "nome": "Diogo Weirich Wagner Discente"
+        "nome": "Diogo Weirich Wagner"
       },
       {
-        "nome": "Gabriel Groff Discente"
+        "nome": "Gabriel Groff"
       },
       {
-        "nome": "Paulo Vitor Pinto Hertz Discente"
+        "nome": "Paulo Vitor Pinto Hertz"
       },
       {
-        "nome": "Nicolas de Medeiros Linck Discente"
+        "nome": "Nicolas de Medeiros Linck"
       }
     ],
     "dataInicio": "2021-04-12",
@@ -15114,7 +15563,7 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência da primeira, constituir Comissão Própria de Avaliação (CPA) ​​​​​​​responsável por conduzir o processo de Autoavaliação Institucio nal: Nome completo Segmento",
     "servidores": [
       {
-        "nome": "Própria de Avaliação"
+        "nome": "Fabiana Centeno Fagundes"
       }
     ],
     "dataInicio": "2021-04-14",
@@ -15210,7 +15659,20 @@
       "designacao"
     ],
     "ementa": "Designar a equipe relacionada para, sob a pres idência do primeiro, constituírem Comissão de Recebimento Definitivo do objeto do Contrato nº 03/20 20, celebrado entre o Instituto Federal de Educação, Ciência e Tecnologia",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Davison Guimarães Sopeña",
+        "siape": "1611220"
+      },
+      {
+        "nome": "Grasiela Cignachi",
+        "siape": "2803290"
+      },
+      {
+        "nome": "Patrick Coelho Vieira",
+        "siape": "2140869"
+      }
+    ],
     "dataInicio": "2021-04-15",
     "dataFim": null
   },
@@ -15312,10 +15774,10 @@
         "siape": "2099518"
       },
       {
-        "nome": "Joanna Vargas Girardi Discente"
+        "nome": "Joanna Vargas Girardi"
       },
       {
-        "nome": "Patrícia Bartz Discente"
+        "nome": "Patrícia Bartz"
       }
     ],
     "dataInicio": "2021-04-15",
@@ -15478,7 +15940,7 @@
         "siape": "1289400"
       },
       {
-        "nome": "Ana Claudia Xavier de Oliveira Discente"
+        "nome": "Ana Claudia Xavier de Oliveira"
       },
       {
         "nome": "Natieli Menezes Trevisan Comunidade Externa CPF:"
@@ -15586,7 +16048,32 @@
       "designacao"
     ],
     "ementa": "Designar as servidoras e o servidor relacionados par a, sob a coordenação da primeira, constituírem o Núcleo Docente Estruturante (NDE) do curso de Licenciatura em Pedagogia - EPT, na modalidade a Distância.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Maria Laura Brenner de Moraes",
+        "siape": "1777351"
+      },
+      {
+        "nome": "Angelita Hentges",
+        "siape": "1778060"
+      },
+      {
+        "nome": "Cinara Ourique do Nascimento",
+        "siape": "1467233"
+      },
+      {
+        "nome": "Marla Cristina da Silva Sopenã",
+        "siape": "2218615"
+      },
+      {
+        "nome": "Jader Ribeiro Pinto",
+        "siape": "1197288"
+      },
+      {
+        "nome": "Maria Isabel Giusti Moreira",
+        "siape": "1581466"
+      }
+    ],
     "dataInicio": "2021-04-20",
     "dataFim": null
   },
@@ -16034,7 +16521,30 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência da primeira, constituírem Comitê Local responsável pela realização do Plano de Contingência para Prevenção, Monitoramento e Controle da Transmissão do COVID-1",
     "servidores": [
       {
-        "nome": "Transmissão do"
+        "nome": "Giulia D Avila Vieira",
+        "siape": "2620498"
+      },
+      {
+        "nome": "Alexsandra Paz Trindade Servidora"
+      },
+      {
+        "nome": "Aline Jaime Leal",
+        "siape": "1896571"
+      },
+      {
+        "nome": "Alissandra Hampel",
+        "siape": "1812236"
+      },
+      {
+        "nome": "Ariela Purper",
+        "siape": "2269388"
+      },
+      {
+        "nome": "Bruna de Souza Goldani",
+        "siape": "1008054"
+      },
+      {
+        "nome": "Carolina Mendonça Fernandes de"
       }
     ],
     "dataInicio": "2021-04-22",
@@ -16187,7 +16697,7 @@
         "siape": "1278099"
       },
       {
-        "nome": "Dafny Boff da Silva Discente"
+        "nome": "Dafny Boff da Silva"
       },
       {
         "nome": "Daniela Cardoso Salau Barboza",
@@ -16433,7 +16943,30 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a responsabilidade do primeiro, constituírem o Núcleo de Gênero e Diversidade- NUGED, do câmpus Camaquã.",
     "servidores": [
       {
-        "nome": "de Gênero e Diversidade- NUGED, do"
+        "nome": "Tiago Vidal Medeiros",
+        "siape": "3135455"
+      },
+      {
+        "nome": "Érica Krachefski Nunes Oswald"
+      },
+      {
+        "nome": "Cátia Mirela de Oliveira Barcellos",
+        "siape": "1653966"
+      },
+      {
+        "nome": "Gabriel Rockenbach de Almeida",
+        "siape": "2888310"
+      },
+      {
+        "nome": "Renata Porcher Scherer",
+        "siape": "3148281"
+      },
+      {
+        "nome": "Sandra Beatriz Salenave de Brito",
+        "siape": "2179037"
+      },
+      {
+        "nome": "Matheus Holz Oliveira"
       }
     ],
     "dataInicio": "2021-04-23",
@@ -16475,7 +17008,24 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a responsabilidade/presidência do primeiro, constituírem o Núcleo de Gênero e Diversidade, do câmpus Sapucaia do Sul: Nome completo Segmento SIAPE/Matrícula nº Paulo Ott Ta",
     "servidores": [
       {
-        "nome": "de Gênero e Diversidade, do"
+        "nome": "Paulo Ott Tavares",
+        "siape": "1312297"
+      },
+      {
+        "nome": "Aline Severo da Silva",
+        "siape": "1612112"
+      },
+      {
+        "nome": "Carolina Soares da Silva",
+        "siape": "1951372"
+      },
+      {
+        "nome": "Fernanda Lopes Guedes",
+        "siape": "2688822"
+      },
+      {
+        "nome": "Gislaine Gabriele Saueressig",
+        "siape": "190014"
       }
     ],
     "dataInicio": "2021-04-23",
@@ -16571,37 +17121,37 @@
         "siape": "1829941"
       },
       {
-        "nome": "Brenda Caroline Toldi Discente"
+        "nome": "Brenda Caroline Toldi"
       },
       {
-        "nome": "Bruna Emanuele Noll Discente"
+        "nome": "Bruna Emanuele Noll"
       },
       {
-        "nome": "Carol Kimberly Rodrigues Discente"
+        "nome": "Carol Kimberly Rodrigues"
       },
       {
-        "nome": "Eduarda Gregory Discente"
+        "nome": "Eduarda Gregory"
       },
       {
-        "nome": "Emanuelle Nunes da Silva Discente"
+        "nome": "Emanuelle Nunes da Silva"
       },
       {
-        "nome": "Gabriely Marques Monteiro Discente"
+        "nome": "Gabriely Marques Monteiro"
       },
       {
-        "nome": "Graziela Ângela Zanette Fusiger Discente"
+        "nome": "Graziela Ângela Zanette Fusiger"
       },
       {
-        "nome": "Izadora Xavier Discente"
+        "nome": "Izadora Xavier"
       },
       {
-        "nome": "João Pedro Theves Knopf Discente"
+        "nome": "João Pedro Theves Knopf"
       },
       {
-        "nome": "Karoline Beatriz Rodrigues Conforti Discente"
+        "nome": "Karoline Beatriz Rodrigues Conforti"
       },
       {
-        "nome": "Katarina Gabriela Kuhn Discente"
+        "nome": "Katarina Gabriela Kuhn"
       }
     ],
     "dataInicio": "2021-04-26",
@@ -17643,7 +18193,7 @@
         "siape": "1849940"
       },
       {
-        "nome": "Thaís Noble Rodrigues Discente"
+        "nome": "Thaís Noble Rodrigues"
       }
     ],
     "dataInicio": "2021-05-04",
@@ -17858,10 +18408,10 @@
         "siape": "1963055"
       },
       {
-        "nome": "Eduarda Amanda Brandt de Oliveira Discente"
+        "nome": "Eduarda Amanda Brandt de Oliveira"
       },
       {
-        "nome": "Gabrieli Inês Wenzel Discente"
+        "nome": "Gabrieli Inês Wenzel"
       }
     ],
     "dataInicio": "2021-05-05",
@@ -17880,7 +18430,22 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação da primeira, constituir o Colegiado do Curso Superior de Tecnologia em Design de Moda, do câmp us CaVG: Nome completo Segmento SIAPE/Matrícula nº Beatriz Helen",
     "servidores": [
       {
-        "nome": "Curso Superior de Tecnologia"
+        "nome": "Beatriz Helena Viana Castro"
+      },
+      {
+        "nome": "Frantieska Huszar Schneid"
+      },
+      {
+        "nome": "Lilian Fetzer"
+      },
+      {
+        "nome": "Paula Rodrigues Bittencourt de Carvalho Leite"
+      },
+      {
+        "nome": "Thais de Oliveira Barão"
+      },
+      {
+        "nome": "Ana Claudia Santos da Silva Antunes dos Santos"
       }
     ],
     "dataInicio": "2021-05-05",
@@ -18540,10 +19105,10 @@
         "siape": "1691134"
       },
       {
-        "nome": "Claudia dos Santos Claudio Discente"
+        "nome": "Claudia dos Santos Claudio"
       },
       {
-        "nome": "Micael de Araújo Afonso Discente"
+        "nome": "Micael de Araújo Afonso"
       }
     ],
     "dataInicio": "2021-05-06",
@@ -18618,10 +19183,10 @@
         "siape": "2191511"
       },
       {
-        "nome": "Bruna Lopes dos Passos Discente"
+        "nome": "Bruna Lopes dos Passos"
       },
       {
-        "nome": "Marciele Siegert Goetzke Discente"
+        "nome": "Marciele Siegert Goetzke"
       }
     ],
     "dataInicio": "2021-05-06",
@@ -18727,27 +19292,27 @@
         "siape": "1022644"
       },
       {
-        "nome": "Daniel Urtassum da Silva Discente"
+        "nome": "Daniel Urtassum da Silva"
       },
       {
         "nome": "Fernanda da Silva Araújo Comunidade Externa"
       },
       {
-        "nome": "Helena Gonçalves Jackson Discente"
+        "nome": "Helena Gonçalves Jackson"
       },
       {
         "nome": "Lauro Luis Borges Junior",
         "siape": "2936956"
       },
       {
-        "nome": "Marina Antunes Rodrigues Discente"
+        "nome": "Marina Antunes Rodrigues"
       },
       {
         "nome": "Marcelo Felipe Saraiva Borba",
         "siape": "3045326"
       },
       {
-        "nome": "Renata Rodrigues Pintos Discente"
+        "nome": "Renata Rodrigues Pintos"
       },
       {
         "nome": "Roberta Gonçalves Crizel",
@@ -18820,7 +19385,15 @@
     "ementa": "Designar a equipe abaixo relacionada para compl ementar a composição do Núcleo de Gênero e Diversidade do câmpus Sapucaia do Sul, instituída pela Po rtaria de pessoal nº 697/2021: Nome completo Segmento SIAPE/Matrícula",
     "servidores": [
       {
-        "nome": "Diversidade do"
+        "nome": "Pedro Carlos Hernandez Junior",
+        "siape": "1218660"
+      },
+      {
+        "nome": "Tomaz Fantin de Souza",
+        "siape": "2969324"
+      },
+      {
+        "nome": "Vanessa Marques Daniel Externa"
       }
     ],
     "dataInicio": "2021-05-06",
@@ -18935,7 +19508,7 @@
         "siape": "2506191"
       },
       {
-        "nome": "Guilherme Franco Macedo Discente"
+        "nome": "Guilherme Franco Macedo"
       },
       {
         "nome": "Lisandro Lucas de Lima Moura",
@@ -19047,7 +19620,33 @@
     "ementa": "Designar a equipe abaixo relacionada para consti tuir o Núcleo de Gestão Ambiental Integrada - NUGAI, do câmpus Lajeado: Nome completo Segmento SIAPE/Matrícula nº Ana Maria Geller (responsável) Docente 2297536 William Jú",
     "servidores": [
       {
-        "nome": "NUGAI, do"
+        "nome": "Ana Maria Geller"
+      },
+      {
+        "nome": "William Júnior Sperb"
+      },
+      {
+        "nome": "Cláudia Wollmann Carvalho",
+        "siape": "1984045"
+      },
+      {
+        "nome": "Eduardo Carissimi",
+        "siape": "3165211"
+      },
+      {
+        "nome": "Rodrigo Luis Melz",
+        "siape": "1010629"
+      },
+      {
+        "nome": "Veranice Dalmoro",
+        "siape": "2143013"
+      },
+      {
+        "nome": "Wemerson de Castro Oliveira",
+        "siape": "1379426"
+      },
+      {
+        "nome": "Jeferson Scheibler"
       }
     ],
     "dataInicio": "2021-05-10",
@@ -19203,7 +19802,55 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação do primeiro, constituir o Colegiado do Curso Superior de Tecnologia em Alimentos, do câmpus Bag é: Nome completo Segmento SIAPE nº Roger Junges da Costa Docent",
     "servidores": [
       {
-        "nome": "Curso Superior de Tecnologia"
+        "nome": "Roger Junges da Costa",
+        "siape": "1739025"
+      },
+      {
+        "nome": "Alissandra Hampel",
+        "siape": "1812236"
+      },
+      {
+        "nome": "Bruna de Souza Goldani",
+        "siape": "1008054"
+      },
+      {
+        "nome": "Carolina Mendonça Fernandes de Barros",
+        "siape": "2506191"
+      },
+      {
+        "nome": "Gabriel Rodrigues Bruno",
+        "siape": "2242440"
+      },
+      {
+        "nome": "Gisleine de Quadros Reyes"
+      },
+      {
+        "nome": "Josiane Redmer Hinz",
+        "siape": "1888220"
+      },
+      {
+        "nome": "Leandra Zafalon Jaekel",
+        "siape": "1922872"
+      },
+      {
+        "nome": "Márcia Adriana Gomes da Silveira",
+        "siape": "2180186"
+      },
+      {
+        "nome": "Max Lindoberto Castro Gonçalves",
+        "siape": "1875841"
+      },
+      {
+        "nome": "Sarah Lemos Cogo",
+        "siape": "1859189"
+      },
+      {
+        "nome": "Stela Maris Meister Meira",
+        "siape": "1940287"
+      },
+      {
+        "nome": "Suélen dos Santos Garcia",
+        "siape": "2811214"
       }
     ],
     "dataInicio": "2021-05-11",
@@ -19395,10 +20042,10 @@
         "siape": "1849940"
       },
       {
-        "nome": "Thaís Noble Rodrigues Discente"
+        "nome": "Thaís Noble Rodrigues"
       },
       {
-        "nome": "Micael de Araújo Afonso Discente"
+        "nome": "Micael de Araújo Afonso"
       }
     ],
     "dataInicio": "2021-05-11",
@@ -19416,7 +20063,24 @@
       "designacao"
     ],
     "ementa": "Designar a equipe relacionada para, sob a pres idência da primeira, constituírem Comissão responsável por definir as diretrizes do Estágio Supervision ado no Curso de Licenciatura em Computação, no câmpus Pelotas.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Marcia Helena Sauaia Guimarães Rostas",
+        "siape": "2307965"
+      },
+      {
+        "nome": "Bárbara Hees Garre",
+        "siape": "3566499"
+      },
+      {
+        "nome": "Guilherme Ribeiro Rostas",
+        "siape": "1613964"
+      },
+      {
+        "nome": "Tauã Milech Cabreira",
+        "siape": "1953477"
+      }
+    ],
     "dataInicio": "2021-05-12",
     "dataFim": null
   },
@@ -19618,7 +20282,66 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação do primeiro, constituir o Colegiado do Curso Superior de Engenharia Química, do câmpus Pelotas : Nome completo Segmento SIAPE/Matrícula nº Jander Luis Fernande",
     "servidores": [
       {
-        "nome": "Curso Superior de Engenharia Química, do"
+        "nome": "Jander Luis Fernandes Monks",
+        "siape": "2191445"
+      },
+      {
+        "nome": "Adriano da Silva Barcellos",
+        "siape": "2275378"
+      },
+      {
+        "nome": "Camila Ottonelli Calgaro",
+        "siape": "2413938"
+      },
+      {
+        "nome": "Clarice Francisco Brauner",
+        "siape": "1241708"
+      },
+      {
+        "nome": "Cristian Melo da Silva",
+        "siape": "2220828"
+      },
+      {
+        "nome": "Diego Gil de Los Santos",
+        "siape": "2275217"
+      },
+      {
+        "nome": "Flávio Edney Macuglia Spanemberg",
+        "siape": "2366096"
+      },
+      {
+        "nome": "Kátia Regina Lemos Castagno",
+        "siape": "6274705"
+      },
+      {
+        "nome": "Laone Hellwig Neitzel",
+        "siape": "2303269"
+      },
+      {
+        "nome": "Patrick Teixeira Campos",
+        "siape": "1900765"
+      },
+      {
+        "nome": "Régis da Silva Pereira",
+        "siape": "2561192"
+      },
+      {
+        "nome": "Ricardo Peraça Toralles",
+        "siape": "2191511"
+      },
+      {
+        "nome": "Seldomar Jeske Ehlert",
+        "siape": "1456815"
+      },
+      {
+        "nome": "Vinícius Mordini de Andrade",
+        "siape": "1228340"
+      },
+      {
+        "nome": "Marco Pietro Corrêa Botelho"
+      },
+      {
+        "nome": "Caroline Rodrigues Bastos"
       }
     ],
     "dataInicio": "2021-05-13",
@@ -19635,7 +20358,12 @@
       "retificacao"
     ],
     "ementa": "Retificar a Portaria de pessoal nº 822, de 12 de maio de 2021, que constituiu o Grupo de Trabalho responsável pela elaboração do Regimento do Es critório de Projetos do IFSul, conforme disposição infra: Onde se lê : Nome",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Ronise Ferreira dos Santos",
+        "siape": "1125011"
+      }
+    ],
     "dataInicio": "2021-05-13",
     "dataFim": null
   },
@@ -19763,23 +20491,23 @@
         "nome": "Ana Paula do Sacramento Wally"
       },
       {
-        "nome": "Cristiane Brauer Zaicovski Discente",
+        "nome": "Cristiane Brauer Zaicovski",
         "siape": "1634976"
       },
       {
-        "nome": "Maria de Fátima Magalhães Jorge Discente",
+        "nome": "Maria de Fátima Magalhães Jorge",
         "siape": "1857132"
       },
       {
-        "nome": "Ricardo Monte Martins Discente",
+        "nome": "Ricardo Monte Martins",
         "siape": "1332091"
       },
       {
-        "nome": "Rosangela Silveira Rodrigues Discente",
+        "nome": "Rosangela Silveira Rodrigues",
         "siape": "2284125"
       },
       {
-        "nome": "Vanessa Ribeiro Pestana Bauer Discente",
+        "nome": "Vanessa Ribeiro Pestana Bauer",
         "siape": "1580328"
       }
     ],
@@ -19799,7 +20527,45 @@
     "ementa": "Ratificar a designação, a contar de 01/11/2020, ​​​​​​​ da equipe abaixo relacionada que, sob a coordenação da primeira, constituem o Colegiado do Curso Superior de Tecnologia em Agroindústria, do câmpus Pelotas- Viscond",
     "servidores": [
       {
-        "nome": "Visconde da Graça:"
+        "nome": "Ana Paula do Sacramento Wally",
+        "siape": "1731081"
+      },
+      {
+        "nome": "Cristiane Brauer Zaicovski",
+        "siape": "1634976"
+      },
+      {
+        "nome": "Maria de Fátima Magalhães Jorge",
+        "siape": "1857132"
+      },
+      {
+        "nome": "Ricardo Monte Martins",
+        "siape": "1332091"
+      },
+      {
+        "nome": "Rosângela Silveira Rodrigues",
+        "siape": "2284125"
+      },
+      {
+        "nome": "Rosélia Souza de Oliveira",
+        "siape": "2905041"
+      },
+      {
+        "nome": "Vanessa Ribeiro Pestana Bauer",
+        "siape": "1580328"
+      },
+      {
+        "nome": "Helen Rodrigues Oliveira",
+        "siape": "1341275"
+      },
+      {
+        "nome": "Marisa Ferreira Karow"
+      },
+      {
+        "nome": "Aline Machado Louro"
+      },
+      {
+        "nome": "Giulia Vrague Oliveira"
       }
     ],
     "dataInicio": "2021-05-13",
@@ -20043,7 +20809,54 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para constituíre m COE-E Local (Centro de Operações de Emergência em Saúde para a Educação) responsável por elab orar o Plano de Contingência para Prevenção, Monitoramento e Controle d",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Ana Paula Colares Flores Moraes",
+        "siape": "1164307"
+      },
+      {
+        "nome": "Cláudia Redecker Schwabe",
+        "siape": "1894268"
+      },
+      {
+        "nome": "Daiana Schons",
+        "siape": "2267693"
+      },
+      {
+        "nome": "Evandro Fernandes",
+        "siape": "2237207"
+      },
+      {
+        "nome": "Fernanda Cristina Camillo",
+        "siape": "1753772"
+      },
+      {
+        "nome": "Graziele de Almeida",
+        "siape": "2343163"
+      },
+      {
+        "nome": "Malcus Cassiano Kuhn",
+        "siape": "1025855"
+      },
+      {
+        "nome": "Marcelo Paulo Ellwanger",
+        "siape": "2625410"
+      },
+      {
+        "nome": "Renato Hartwig Neuenfeld",
+        "siape": "1132652"
+      },
+      {
+        "nome": "William Junior Sperb",
+        "siape": "2390367"
+      },
+      {
+        "nome": "Anita Regina Kerber Diniz"
+      },
+      {
+        "nome": "Luíse Ester Hartmann"
+      }
+    ],
     "dataInicio": "2021-05-13",
     "dataFim": null
   },
@@ -20082,19 +20895,19 @@
         "siape": "1630234"
       },
       {
-        "nome": "Franciesco Disconzi Gonçalves Discente"
+        "nome": "Franciesco Disconzi Gonçalves"
       },
       {
-        "nome": "Gabriely Marques Monteiro Discente"
+        "nome": "Gabriely Marques Monteiro"
       },
       {
-        "nome": "Katana do Nascimento Discente"
+        "nome": "Katana do Nascimento"
       },
       {
-        "nome": "Stéfani Aline Dhein Discente"
+        "nome": "Stéfani Aline Dhein"
       },
       {
-        "nome": "Thaíssa de Souza Schneider Discente"
+        "nome": "Thaíssa de Souza Schneider"
       },
       {
         "nome": "Lisiane dos Santos Membro"
@@ -21057,7 +21870,28 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência do primeiro, constituírem grupo de trabalho responsável pelo apoio à estruturação e impl antação da Hélice - Incubadora Empresarial de Base Tecnológic",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Diego Rodrigues Pereira",
+        "siape": "1883217"
+      },
+      {
+        "nome": "Camila Ottonelli Calgaro",
+        "siape": "2413938"
+      },
+      {
+        "nome": "Mariana Piccoli",
+        "siape": "1076033"
+      },
+      {
+        "nome": "Raquel Paiva Godinho",
+        "siape": "1671654"
+      },
+      {
+        "nome": "Vagner Pinto da Silva",
+        "siape": "1874393"
+      }
+    ],
     "dataInicio": "2021-05-18",
     "dataFim": null
   },
@@ -21072,7 +21906,24 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência do primeiro, constituírem o Comitê Gestor da Hélice - Incubadora Empresarial de Bas e Tecnológica do câmpus Pelotas, nos termos do Art.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Júlio César Mesquita Ruzicki",
+        "siape": "2674661"
+      },
+      {
+        "nome": "Érica Pereira Martins Pagani",
+        "siape": "1577595"
+      },
+      {
+        "nome": "Alexandre de Pauli Bandeira",
+        "siape": "1106507"
+      },
+      {
+        "nome": "Alisson Luis Bach Ferreira",
+        "siape": "2549920"
+      }
+    ],
     "dataInicio": "2021-05-18",
     "dataFim": null
   },
@@ -21467,7 +22318,44 @@
     "ementa": "Designar os servidores abaixo relacionados para, s ob a responsabilidade do primeiro, constituírem o Núcleo de Estudos Afro-brasileiros e Indígenas – NEABI da Reitoria.",
     "servidores": [
       {
-        "nome": "Núcleo de Estudos Afro-brasileiros e Indígenas"
+        "nome": "Gizele Costa da Silva",
+        "siape": "2746441"
+      },
+      {
+        "nome": "Rosane Bom",
+        "siape": "1487040"
+      },
+      {
+        "nome": "Fátima Insaurriaga Duarte Eslabão Técnico Administrativo",
+        "siape": "46117"
+      },
+      {
+        "nome": "Eugènia Squeff de Oliveira Técnico Administrativo",
+        "siape": "2075221"
+      },
+      {
+        "nome": "Angélica Corvello Schwalbe Técnico Administrativo",
+        "siape": "1827764"
+      },
+      {
+        "nome": "Letícia Santos da Silva Técnico Administrativo",
+        "siape": "2121751"
+      },
+      {
+        "nome": "Luciana Alves Madruga Técnico Administrativo",
+        "siape": "1099540"
+      },
+      {
+        "nome": "Márcio Machado Rocha Técnico Administrativo",
+        "siape": "1546892"
+      },
+      {
+        "nome": "Osni da Costa Rodrigues Técnico Administrativo",
+        "siape": "1755806"
+      },
+      {
+        "nome": "Rafael Leitzke Pereira Técnico Administrativo",
+        "siape": "1660045"
       }
     ],
     "dataInicio": "2021-05-20",
@@ -21584,7 +22472,18 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência da primeira, constituir a Comissão de Heteroidentificação de candidatos autodeclarados negros (p retos/pardos), responsável por atuar nos processos seletivos",
     "servidores": [
       {
-        "nome": "Heteroidentificação de"
+        "nome": "Ruti Angela Barbosa Oliveira",
+        "siape": "2037575"
+      },
+      {
+        "nome": "Adelaide Marli Neis",
+        "siape": "1593193"
+      },
+      {
+        "nome": "Fabiola Daniela Fagundes Integrante da"
+      },
+      {
+        "nome": "Moises Rodrigues Integrante da"
       }
     ],
     "dataInicio": "2021-05-20",
@@ -21970,7 +22869,7 @@
         "siape": "3103429"
       },
       {
-        "nome": "Henrique Jost Vargas Discente"
+        "nome": "Henrique Jost Vargas"
       }
     ],
     "dataInicio": "2021-05-25",
@@ -22016,28 +22915,28 @@
         "siape": "2397349"
       },
       {
-        "nome": "Bibiana de Oliveira Barreto da Silveira Discente"
+        "nome": "Bibiana de Oliveira Barreto da Silveira"
       },
       {
-        "nome": "Muriel Vargas Linck Discente"
+        "nome": "Muriel Vargas Linck"
       },
       {
-        "nome": "Sarah Daniela Pedroso da Silva Discente"
+        "nome": "Sarah Daniela Pedroso da Silva"
       },
       {
-        "nome": "Vincent Ribeiro Mattos Discente"
+        "nome": "Vincent Ribeiro Mattos"
       },
       {
-        "nome": "Maria Fernanda Linck Vieira Discente"
+        "nome": "Maria Fernanda Linck Vieira"
       },
       {
-        "nome": "Luiza Isabel da Silva Olivera Discente"
+        "nome": "Luiza Isabel da Silva Olivera"
       },
       {
-        "nome": "Anna Luiza Rodrigues Discente"
+        "nome": "Anna Luiza Rodrigues"
       },
       {
-        "nome": "Marina da Cruz Mendes Discente"
+        "nome": "Marina da Cruz Mendes"
       }
     ],
     "dataInicio": "2021-05-26",
@@ -22142,7 +23041,126 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as e discente abaixo-relacio nados/as para, sob a presidência do primeiro, constituírem o Colegiado do Curso Superior de Ciência d a Computação, do câmpus Passo Fundo.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Elder Francisco Fontana Bernardi",
+        "siape": "1790459"
+      },
+      {
+        "nome": "Adilso Nunes de Souza",
+        "siape": "1794515"
+      },
+      {
+        "nome": "Alex Sebben da Cunha",
+        "siape": "2145592"
+      },
+      {
+        "nome": "Alexandre Tagliari Lazzaretti",
+        "siape": "1643743"
+      },
+      {
+        "nome": "André Fernando Rollwagen",
+        "siape": "1875195"
+      },
+      {
+        "nome": "Angela Mazzonetto",
+        "siape": "3207444"
+      },
+      {
+        "nome": "Anubis Graciela de Moraes Rossetto",
+        "siape": "1752156"
+      },
+      {
+        "nome": "Carlos Alberto Petry",
+        "siape": "1753204"
+      },
+      {
+        "nome": "Daniel Delfini Ribeiro",
+        "siape": "2827070"
+      },
+      {
+        "nome": "Edimara Luciana Sartori",
+        "siape": "1509164"
+      },
+      {
+        "nome": "Emanuele Amanda Marques"
+      },
+      {
+        "nome": "Jaqueline Pinzon",
+        "siape": "1955104"
+      },
+      {
+        "nome": "João Mário Lopes Brezolin",
+        "siape": "1643730"
+      },
+      {
+        "nome": "Jorge Luis Boeira Bavaresco",
+        "siape": "2969348"
+      },
+      {
+        "nome": "José Antônio Oliveira de Figueiredo",
+        "siape": "2702340"
+      },
+      {
+        "nome": "Joseane Amaral",
+        "siape": "1922707"
+      },
+      {
+        "nome": "Josué Toebe",
+        "siape": "1758716"
+      },
+      {
+        "nome": "Lucas Vanini",
+        "siape": "2378860"
+      },
+      {
+        "nome": "Maikon Cismoski dos Santos",
+        "siape": "2137739"
+      },
+      {
+        "nome": "Maria Carolina Fortes",
+        "siape": "1574962"
+      },
+      {
+        "nome": "Mateus da Fonseca Capssa Lima",
+        "siape": "1278041"
+      },
+      {
+        "nome": "Michele Roos Marchesan"
+      },
+      {
+        "nome": "Rafael Marisco Bertei",
+        "siape": "1658474"
+      },
+      {
+        "nome": "Ricardo Vanni Dallasen",
+        "siape": "2161207"
+      },
+      {
+        "nome": "Roberta Macedo Ciocari",
+        "siape": "1752164"
+      },
+      {
+        "nome": "Roberto Wiest",
+        "siape": "1892548"
+      },
+      {
+        "nome": "Samanta Santos da Vara Vanini",
+        "siape": "1625631"
+      },
+      {
+        "nome": "Samara Vendramin Pieta",
+        "siape": "1017844"
+      },
+      {
+        "nome": "Talita Rocha Pinheiro",
+        "siape": "3221625"
+      },
+      {
+        "nome": "Telmo de Cesaro Junior",
+        "siape": "2943448"
+      }
+    ],
     "dataInicio": "2021-05-26",
     "dataFim": null
   },
@@ -23359,7 +24377,52 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência da primeira, constituírem Comissão para Ana ́lise de Renda de Candidatos/as aprovados/as nos Processos Sele tivos do ano letivo de 2021 no ca ̂mpus S",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Henrykheta Maria Rodrigues Fernandes Porto",
+        "siape": "1759903"
+      },
+      {
+        "nome": "Cátia Cilene Mello Alano",
+        "siape": "2135263"
+      },
+      {
+        "nome": "Marlise Sozio Vitcel",
+        "siape": "1770465"
+      },
+      {
+        "nome": "Schirlei Gaelzer",
+        "siape": "1889485"
+      },
+      {
+        "nome": "Vanessa Logue Dias",
+        "siape": "2387190"
+      },
+      {
+        "nome": "Maria De Fátima Silveira Medeiros",
+        "siape": "1226786"
+      },
+      {
+        "nome": "Carolina Soares da Silva",
+        "siape": "1951372"
+      },
+      {
+        "nome": "Lucimeri Petry Homrich",
+        "siape": "1817506"
+      },
+      {
+        "nome": "Frederico Kleinschmitt Júnior",
+        "siape": "1814808"
+      },
+      {
+        "nome": "Aline Severo da Silva",
+        "siape": "1612112"
+      },
+      {
+        "nome": "Shelley do Nascimento de Campos",
+        "siape": "2837017"
+      }
+    ],
     "dataInicio": "2021-06-07",
     "dataFim": null
   },
@@ -23374,7 +24437,44 @@
       "comissao"
     ],
     "ementa": "Ratificar, a contar de 14/04/2021, a designaç ão dos/as servidores/as relacionados/as para, sob a presidência do primeiro, constituírem Comissão responsável por realizar a avaliação do Projeto Pedagógico do Curso Técni",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Amilton Cravo Moraes",
+        "siape": "274740"
+      },
+      {
+        "nome": "Andrea Fischer",
+        "siape": "2442298"
+      },
+      {
+        "nome": "Claudio Luis D Elia Machado",
+        "siape": "274780"
+      },
+      {
+        "nome": "Igor Radtke Bederode",
+        "siape": "1945757"
+      },
+      {
+        "nome": "Jair Jonko Araujo",
+        "siape": "274599"
+      },
+      {
+        "nome": "Rubinei de Servi Ferraz",
+        "siape": "2543889"
+      },
+      {
+        "nome": "Sandro Silva Teixeira",
+        "siape": "274639"
+      },
+      {
+        "nome": "Velington de Aquino Neumann",
+        "siape": "1050183"
+      },
+      {
+        "nome": "Vladimir Afonso",
+        "siape": "2554912"
+      }
+    ],
     "dataInicio": "2021-06-07",
     "dataFim": null
   },
@@ -23390,7 +24490,28 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência da primeira, constituírem comissão responsável pela avaliação socioeconômica dos candidatos classificados no processo seletivo do câmpus Pelotas com",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Patrícia Martins Tavares",
+        "siape": "2067592"
+      },
+      {
+        "nome": "Leticia de Magalhaes Bandeira",
+        "siape": "1895543"
+      },
+      {
+        "nome": "Aline Simon Nunes Duarte",
+        "siape": "2067691"
+      },
+      {
+        "nome": "Sandro Palacci Pail",
+        "siape": "2408029"
+      },
+      {
+        "nome": "Cristiana Winter Albernaz",
+        "siape": "2403249"
+      }
+    ],
     "dataInicio": "2021-06-07",
     "dataFim": null
   },
@@ -23433,10 +24554,10 @@
         "siape": "2620498"
       },
       {
-        "nome": "Heloise Del Pino Lima Discente"
+        "nome": "Heloise Del Pino Lima"
       },
       {
-        "nome": "Hêmyli Coelho Neto Discente"
+        "nome": "Hêmyli Coelho Neto"
       },
       {
         "nome": "Josiane Redmer Hinz",
@@ -23937,7 +25058,20 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência da primeira, constituírem Banca responsável pela seleção dos membros da nova comissão de Heter oidentificação do câmpus Pelotas.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Adriane Rodrigues Corrêa",
+        "siape": "1099373"
+      },
+      {
+        "nome": "Guilherme da Silva Xavier",
+        "siape": "1278282"
+      },
+      {
+        "nome": "Cristiane Fonseca da Conceicao",
+        "siape": "1848563"
+      }
+    ],
     "dataInicio": "2021-06-09",
     "dataFim": null
   },
@@ -23953,7 +25087,32 @@
       "designacao"
     ],
     "ementa": "Ratificar, a contar de 01 de março de 2021, a designação dos servidores relacionados para, sob a presidência do primeiro, constituírem Comissão responsável p elos estudos da proposta do novo Curso Técnico de Eletrônica -",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Guilherme Schwanke Cardoso",
+        "siape": "2620075"
+      },
+      {
+        "nome": "Alessandro de Souza Lima",
+        "siape": "1075347"
+      },
+      {
+        "nome": "Daniel Hosser Hall",
+        "siape": "1847650"
+      },
+      {
+        "nome": "César de Souza Dias",
+        "siape": "3010323"
+      },
+      {
+        "nome": "Gustavo Buchweitz Giusti",
+        "siape": "3432729"
+      },
+      {
+        "nome": "Mateus Mendes Gonçalves",
+        "siape": "2388313"
+      }
+    ],
     "dataInicio": "2021-06-09",
     "dataFim": null
   },
@@ -23970,7 +25129,80 @@
     "ementa": "Ratificar, a contar de 26/05/2021, a designação dos/as servidores /as abaixo relacionados/as para, sob presidência do primeiro, constituírem este Grupo de T rabalho responsável pela construção da Política de Inovação do",
     "servidores": [
       {
-        "nome": "Inovação do Instituto Federal Sul-rio-grandense."
+        "nome": "Vinicius Martins",
+        "siape": "2619343"
+      },
+      {
+        "nome": "Adilsom Eskelsen",
+        "siape": "2146121"
+      },
+      {
+        "nome": "Cassiano Pinzon",
+        "siape": "1657259"
+      },
+      {
+        "nome": "Claudia Ciceri Cesa",
+        "siape": "2138927"
+      },
+      {
+        "nome": "Cleber Schroeder Fonseca",
+        "siape": "2642142"
+      },
+      {
+        "nome": "Cristiane Brauer Zaicovski",
+        "siape": "1634976"
+      },
+      {
+        "nome": "Daniel Ricardo Arsand",
+        "siape": "1760730"
+      },
+      {
+        "nome": "Danilo dos Santos Telechi",
+        "siape": "3148269"
+      },
+      {
+        "nome": "Diego Rodrigues Pereira",
+        "siape": "1883217"
+      },
+      {
+        "nome": "Edgar Antonio Costa Mattarredona",
+        "siape": "0274636"
+      },
+      {
+        "nome": "Érica Pereira Martins Pagani",
+        "siape": "1577595"
+      },
+      {
+        "nome": "Gisela Loureiro Duarte",
+        "siape": "0274680"
+      },
+      {
+        "nome": "Isis Born Machado",
+        "siape": "1054888"
+      },
+      {
+        "nome": "João Gonçalves Pereira",
+        "siape": "2132719"
+      },
+      {
+        "nome": "Julio Cesar Mesquita Ruzicki",
+        "siape": "2674661"
+      },
+      {
+        "nome": "Leandro da Silva Camargo",
+        "siape": "1866043"
+      },
+      {
+        "nome": "Leonardo Betemps Kontz",
+        "siape": "2298096"
+      },
+      {
+        "nome": "Priscila Mendes Pereira",
+        "siape": "1183762"
+      },
+      {
+        "nome": "Ronaldo Fernando Ostermann",
+        "siape": "3943354"
       }
     ],
     "dataInicio": "2021-06-09",
@@ -24933,7 +26165,8 @@
     "ementa": "Designar a servidora abaixo relacionada como respo nsável pela Coordenação da Especialização em Linguagens e Tecnologias na Educação, do câmpus Passo Fundo: Nome completo Segmento SIAPE nº Edimara Luciana Sartori Docente",
     "servidores": [
       {
-        "nome": "Linguagens e Tecnologias"
+        "nome": "Edimara Luciana Sartori",
+        "siape": "1509164"
       }
     ],
     "dataInicio": "2021-06-16",
@@ -25529,9 +26762,6 @@
     "ementa": "Designar os servidores abaixo relacionados para, sob a presidência do primeiro, comporem a Equipe Gestora do Laboratório IFMaker no câmpus Charqueadas.",
     "servidores": [
       {
-        "nome": "Gestora do Laboratório IFMaker"
-      },
-      {
         "nome": "Joel da Silva Rodrigues",
         "siape": "1804339"
       },
@@ -26015,7 +27245,57 @@
       "designacao"
     ],
     "ementa": "Designar os servidores e discentes relacionados para, sob a coordenação do primeiro, constituírem o Colegiado do curso Técnico Integrado em Mecatrônica, do c âmpus Charqueadas.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "José Luiz Kowalski"
+      },
+      {
+        "nome": "Ana Paula da Costa Krumel",
+        "siape": "1889293"
+      },
+      {
+        "nome": "Carlos Arthur Carvalho Sarmanho Júnior",
+        "siape": "2201231"
+      },
+      {
+        "nome": "Débora Amengual Focques",
+        "siape": "2055064"
+      },
+      {
+        "nome": "Eduardo Garcia Ribas",
+        "siape": "3003498"
+      },
+      {
+        "nome": "Louize Pagel Leitzke",
+        "siape": "1875160"
+      },
+      {
+        "nome": "Luís Gustavo Fernandes dos Santos",
+        "siape": "1683597"
+      },
+      {
+        "nome": "Luiz Paulo Luna de Oliveira",
+        "siape": "3158390"
+      },
+      {
+        "nome": "Paulo Ricardo Boesch Júnior",
+        "siape": "2925936"
+      },
+      {
+        "nome": "Rafael Alves Padilha",
+        "siape": "1033680"
+      },
+      {
+        "nome": "Vinícius Zortéa Ferrari",
+        "siape": "1012629"
+      },
+      {
+        "nome": "Adriel Menezes Vasconcellos dos Santos"
+      },
+      {
+        "nome": "Lucas Salati Cardoso"
+      }
+    ],
     "dataInicio": "2021-06-22",
     "dataFim": null
   },
@@ -26030,7 +27310,46 @@
       "designacao"
     ],
     "ementa": "Designar os servidores e aluno relacionados para, sob a presidência do primeiro, constituírem o Centro de Operação de Emergência em Saúde para a Educ ação - COE-E Local, do câmpus Charqueadas: Nome completo Segmento SIAP",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Jeferson Fernando de Souza Wolff"
+      },
+      {
+        "nome": "Adriel Menezes Vasconcellos dos Santos"
+      },
+      {
+        "nome": "Darling Geruza Rio de Souza",
+        "siape": "2640701"
+      },
+      {
+        "nome": "Glederson Lessa dos Santos",
+        "siape": "2432483"
+      },
+      {
+        "nome": "Humberto dos Santos Silva",
+        "siape": "1568964"
+      },
+      {
+        "nome": "Joana Darc Justino",
+        "siape": "1577962"
+      },
+      {
+        "nome": "Joel da Silva Rodrigues",
+        "siape": "1804339"
+      },
+      {
+        "nome": "Marcia Beatriz da Silva",
+        "siape": "2950201"
+      },
+      {
+        "nome": "Marcos Roberto Prietto Schvants",
+        "siape": "1583659"
+      },
+      {
+        "nome": "Tiago Baptista Noronha",
+        "siape": "2949239"
+      }
+    ],
     "dataInicio": "2021-06-22",
     "dataFim": null
   },
@@ -26672,9 +27991,6 @@
     "ementa": "Constituir a Banca de Avaliação de Anteprojetos para o processo seletivo para aluno/a regular do curso de Mestrado Profissional em Ciências e Tecnologias na Educação, regido pelo Edital CaVG 04/2021, conforme segue: Nom",
     "servidores": [
       {
-        "nome": "Nome Completo"
-      },
-      {
         "nome": "Angelita Hentges",
         "siape": "1778060"
       },
@@ -27136,7 +28452,56 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as e discentes relacionados p ara, sob a coordenação do primeiro, constituírem o Colegiado do curso de Engenharia Mecânica, do câmpus Sapucaia do Sul.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Marcus Vinicius Farret Coelho",
+        "siape": "2338198"
+      },
+      {
+        "nome": "André Capellão de Paula",
+        "siape": "1548856"
+      },
+      {
+        "nome": "Carlos Alexandre Wurzel",
+        "siape": "2646626"
+      },
+      {
+        "nome": "Cesar Pedrini Neto",
+        "siape": "2302082"
+      },
+      {
+        "nome": "Carmen Iara Walter Calcagno",
+        "siape": "1280968"
+      },
+      {
+        "nome": "Enio Cesar Machado Fagundes",
+        "siape": "2299477"
+      },
+      {
+        "nome": "Luis Ricardo Pedra Pierobon",
+        "siape": "2221065"
+      },
+      {
+        "nome": "Marcelo Salvi",
+        "siape": "1459895"
+      },
+      {
+        "nome": "Patricia Pinto Wolffenbüttel",
+        "siape": "1998549"
+      },
+      {
+        "nome": "Tomaz Fantin de Souza"
+      },
+      {
+        "nome": "Sandro Azevedo Carvalho"
+      },
+      {
+        "nome": "Angélica Coleone Magni"
+      },
+      {
+        "nome": "Yuri Santos de Azevedo"
+      }
+    ],
     "dataInicio": "2021-06-28",
     "dataFim": null
   },
@@ -28259,7 +29624,7 @@
         "siape": "1587694"
       },
       {
-        "nome": "Emanuele Amanda Marques Discente"
+        "nome": "Emanuele Amanda Marques"
       },
       {
         "nome": "Ionara Soveral Scalabrin",
@@ -29405,10 +30770,34 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência da primeira, constituir Comissão de Heteroidentificação do câmpus Camaquã, responsável pela ver ificação de Autodeclarados Negros (Pretos e Pardos) e Indígenas",
     "servidores": [
       {
-        "nome": "Heteroidentificação do"
+        "nome": "Luciana Fraga Hoppe",
+        "siape": "1803401"
       },
       {
-        "nome": "Pardos) e Indígenas"
+        "nome": "Leonardo Campos Soares",
+        "siape": "1822354"
+      },
+      {
+        "nome": "Patrick Machado Kovaslcki",
+        "siape": "1880399"
+      },
+      {
+        "nome": "Pérsida Pereira da Silva",
+        "siape": "1873812"
+      },
+      {
+        "nome": "Sandra Beatriz Salenave de Brito",
+        "siape": "2179037"
+      },
+      {
+        "nome": "Vilmar Machado",
+        "siape": "2385284"
+      },
+      {
+        "nome": "Pâmela Espirito Santo Cardoso"
+      },
+      {
+        "nome": "Fernanda Torino Representante Comunidade"
       }
     ],
     "dataInicio": "2021-07-06",
@@ -29652,7 +31041,27 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação da primeira, constituir o Colegiado do Curso de Especialização em Educação e Contemporaneidade, d o câmpus Charqueadas: Nome completo Segmento SIAPE/Matrícula",
     "servidores": [
       {
-        "nome": "Curso de Especialização"
+        "nome": "Michele Schmitt",
+        "siape": "1549285"
+      },
+      {
+        "nome": "Ana Paula da Costa Krumel",
+        "siape": "1889293"
+      },
+      {
+        "nome": "Eduardo Martinelli Leal",
+        "siape": "2804279"
+      },
+      {
+        "nome": "Samir Dessbesel Ferreira",
+        "siape": "1626980"
+      },
+      {
+        "nome": "Ana Lia de Almeida Vergamini",
+        "siape": "2308640"
+      },
+      {
+        "nome": "Aline da Rocha Rodrigues"
       }
     ],
     "dataInicio": "2021-07-07",
@@ -29787,7 +31196,7 @@
         "siape": "1568964"
       },
       {
-        "nome": "Lucas Salati Cardoso Discente"
+        "nome": "Lucas Salati Cardoso"
       },
       {
         "nome": "Mariana da Cunha Pfingstag",
@@ -29981,7 +31390,17 @@
       "designacao"
     ],
     "ementa": "Designar a Comissão responsável pela conduç ão do processo de escolha dos representantes técnico-administrativos da Reitoria (TAEs) no Cons elho Superior (CONSUP) do IFSul : Nome completo Segmento SIAPE nº Carla Rosani",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Carla Rosani Silva Fiori"
+      },
+      {
+        "nome": "Ana Luiza Wickboldt Schneider"
+      },
+      {
+        "nome": "Cleber Vargas Islabão"
+      }
+    ],
     "dataInicio": "2021-07-08",
     "dataFim": null
   },
@@ -30028,7 +31447,35 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a pre sidência do primeiro, constituírem a comissão responsável pela realização das comemorações dos 15 ano s do câmpus Charqueadas.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Jeferson Fernando de Souza Wolff",
+        "siape": "1774588"
+      },
+      {
+        "nome": "Samanta dos Santos de Oliveira Huzalo",
+        "siape": "1812322"
+      },
+      {
+        "nome": "Bárbara Vencato Oliveira"
+      },
+      {
+        "nome": "Márcia Beatriz da Silva",
+        "siape": "2950201"
+      },
+      {
+        "nome": "Janaína Vargas Escouto",
+        "siape": "2068592"
+      },
+      {
+        "nome": "Sandro Luiz Moraes de Barros",
+        "siape": "2199876"
+      },
+      {
+        "nome": "Ana Lia de Almeida Vergamini",
+        "siape": "2308640"
+      }
+    ],
     "dataInicio": "2021-07-09",
     "dataFim": null
   },
@@ -30445,7 +31892,8 @@
     "ementa": "Incluir o nome da servidora abaixo relacionada n a Portaria de pessoal n.",
     "servidores": [
       {
-        "nome": "Saberes e Competências, de"
+        "nome": "Ana Maria Geller",
+        "siape": "2297536"
       }
     ],
     "dataInicio": "2021-07-12",
@@ -30960,7 +32408,7 @@
         "siape": "985649"
       },
       {
-        "nome": "Vagner Dutra Maciel Discente"
+        "nome": "Vagner Dutra Maciel"
       },
       {
         "nome": "Karina Ferreira Silveira Representante Sociedade Civil"
@@ -31622,7 +33070,7 @@
         "siape": "985649"
       },
       {
-        "nome": "Vagner Dutra Maciel Discente"
+        "nome": "Vagner Dutra Maciel"
       },
       {
         "nome": "Karina Ferreira Silveira Representante Sociedade Civil"
@@ -31807,7 +33255,24 @@
     "ementa": "Designar o grupo abaixo relacionado para constit uir Comissão Eleitoral responsável por regulamentar, fiscalizar, certificar as eleições para escolha da representaç ão do Câmpus Avançado Jaguarão no Conselho Superior do",
     "servidores": [
       {
-        "nome": "Superior do IFSul,"
+        "nome": "Bruno Ferreira da Silva"
+      },
+      {
+        "nome": "Ana Paula Nascimento Machado"
+      },
+      {
+        "nome": "Ana Paula Sturbelle Schiller"
+      },
+      {
+        "nome": "Daniel Evangelista Monteiro",
+        "siape": "1838439"
+      },
+      {
+        "nome": "Kiany Thainara da Cunha"
+      },
+      {
+        "nome": "Vinícius Alves Hax",
+        "siape": "2762280"
       }
     ],
     "dataInicio": "2021-07-19",
@@ -31956,7 +33421,7 @@
         "nome": "Alexsandra Paz Trindade Comunidade Externa"
       },
       {
-        "nome": "Bernardo dos Santos Lacerda Discente"
+        "nome": "Bernardo dos Santos Lacerda"
       },
       {
         "nome": "Fabiane Nunes Prates",
@@ -32110,7 +33575,40 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a responsabilidade do primeiro, constituir o Núcleo de Estudos Afro-brasileiros e indígenas (NEABI), do câmpus Ba gé: Nome completo Segmento SIAPE/Matrícula nº Lisandro Luca",
     "servidores": [
       {
-        "nome": "Estudos Afro-brasileiros e"
+        "nome": "Lisandro Lucas de Lima Moura",
+        "siape": "1688510"
+      },
+      {
+        "nome": "Alissandra Hampel",
+        "siape": "1812236"
+      },
+      {
+        "nome": "Tiaraju Molina Andreazza",
+        "siape": "3058147"
+      },
+      {
+        "nome": "Claudinea Machado Ortiz"
+      },
+      {
+        "nome": "Guilherme Franco Macedo"
+      },
+      {
+        "nome": "Helen Gabriele Veleda Araújo Cardoso"
+      },
+      {
+        "nome": "Héllen Cris Rocha Pereira"
+      },
+      {
+        "nome": "Jaine da Rosa Soares"
+      },
+      {
+        "nome": "Rafaela da Silva Machado"
+      },
+      {
+        "nome": "Adriana Gonçalves Ferreira Comunidade Externa"
+      },
+      {
+        "nome": "Luis Cesar Rodrigues Jacinto Comunidade Externa"
       }
     ],
     "dataInicio": "2021-07-20",
@@ -32325,7 +33823,7 @@
         "nome": "Câmpus Nome"
       },
       {
-        "nome": "Pelotas-Visconde da Graça Helen Dias Murias Discente"
+        "nome": "Pelotas-Visconde da Graça Helen Dias Murias"
       }
     ],
     "dataInicio": "2021-07-21",
@@ -32556,6 +34054,17 @@
     "servidores": [
       {
         "nome": "Estruturante do"
+      },
+      {
+        "nome": "Vinícius Mordini de Andrade",
+        "siape": "1228340"
+      },
+      {
+        "nome": "Camila Ottonelli Calgaro",
+        "siape": "2413938"
+      },
+      {
+        "nome": "Flavio Edney Macuglia"
       }
     ],
     "dataInicio": "2021-07-22",
@@ -32654,7 +34163,20 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência do primeiro, constituir comissão responsável por selecionar os membros da nova Comissão de Ver ificação de Autodeclarados Negros (Pretos e Pardos) dos Processo",
     "servidores": [
       {
-        "nome": "e Pardos) dos Processos Seletivos do IFSul,"
+        "nome": "Alexandre Pitol Boeira",
+        "siape": "1574808"
+      },
+      {
+        "nome": "Ciana Minuzzi Gaike Biulch",
+        "siape": "1587694"
+      },
+      {
+        "nome": "Ricardo Luis Deboni",
+        "siape": "2033795"
+      },
+      {
+        "nome": "William Ferreira Añaña",
+        "siape": "2067497"
       }
     ],
     "dataInicio": "2021-07-23",
@@ -32766,7 +34288,7 @@
         "siape": "274744"
       },
       {
-        "nome": "Marielle Mendes Sacharuk Discente"
+        "nome": "Marielle Mendes Sacharuk"
       }
     ],
     "dataInicio": "2021-07-23",
@@ -32921,7 +34443,7 @@
         "siape": "2847405"
       },
       {
-        "nome": "Vitor Edinei Carvalho Gomes DISCENTE"
+        "nome": "Vitor Edinei Carvalho Gomes"
       }
     ],
     "dataInicio": "2021-07-23",
@@ -33176,7 +34698,47 @@
       "designacao"
     ],
     "ementa": "Instituir o Comitê de Governança Digital - CGD , do IFSul, órgão colegiado com caráter permanente, de natureza deliberativa para os assuntos relativos à implemen tação das ações de governo digital e ao uso de recursos de",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Flávio Barbosa Nunes"
+      },
+      {
+        "nome": "Ernesto Monteiro Perez"
+      },
+      {
+        "nome": "Rodrigo Nascimento da Silva"
+      },
+      {
+        "nome": "Gisela Loureiro Duarte"
+      },
+      {
+        "nome": "Thiago da Rosa Giusti"
+      },
+      {
+        "nome": "Vinicius Martins"
+      },
+      {
+        "nome": "Carla Simone Guedes Pires"
+      },
+      {
+        "nome": "Ana Paula Nogueira e Silva"
+      },
+      {
+        "nome": "Fernando Quatrin Campagnolo"
+      },
+      {
+        "nome": "Celso Henrique Garcia Vieira"
+      },
+      {
+        "nome": "Carlos Jesus Anghinoni Correa"
+      },
+      {
+        "nome": "Jeferson Fernando de Souza Wolff"
+      },
+      {
+        "nome": "Marcos André Betemps Vaz da Silva"
+      }
+    ],
     "dataInicio": "2021-07-26",
     "dataFim": null
   },
@@ -33644,9 +35206,6 @@
     "ementa": "Designar os/as servidores/as abaixo relacionados/as pa ra, sob a coordenação do primeiro, comporem a Equipe Gestora do Laboratório IFMaker no câmpus Pelot as: Nome Completo Segmento SIAPE nº Júlio César Mesquita Ruzicki",
     "servidores": [
       {
-        "nome": "Nome Completo"
-      },
-      {
         "nome": "Júlio César Mesquita Ruzicki",
         "siape": "2674661"
       },
@@ -33875,7 +35434,25 @@
       "designacao"
     ],
     "ementa": "Designar a servidora, o servidor e discentes relacio nados para, sob a presidência da primeira, constituírem Comissão responsável por organizar a formatura virtual do Curso Técnico em Informática para a Internet/2020, i",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Neilza Silva dos Santos Técnica",
+        "siape": "2144930"
+      },
+      {
+        "nome": "Jan Motta de Mello Técnico",
+        "siape": "2269369"
+      },
+      {
+        "nome": "Augusto Cardoso Teixeira"
+      },
+      {
+        "nome": "Maria Vitória Rodrigues de Oliveira"
+      },
+      {
+        "nome": "Ygor Marcelino da Silva"
+      }
+    ],
     "dataInicio": "2021-07-30",
     "dataFim": null
   },
@@ -34016,6 +35593,26 @@
     "servidores": [
       {
         "nome": "Estruturante do"
+      },
+      {
+        "nome": "Fabiane Nunes Prates",
+        "siape": "1944173"
+      },
+      {
+        "nome": "Alex Sandro Ernandes Valério",
+        "siape": "1029615"
+      },
+      {
+        "nome": "Diego de Carvalho Neves da Fontoura",
+        "siape": "2395438"
+      },
+      {
+        "nome": "Márcio Spenst",
+        "siape": "1957981"
+      },
+      {
+        "nome": "Thales Vaz Maciel",
+        "siape": "1245122"
       }
     ],
     "dataInicio": "2021-08-03",
@@ -34032,7 +35629,39 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as e discentes relacionados/a s para, sob a coordenação da primeira, constituírem o Colegiado do curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas, do câmpus Bagé.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Fabiane Nunes Prates",
+        "siape": "1944173"
+      },
+      {
+        "nome": "Alex Sandro Ernandes Valério",
+        "siape": "1029615"
+      },
+      {
+        "nome": "Alissandra Hampel",
+        "siape": "1812236"
+      },
+      {
+        "nome": "Diego de Carvalho Neves da Fontoura",
+        "siape": "2395438"
+      },
+      {
+        "nome": "Leandro da Silva Camargo",
+        "siape": "1866043"
+      },
+      {
+        "nome": "Márcio Spenst",
+        "siape": "1957981"
+      },
+      {
+        "nome": "Rosana Maria Resaffe"
+      },
+      {
+        "nome": "Thales Vaz Maciel",
+        "siape": "1245122"
+      }
+    ],
     "dataInicio": "2021-08-03",
     "dataFim": null
   },
@@ -34219,7 +35848,28 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a pre sidência da primeira, constituírem Comissão do Processo Seletivo 2021 responsável por Procedimentos de Matr ículas 2021, no câmpus Sapiranga.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Juliana Cardoso Pereira",
+        "siape": "2847405"
+      },
+      {
+        "nome": "Guilherme da Silva Xavier",
+        "siape": "1278282"
+      },
+      {
+        "nome": "Jordania Morales da Rosa",
+        "siape": "1577470"
+      },
+      {
+        "nome": "Katiusse Icara Alves",
+        "siape": "2137629"
+      },
+      {
+        "nome": "Thais Burlani Neves",
+        "siape": "1059963"
+      }
+    ],
     "dataInicio": "2021-08-04",
     "dataFim": null
   },
@@ -34258,7 +35908,56 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência do primeiro, constituírem Grupo de Trabalho responsável pela definição e adequação do mó dulo estágios no SUAP do IFSul.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Miguel Roberto Felberg",
+        "siape": "1032514"
+      },
+      {
+        "nome": "Leonardo Betemps",
+        "siape": "2298096"
+      },
+      {
+        "nome": "Marlise Sozio Vitcel Técnico",
+        "siape": "1770465"
+      },
+      {
+        "nome": "Rebeca Einhardt Fiss",
+        "siape": "2026332"
+      },
+      {
+        "nome": "Percio Carvalho Pereira Técnico",
+        "siape": "2679493"
+      },
+      {
+        "nome": "Fernando Quatrin Campagnolo Técnico",
+        "siape": "1330964"
+      },
+      {
+        "nome": "Daiana Lopes Dias Técnico",
+        "siape": "2037585"
+      },
+      {
+        "nome": "Jessica Nunes Vergara Técnico",
+        "siape": "3087448"
+      },
+      {
+        "nome": "Divanete Salete Hoffmann Dias Técnico",
+        "siape": "1106941"
+      },
+      {
+        "nome": "Virginia Martins Rodrigues Técnico",
+        "siape": "2068393"
+      },
+      {
+        "nome": "Viviane Hernandez S Ribeiro Técnico",
+        "siape": "1459541"
+      },
+      {
+        "nome": "Rafael Leitzke Pereira Técnico",
+        "siape": "1660045"
+      }
+    ],
     "dataInicio": "2021-08-05",
     "dataFim": null
   },
@@ -34274,7 +35973,59 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência do primeiro, constituírem Comissão responsável pela reestruturação do Conselho de Cla sse do câmpus Bagé.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Lisandro Lucas de Lima Moura",
+        "siape": "1688510"
+      },
+      {
+        "nome": "Alexsandra Paz Trindade Colaboradora"
+      },
+      {
+        "nome": "Alissandra Hampel",
+        "siape": "1812236"
+      },
+      {
+        "nome": "Carlos Eduardo Schaedler",
+        "siape": "1892415"
+      },
+      {
+        "nome": "Carlos Emilio Padilla Severo",
+        "siape": "1525178"
+      },
+      {
+        "nome": "Fabrício da Silva Barboza",
+        "siape": "1898141"
+      },
+      {
+        "nome": "Gisele Aparecida Vivan",
+        "siape": "1818736"
+      },
+      {
+        "nome": "Giulia D'Avila Vieira",
+        "siape": "2620498"
+      },
+      {
+        "nome": "Michele da Rosa Scholant Simões",
+        "siape": "3164896"
+      },
+      {
+        "nome": "Rochele Resende Porto",
+        "siape": "1876383"
+      },
+      {
+        "nome": "Thiago Troina Melendez",
+        "siape": "1782491"
+      },
+      {
+        "nome": "Tiago Wally Hartwig",
+        "siape": "2998301"
+      },
+      {
+        "nome": "Viviane Aires de Paula",
+        "siape": "1957960"
+      }
+    ],
     "dataInicio": "2021-08-05",
     "dataFim": null
   },
@@ -34304,25 +36055,25 @@
         "siape": "3058147"
       },
       {
-        "nome": "Claudinea Machado Ortiz Discente"
+        "nome": "Claudinea Machado Ortiz"
       },
       {
-        "nome": "Guilherme Franco Macedo Discente"
+        "nome": "Guilherme Franco Macedo"
       },
       {
-        "nome": "Helen Gabriele Veleda Araújo Cardoso Discente"
+        "nome": "Helen Gabriele Veleda Araújo Cardoso"
       },
       {
-        "nome": "Héllen Cris Rocha Pereira Discente"
+        "nome": "Héllen Cris Rocha Pereira"
       },
       {
-        "nome": "Jaine da Rosa Soares Discente"
+        "nome": "Jaine da Rosa Soares"
       },
       {
-        "nome": "Maria Clara Menezes Kloppenburg Soares Discente"
+        "nome": "Maria Clara Menezes Kloppenburg Soares"
       },
       {
-        "nome": "Rafaela da Silva Machado Discente"
+        "nome": "Rafaela da Silva Machado"
       },
       {
         "nome": "Adriana Gonçalves Ferreira Membro da"
@@ -34518,7 +36269,7 @@
         "siape": "2794852"
       },
       {
-        "nome": "Ademar Simon Junior Discente"
+        "nome": "Ademar Simon Junior"
       }
     ],
     "dataInicio": "2021-08-05",
@@ -34962,7 +36713,7 @@
         "siape": "2143013"
       },
       {
-        "nome": "Raíssa Schuster Discente"
+        "nome": "Raíssa Schuster"
       }
     ],
     "dataInicio": "2021-08-10",
@@ -34981,7 +36732,50 @@
     "ementa": "Designar a equipe abaixo relacionada para consti tuir o Centro de Operações de Emergência em Saúde para a Educação (COE-E Local) responsável por elabo rar o Plano de Contingência para Prevenção, Monitoramento e Controle",
     "servidores": [
       {
-        "nome": "Monitoramento e Controle do Novo Coronavírus"
+        "nome": "Ana Paula Colares Flores Moraes",
+        "siape": "1164307"
+      },
+      {
+        "nome": "Bruno de Sousa Pugatsch",
+        "siape": "1053644"
+      },
+      {
+        "nome": "Cláudia Redecker Schwabe",
+        "siape": "1894268"
+      },
+      {
+        "nome": "Daiana Schons",
+        "siape": "2267693"
+      },
+      {
+        "nome": "Evandro Fernandes",
+        "siape": "2237207"
+      },
+      {
+        "nome": "Fernanda Cristina Camillo",
+        "siape": "1753772"
+      },
+      {
+        "nome": "Graziele de Almeida",
+        "siape": "2343163"
+      },
+      {
+        "nome": "Malcus Cassiano Kuhn",
+        "siape": "1025855"
+      },
+      {
+        "nome": "Renato Hartwig Neuenfeld",
+        "siape": "1132652"
+      },
+      {
+        "nome": "William Junior Sperb",
+        "siape": "2390367"
+      },
+      {
+        "nome": "Anita Regina Kerber Diniz"
+      },
+      {
+        "nome": "Luíse Ester Hartmann"
       }
     ],
     "dataInicio": "2021-08-10",
@@ -35113,7 +36907,27 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência da primeira, constituir o Grupo de Estudo e Trabalho responsável por implementar o Módulo SUAP EDU – Atividades Estudantis de 02/08/2021 a 01/08/2022: Nome com",
     "servidores": [
       {
-        "nome": "Estudo e Trabalho"
+        "nome": "Liliane da Costa Ores Psicóloga",
+        "siape": "1652900"
+      },
+      {
+        "nome": "Rodrigo Nascimento da Silva",
+        "siape": "2561417"
+      },
+      {
+        "nome": "Roberta Gonçalves Crizel Pedagoga",
+        "siape": "2420579"
+      },
+      {
+        "nome": "Valeska Goularte da Silva Duarte",
+        "siape": "2323496"
+      },
+      {
+        "nome": "Christine Gonçalves Alves Nutricionista",
+        "siape": "2070214"
+      },
+      {
+        "nome": "Fabiane Sarmento Oliveira Fruet Técnica"
       }
     ],
     "dataInicio": "2021-08-11",
@@ -35478,7 +37292,7 @@
         "siape": "2145640"
       },
       {
-        "nome": "Ana Claudia Xavier de Oliveira Discente"
+        "nome": "Ana Claudia Xavier de Oliveira"
       },
       {
         "nome": "Natieli Menezes Trevisan Comunidade Externa CPF"
@@ -35518,7 +37332,20 @@
       "designacao"
     ],
     "ementa": "Designar as/os servidoras/es relacionados para, sob a presidência da primeira, constituírem banca avaliadora de inglês, responsável por avaliarem as cartas de motivação e entrevistas das/os estudantes inscritas/os no E",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Camila de Bona",
+        "siape": "2386422"
+      },
+      {
+        "nome": "Carla de Aquino",
+        "siape": "1007632"
+      },
+      {
+        "nome": "Gisvaldo Araújo Silva",
+        "siape": "1672887"
+      }
+    ],
     "dataInicio": "2021-08-11",
     "dataFim": null
   },
@@ -35665,7 +37492,7 @@
         "siape": "3007014"
       },
       {
-        "nome": "Henrique Jost Vargas Discente"
+        "nome": "Henrique Jost Vargas"
       }
     ],
     "dataInicio": "2021-08-11",
@@ -35753,9 +37580,6 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a responsabilidade da primeira, constituir o Núcleo de Gestão Ambiental Integrada (NUGAI), do câmpus Pelotas: Nome Segmento SIAPE n.",
     "servidores": [
       {
-        "nome": "Gestão Ambiental Integrada"
-      },
-      {
         "nome": "Mariana Farias de Souza",
         "siape": "1335314"
       },
@@ -35788,7 +37612,42 @@
     "ementa": "Designar a equipe abaixo relacionada para consti tuir o Centro de Operações de Emergência em Saúde para a Educação (COE-E Local) responsável por elabo rar o Plano de Contingência para Prevenção, Monitoramento e Controle",
     "servidores": [
       {
-        "nome": "Monitoramento e Controle do Novo Coronavírus"
+        "nome": "Chaianne Jirkowski",
+        "siape": "1961203"
+      },
+      {
+        "nome": "Cristiano Linck",
+        "siape": "1005458"
+      },
+      {
+        "nome": "Daiane Bender",
+        "siape": "2403259"
+      },
+      {
+        "nome": "Juliana Cardoso Pereira",
+        "siape": "2847405"
+      },
+      {
+        "nome": "Juliane de Souza Nunes de Moura",
+        "siape": "1026167"
+      },
+      {
+        "nome": "Júlio Korzekwa",
+        "siape": "2079893"
+      },
+      {
+        "nome": "Leandro Marchionni",
+        "siape": "2241453"
+      },
+      {
+        "nome": "Marcio Roberto Souza de Oliveira"
+      },
+      {
+        "nome": "Marta Helena Blank Tessmann",
+        "siape": "2356661"
+      },
+      {
+        "nome": "Yuri Samuel da Rosa"
       }
     ],
     "dataInicio": "2021-08-12",
@@ -36133,7 +37992,28 @@
     "ementa": "Ratificar a designação da equipe abaixo relacion ada que, sob a presidência do primeiro, constituiu Grupo de Trabalho responsável por realizar estudos acerca d a temática \"Educação\", do câmpus Bagé: Nome completo Segment",
     "servidores": [
       {
-        "nome": "Grupo de Trabalho"
+        "nome": "Tiaraju Molina Andreazza",
+        "siape": "3058147"
+      },
+      {
+        "nome": "Aline Jaime Leal",
+        "siape": "1896571"
+      },
+      {
+        "nome": "Josiane Redmer Hinz",
+        "siape": "1888220"
+      },
+      {
+        "nome": "Lisandro Lucas de Lima Moura",
+        "siape": "1688510"
+      },
+      {
+        "nome": "Mariane Pereira Rocha",
+        "siape": "1062381"
+      },
+      {
+        "nome": "Rafael Hansen Madail",
+        "siape": "1044616"
       }
     ],
     "dataInicio": "2021-08-13",
@@ -37936,7 +39816,50 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as e discentes relacionados/a s para, sob a presidência da primeira, constituírem Grupo de Trabalho responsável por discutir e construir a minuta do regulamento e processo de constituição do DES",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Raquel Paiva Godinho",
+        "siape": "1671654"
+      },
+      {
+        "nome": "Cecilia Oliveira Boanova",
+        "siape": "2346351"
+      },
+      {
+        "nome": "Daniel Ricardo Arsand",
+        "siape": "1760730"
+      },
+      {
+        "nome": "Gustavo Alcantara Brod",
+        "siape": "2805023"
+      },
+      {
+        "nome": "Paula Martins Almeida Casalinho",
+        "siape": "3580528"
+      },
+      {
+        "nome": "Vinicius Martins",
+        "siape": "2619343"
+      },
+      {
+        "nome": "Anabelle Motta Rosa"
+      },
+      {
+        "nome": "Bruno Cruz Candido"
+      },
+      {
+        "nome": "Hannah Lerm Lörsch"
+      },
+      {
+        "nome": "Izadora Coelho de Quadros"
+      },
+      {
+        "nome": "Júlia Farias Neves"
+      },
+      {
+        "nome": "Gabrielle Adamoli Lima"
+      }
+    ],
     "dataInicio": "2021-08-23",
     "dataFim": null
   },
@@ -38196,7 +40119,91 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação do primeiro, constituir o Colegiado do Curso Superior em Engenharia Mecânica, do câmpus Passo Fun do: Nome completo Segmento SIAPE/Matrícula nº Fabio Telles Do",
     "servidores": [
       {
-        "nome": "Curso Superior"
+        "nome": "Fabio Telles",
+        "siape": "1074791"
+      },
+      {
+        "nome": "Albino Moura Guterres",
+        "siape": "2692975"
+      },
+      {
+        "nome": "Alexandre Pitol Boeira",
+        "siape": "1574808"
+      },
+      {
+        "nome": "Alexsander Furtado Carneiro",
+        "siape": "1857182"
+      },
+      {
+        "nome": "Cassiano Pinzon",
+        "siape": "1657259"
+      },
+      {
+        "nome": "Claudio André Lopes de Oliveira",
+        "siape": "1574820"
+      },
+      {
+        "nome": "Daniel Almeida Hecktheuer",
+        "siape": "2544335"
+      },
+      {
+        "nome": "Denilson José Seidel",
+        "siape": "1528997"
+      },
+      {
+        "nome": "Elton Neves da Silva",
+        "siape": "1556415"
+      },
+      {
+        "nome": "Juliano Poleze",
+        "siape": "2803070"
+      },
+      {
+        "nome": "Laura Bortoncello"
+      },
+      {
+        "nome": "Lisiane Araújo Pinheiro",
+        "siape": "1446152"
+      },
+      {
+        "nome": "Lucas Vanini",
+        "siape": "2378860"
+      },
+      {
+        "nome": "Luis Fernando Melegari",
+        "siape": "2738855"
+      },
+      {
+        "nome": "Marcelo Lacortt",
+        "siape": "3055442"
+      },
+      {
+        "nome": "Maurício Rodrigues Policena",
+        "siape": "2575129"
+      },
+      {
+        "nome": "Michele Roos Marchesan",
+        "siape": "2144212"
+      },
+      {
+        "nome": "Paulo César da Silva",
+        "siape": "3209407"
+      },
+      {
+        "nome": "Pablo Caigaro Navarro",
+        "siape": "2268696"
+      },
+      {
+        "nome": "Raul Eduardo Fernandez Sales",
+        "siape": "2992399"
+      },
+      {
+        "nome": "Samanta Santos da Vara Vanini",
+        "siape": "1625631"
+      },
+      {
+        "nome": "Samara Vendramin Pieta",
+        "siape": "1017844"
       }
     ],
     "dataInicio": "2021-08-23",
@@ -38326,7 +40333,7 @@
         "siape": "1568964"
       },
       {
-        "nome": "Lucas Salati Cardoso Discente"
+        "nome": "Lucas Salati Cardoso"
       },
       {
         "nome": "Mariana da Cunha Pfingstag",
@@ -38369,6 +40376,9 @@
       },
       {
         "nome": "do IF Sul"
+      },
+      {
+        "nome": "Rosélia Souza de Oliveira"
       }
     ],
     "dataInicio": "2021-08-24",
@@ -38824,7 +40834,7 @@
         "siape": "1787531"
       },
       {
-        "nome": "Alice Machado Louro Discente"
+        "nome": "Alice Machado Louro"
       }
     ],
     "dataInicio": "2021-08-26",
@@ -38902,13 +40912,13 @@
         "nome": "Vivian Bonow Boeira Técnica Administrativa"
       },
       {
-        "nome": "Fagner D'ambroso Fernandes Discente"
+        "nome": "Fagner D'ambroso Fernandes"
       },
       {
-        "nome": "Lizandro Melonio Discente"
+        "nome": "Lizandro Melonio"
       },
       {
-        "nome": "Eliza Rossi Komninou Discente"
+        "nome": "Eliza Rossi Komninou"
       }
     ],
     "dataInicio": "2021-08-26",
@@ -38928,7 +40938,32 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação da primeira, constituir o Núcleo Docente Estruturante - NDE do Curso Superior de Licencia tura em Educação Profissional e Tecnológica - Formação Pedagógica par",
     "servidores": [
       {
-        "nome": "Formação Pedagógica"
+        "nome": "Angelita Hentges",
+        "siape": "1778060"
+      },
+      {
+        "nome": "Fernanda Kokowicz Pillati",
+        "siape": "1282017"
+      },
+      {
+        "nome": "Maria Laura Brenner de Moraes",
+        "siape": "1777351"
+      },
+      {
+        "nome": "Maria Raquel Caetano",
+        "siape": "2146690"
+      },
+      {
+        "nome": "Marcus Eduardo Maciel Ribeiro",
+        "siape": "2279497"
+      },
+      {
+        "nome": "Raquel Brum Abib",
+        "siape": "1442156"
+      },
+      {
+        "nome": "Janaína Schvambach",
+        "siape": "1640099"
       }
     ],
     "dataInicio": "2021-08-26",
@@ -39029,7 +41064,25 @@
     "ementa": "Designar os servidores abaixo relacionados para, sob a presidência do primeiro, constituírem Comissão Eleitoral (COE) responsável pela escolha d os representantes do Câmpus Bagé no Conselho Superior do IFSul.",
     "servidores": [
       {
-        "nome": "Superior do IFSul."
+        "nome": "Diego de Abreu Porcellis",
+        "siape": "2975660"
+      },
+      {
+        "nome": "Alessandro Bastos Ferreira"
+      },
+      {
+        "nome": "Carolina Mendonça Fernandes de Barros",
+        "siape": "2506191"
+      },
+      {
+        "nome": "Daniela de Mesquita",
+        "siape": "2036965"
+      },
+      {
+        "nome": "Isabel Cristina Vaz Antunes"
+      },
+      {
+        "nome": "Maria Eduarda Resing Plentz"
       }
     ],
     "dataInicio": "2021-08-27",
@@ -39720,7 +41773,27 @@
     "ementa": "Ratificar a designação dos servidores abaixo relacio nados que, sob a responsabilidade/presidência do primeiro e no período de 26/08/2021 a 26/08/2023, c onstituem o Núcleo Docente Estruturante (NDE) do Curso Superior de",
     "servidores": [
       {
-        "nome": "Curso Superior de Engenharia Mecânica, do"
+        "nome": "Marcus Vinicius Farret Coelho",
+        "siape": "2338198"
+      },
+      {
+        "nome": "Durval João de Barba Junior",
+        "siape": "1227147"
+      },
+      {
+        "nome": "João Antônio Pinto de Oliveira",
+        "siape": "1212691"
+      },
+      {
+        "nome": "Pedro Carlos Hernandez Junior",
+        "siape": "1218660"
+      },
+      {
+        "nome": "Roberto Luiz Rodriguez Ferreira",
+        "siape": "2643936"
+      },
+      {
+        "nome": "Tomaz Fantin de Souza"
       }
     ],
     "dataInicio": "2021-08-30",
@@ -39739,7 +41812,24 @@
     "ementa": "Ratificar a designação da equipe abaixo relacion ada que, sob a presidência do primeiro e no período de 26/08/2021 a 31/12/2022, constitui Grupo de Trabal ho (GT) responsável pela revisão do PPC do Curso Superior de Eng",
     "servidores": [
       {
-        "nome": "Superior de Engenharia Mecânica, do"
+        "nome": "Marcus Vinicius Farret Coelho",
+        "siape": "2338198"
+      },
+      {
+        "nome": "Carmen Iara Walter Calcagno",
+        "siape": "1280968"
+      },
+      {
+        "nome": "Patricia Pinto Wolffenbüttel",
+        "siape": "1998549"
+      },
+      {
+        "nome": "Sandro Azevedo Carvalho",
+        "siape": "1348688"
+      },
+      {
+        "nome": "Roger Sauandaj Elias",
+        "siape": "1467264"
       }
     ],
     "dataInicio": "2021-08-30",
@@ -40058,7 +42148,41 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a pre sidência do primeiro, constituírem Comissão organizadora responsável por elaborar projeto de pesquis a e organizar capítulos de obra literária comemorativa para registr",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Vinícius Martins"
+      },
+      {
+        "nome": "Daniel Ricardo Arsand"
+      },
+      {
+        "nome": "Glaucius Décio Duarte"
+      },
+      {
+        "nome": "Carla Rosani Silva Fiori",
+        "siape": "1568549"
+      },
+      {
+        "nome": "Céres Mari da Silva Meireles Aposentada",
+        "siape": "274490"
+      },
+      {
+        "nome": "José Leonel da Luz Antunez",
+        "siape": "419683"
+      },
+      {
+        "nome": "Marcelo Freitas Gil",
+        "siape": "1808563"
+      },
+      {
+        "nome": "Rodrigo Lavalhos Dal Forno",
+        "siape": "3152089"
+      },
+      {
+        "nome": "Valter Lenine Fernandes",
+        "siape": "3056371"
+      }
+    ],
     "dataInicio": "2021-08-31",
     "dataFim": null
   },
@@ -40120,7 +42244,16 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a pre sidência do primeiro, constituírem Comissão Permanente de Pessoal Docente - CPPD Local câmpus Sapiran ga.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Guilherme da Silva Xavier",
+        "siape": "1278282"
+      },
+      {
+        "nome": "Daltro Ben Hur Ramos de Carvalho Filho",
+        "siape": "2508479"
+      }
+    ],
     "dataInicio": "2021-08-31",
     "dataFim": null
   },
@@ -40165,10 +42298,10 @@
         "siape": "1048346"
       },
       {
-        "nome": "Ana Luiza Silveira Leite Discente"
+        "nome": "Ana Luiza Silveira Leite"
       },
       {
-        "nome": "Bruno Ósio Jerônimo Discente"
+        "nome": "Bruno Ósio Jerônimo"
       }
     ],
     "dataInicio": "2021-08-31",
@@ -40446,10 +42579,10 @@
         "siape": "1379426"
       },
       {
-        "nome": "Carol Kimberly Rodrigues Discente"
+        "nome": "Carol Kimberly Rodrigues"
       },
       {
-        "nome": "Maria Eduarda Barcelos Bittencourt Atkinson Discente"
+        "nome": "Maria Eduarda Barcelos Bittencourt Atkinson"
       }
     ],
     "dataInicio": "2021-09-01",
@@ -40609,7 +42742,28 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência do primeiro, constituir Comissão responsável por avaliação de memoriais do Processo Seletivo d a Formação Pedagógica para Graduados Não Licenciados para o Ingr",
     "servidores": [
       {
-        "nome": "Não Licenciados"
+        "nome": "Diogo Souza Madeira",
+        "siape": "1808486"
+      },
+      {
+        "nome": "Janete Otte",
+        "siape": "7274552"
+      },
+      {
+        "nome": "Ana Cristina Rodrigues da Silva",
+        "siape": "3346154"
+      },
+      {
+        "nome": "Daniel Espírito Santo Garcia",
+        "siape": "2099307"
+      },
+      {
+        "nome": "Cristina Dias Costa",
+        "siape": "1798258"
+      },
+      {
+        "nome": "Manoel José Porto Júnior",
+        "siape": "6274736"
       }
     ],
     "dataInicio": "2021-09-02",
@@ -41039,19 +43193,19 @@
         "siape": "2418255"
       },
       {
-        "nome": "Bruna Rafaela Böch Discente"
+        "nome": "Bruna Rafaela Böch"
       },
       {
-        "nome": "Enzo Kotikoski Discente"
+        "nome": "Enzo Kotikoski"
       },
       {
-        "nome": "Gustavo dos Santos Klein Discente"
+        "nome": "Gustavo dos Santos Klein"
       },
       {
-        "nome": "Krishna Cunha Leite Discente"
+        "nome": "Krishna Cunha Leite"
       },
       {
-        "nome": "Marina Corrêa Sparremberge Discente"
+        "nome": "Marina Corrêa Sparremberge"
       }
     ],
     "dataInicio": "2021-09-08",
@@ -41089,7 +43243,8 @@
     "ementa": "Incluir o servidor abaixo relacionado na Portari a de pessoal nº 1634, de 23 de agosto de 2021, para constituir o Colegiado do curso de Especialização em Lingua gens e Tecnologias na Educação, do câmpus Passo Fundo: Nome",
     "servidores": [
       {
-        "nome": "Passo Fundo:"
+        "nome": "Adilso Nunes de Souza",
+        "siape": "1794515"
       }
     ],
     "dataInicio": "2021-09-08",
@@ -42297,7 +44452,40 @@
         "nome": "Estruturante, do"
       },
       {
-        "nome": "e Desenvolvimento de Sistemas, do"
+        "nome": "Hunder Everto Correa Junior",
+        "siape": "2098134"
+      },
+      {
+        "nome": "Felipe Leivas Teixeira",
+        "siape": "1387813"
+      },
+      {
+        "nome": "Fernando Abrahão Afonso",
+        "siape": "1940976"
+      },
+      {
+        "nome": "Fábio de Oliveira Dias",
+        "siape": "2219519"
+      },
+      {
+        "nome": "Leticia Grubert dos Santos",
+        "siape": "1994862"
+      },
+      {
+        "nome": "Luis Fernando da Silva",
+        "siape": "1190476"
+      },
+      {
+        "nome": "Michele Lermen",
+        "siape": "1048346"
+      },
+      {
+        "nome": "Patricia Cristine Hoff",
+        "siape": "1420950"
+      },
+      {
+        "nome": "Roger da Silva Machado",
+        "siape": "3159076"
       }
     ],
     "dataInicio": "2021-09-10",
@@ -42809,34 +44997,34 @@
         "siape": "1898992"
       },
       {
-        "nome": "Kamila Xavier Mar Discente"
+        "nome": "Kamila Xavier Mar"
       },
       {
-        "nome": "Tiago Neri Vargas Dornelles Discente"
+        "nome": "Tiago Neri Vargas Dornelles"
       },
       {
-        "nome": "Bianca Rafaela Ferreira Oliveira Discente"
+        "nome": "Bianca Rafaela Ferreira Oliveira"
       },
       {
-        "nome": "Cecilia Gonçalves da Cunha Discente"
+        "nome": "Cecilia Gonçalves da Cunha"
       },
       {
-        "nome": "Stefani dos Santos Borges Discente"
+        "nome": "Stefani dos Santos Borges"
       },
       {
-        "nome": "Gabriel de Souza Machado Discente"
+        "nome": "Gabriel de Souza Machado"
       },
       {
-        "nome": "Santiago Ponche Barbosa Discente"
+        "nome": "Santiago Ponche Barbosa"
       },
       {
-        "nome": "Pricila Alves Velloso Discente"
+        "nome": "Pricila Alves Velloso"
       },
       {
-        "nome": "Caroline Ariana Leguizamon Discente"
+        "nome": "Caroline Ariana Leguizamon"
       },
       {
-        "nome": "Vitória da Rosa do Nascimento Discente"
+        "nome": "Vitória da Rosa do Nascimento"
       },
       {
         "nome": "Jefferson Rocha da Costa Comunidade Externa"
@@ -42916,10 +45104,10 @@
         "siape": "2841447"
       },
       {
-        "nome": "Nalanda dos Santos Medeiros Discente"
+        "nome": "Nalanda dos Santos Medeiros"
       },
       {
-        "nome": "Rafaela Rondan Almeida Discente"
+        "nome": "Rafaela Rondan Almeida"
       }
     ],
     "dataInicio": "2021-09-15",
@@ -43076,7 +45264,28 @@
     "ementa": "Ratificar a designação da equipe abaixo relacion ada que, sob a presidência da primeira e no período de 01 de setembro a 23 de dezembro de 2021, constitui C omissão Organizadora responsável pelo III Seminário Saberes em",
     "servidores": [
       {
-        "nome": "Seminário Saberes"
+        "nome": "Ana Maria Geller",
+        "siape": "2297536"
+      },
+      {
+        "nome": "Cláudia Redecker Schwabe",
+        "siape": "1894268"
+      },
+      {
+        "nome": "Claudia Wollmann Carvalho",
+        "siape": "1984045"
+      },
+      {
+        "nome": "Malcus Cassiano Kuhn",
+        "siape": "1025855"
+      },
+      {
+        "nome": "Melissa Heberle Diedrich",
+        "siape": "1899948"
+      },
+      {
+        "nome": "Naiara Dal Molin",
+        "siape": "1784251"
       }
     ],
     "dataInicio": "2021-09-15",
@@ -43257,28 +45466,28 @@
         "siape": "1289400"
       },
       {
-        "nome": "Yuri Silveira Pereira Discente"
+        "nome": "Yuri Silveira Pereira"
       },
       {
-        "nome": "Daniel Dargélio Ferrão Luft Discente"
+        "nome": "Daniel Dargélio Ferrão Luft"
       },
       {
-        "nome": "Deborah Victoria Núñez Núñez Discente"
+        "nome": "Deborah Victoria Núñez Núñez"
       },
       {
-        "nome": "Melissa de Moraes Machado Discente"
+        "nome": "Melissa de Moraes Machado"
       },
       {
-        "nome": "Caroline Ariana Leguizamon Pirez Discente"
+        "nome": "Caroline Ariana Leguizamon Pirez"
       },
       {
-        "nome": "Santiago Ponche Discente"
+        "nome": "Santiago Ponche"
       },
       {
-        "nome": "Vitória da Rosa Nascimento Discente"
+        "nome": "Vitória da Rosa Nascimento"
       },
       {
-        "nome": "Stefani dos Santos Borges Nunes Discente"
+        "nome": "Stefani dos Santos Borges Nunes"
       },
       {
         "nome": "Andrea Morelli Schonhofen Comunidade Externa CPF:"
@@ -43307,7 +45516,63 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação do primeiro, constituir o Colegiado do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas, do câmpus Venâncio Aires: Nome completo Segmento",
     "servidores": [
       {
-        "nome": "Curso Superior de Tecnologia"
+        "nome": "Daniel Assmann",
+        "siape": "1993699"
+      },
+      {
+        "nome": "Joseline Tatiana Both",
+        "siape": "1812828"
+      },
+      {
+        "nome": "Mariana Jantsch de Souza",
+        "siape": "1059164"
+      },
+      {
+        "nome": "Miguel Angelo Baggio",
+        "siape": "1891898"
+      },
+      {
+        "nome": "Josiane Paula da Luz",
+        "siape": "1836291"
+      },
+      {
+        "nome": "Josiane Stein",
+        "siape": "2308952"
+      },
+      {
+        "nome": "Geovane Griesang",
+        "siape": "2209582"
+      },
+      {
+        "nome": "Ana Elisa de Souza",
+        "siape": "2689185"
+      },
+      {
+        "nome": "Fernanda Schwinden Dallamico Kirst",
+        "siape": "1825765"
+      },
+      {
+        "nome": "Fabio Lorenzi da Silva",
+        "siape": "1796613"
+      },
+      {
+        "nome": "Daniel Pezzi da Cunha",
+        "siape": "2148112"
+      },
+      {
+        "nome": "Fernando Luis Herrmann",
+        "siape": "1315704"
+      },
+      {
+        "nome": "Geison Quevedo",
+        "siape": "2805427"
+      },
+      {
+        "nome": "Marlon Mendes Minussi",
+        "siape": "1875272"
+      },
+      {
+        "nome": "Eloisa Maria Wiebusch"
       }
     ],
     "dataInicio": "2021-09-16",
@@ -43621,7 +45886,17 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a pre sidência do primeiro, coordenação do primeiro e da segunda, constituírem o Grupo de Trabalho no Projet o de Ensino PsicoEducação no câmpus Passo Fundo.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Willian Guimarães"
+      },
+      {
+        "nome": "Ionara Soveral Scalabrin"
+      },
+      {
+        "nome": "Michele Roos Marchesan"
+      }
+    ],
     "dataInicio": "2021-09-22",
     "dataFim": null
   },
@@ -43683,6 +45958,34 @@
     "servidores": [
       {
         "nome": "Estruturante do"
+      },
+      {
+        "nome": "Deisi Cerbaro",
+        "siape": "1963518"
+      },
+      {
+        "nome": "Cristiane Brauer Zaicovski",
+        "siape": "1634976"
+      },
+      {
+        "nome": "Elisane Schwartz",
+        "siape": "1812392"
+      },
+      {
+        "nome": "Luciana Rochedo Spencer dos Santos",
+        "siape": "1896625"
+      },
+      {
+        "nome": "Pablo Machado Mendes",
+        "siape": "1515676"
+      },
+      {
+        "nome": "Roberta da Silva e Silva",
+        "siape": "2805537"
+      },
+      {
+        "nome": "Vanessa Ribeiro Pestana Bauer",
+        "siape": "1580328"
       }
     ],
     "dataInicio": "2021-09-22",
@@ -43863,7 +46166,16 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência do primeiro, constituir Comissão para a Coleta Seletiva Solidária responsável por gerenciar os re síduos sólidos do câmpus avançado Novo Hamburgo: Nome complet",
     "servidores": [
       {
-        "nome": "Coleta Seletiva Solidária"
+        "nome": "Daniel Derrossi Meyer",
+        "siape": "2422482"
+      },
+      {
+        "nome": "Elton Luiz Pedroso",
+        "siape": "1816271"
+      },
+      {
+        "nome": "Patricia Tomoe Kobiyama Nakajima",
+        "siape": "2107479"
       }
     ],
     "dataInicio": "2021-09-22",
@@ -44171,22 +46483,22 @@
         "siape": "2356661"
       },
       {
-        "nome": "Vitor Edinei Carvalho Gomes Discente"
+        "nome": "Vitor Edinei Carvalho Gomes"
       },
       {
-        "nome": "Julia Tavella Dapper Discente"
+        "nome": "Julia Tavella Dapper"
       },
       {
-        "nome": "Fernanda Kappaun Buzzetto Discente"
+        "nome": "Fernanda Kappaun Buzzetto"
       },
       {
-        "nome": "Lavínia Ramos Weiss Discente"
+        "nome": "Lavínia Ramos Weiss"
       },
       {
-        "nome": "Roger de Souza Weber Discente"
+        "nome": "Roger de Souza Weber"
       },
       {
-        "nome": "João Victor Benetti Discente"
+        "nome": "João Victor Benetti"
       }
     ],
     "dataInicio": "2021-09-24",
@@ -45410,7 +47722,72 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação do primeiro, constituir o Colegiado do Curso Superior de Licenciatura em Física, do câmpus Pelota s-Visconde da Graça: Nome completo Segmento SIAPE/Matrícula n",
     "servidores": [
       {
-        "nome": "Curso Superior de Licenciatura"
+        "nome": "Luis Ricardo Moretto Tusnski",
+        "siape": "3046157"
+      },
+      {
+        "nome": "Angelita Hentges",
+        "siape": "1778060"
+      },
+      {
+        "nome": "Cristiano da Silva Buss",
+        "siape": "1731293"
+      },
+      {
+        "nome": "Daniel de Souza Cardoso",
+        "siape": "1579883"
+      },
+      {
+        "nome": "Elisane Ortiz de Tunes Pinto",
+        "siape": "2183063"
+      },
+      {
+        "nome": "Gabriela Manzke Costa",
+        "siape": "1871798"
+      },
+      {
+        "nome": "Marcos André Betemps Vaz da Silva",
+        "siape": "1516517"
+      },
+      {
+        "nome": "Maria Isabel Giusti Moreira",
+        "siape": "1581466"
+      },
+      {
+        "nome": "Maria Laura Brenner de Moraes",
+        "siape": "1777351"
+      },
+      {
+        "nome": "Mauro Cristian Garcia Rickes",
+        "siape": "1550406"
+      },
+      {
+        "nome": "Maykon Gonçalves Muller",
+        "siape": "2296179"
+      },
+      {
+        "nome": "Nelson Luiz Reyes Marques",
+        "siape": "2032437"
+      },
+      {
+        "nome": "Rita Helena Moreira Seixas",
+        "siape": "420809"
+      },
+      {
+        "nome": "Vinicius Carvalho Beck",
+        "siape": "1885549"
+      },
+      {
+        "nome": "Fernando Augusto Treptow Brod"
+      },
+      {
+        "nome": "Simone Teixeira Barrios"
+      },
+      {
+        "nome": "Silvana de Fátima Garcia Rodrigues"
+      },
+      {
+        "nome": "Bruno Ferraz Silveira"
       }
     ],
     "dataInicio": "2021-09-29",
@@ -45746,22 +48123,22 @@
         "siape": "1630234"
       },
       {
-        "nome": "Franciesco Disconzi Gonçalves Discente"
+        "nome": "Franciesco Disconzi Gonçalves"
       },
       {
-        "nome": "Gabriely Marques Monteiro Discente"
+        "nome": "Gabriely Marques Monteiro"
       },
       {
-        "nome": "Juliana Lerner de Vargas Discente"
+        "nome": "Juliana Lerner de Vargas"
       },
       {
-        "nome": "Katana do Nascimento Discente"
+        "nome": "Katana do Nascimento"
       },
       {
-        "nome": "Stéfani Aline Dhein Discente"
+        "nome": "Stéfani Aline Dhein"
       },
       {
-        "nome": "Thaíssa de Souza Schneider Discente"
+        "nome": "Thaíssa de Souza Schneider"
       },
       {
         "nome": "Lisiane dos Santos Membro"
@@ -45912,10 +48289,10 @@
         "siape": "3224944"
       },
       {
-        "nome": "Isadora Botelho Marcelino Discente"
+        "nome": "Isadora Botelho Marcelino"
       },
       {
-        "nome": "Kethlyn Bisso do Couto Discente"
+        "nome": "Kethlyn Bisso do Couto"
       },
       {
         "nome": "Ana Cristina Rodrigues da Silva",
@@ -45967,31 +48344,31 @@
         "siape": "1028266"
       },
       {
-        "nome": "Lívia Ávila Cava Discente"
+        "nome": "Lívia Ávila Cava"
       },
       {
-        "nome": "Naiara Gonçalves Heres Discente"
+        "nome": "Naiara Gonçalves Heres"
       },
       {
         "nome": "Sub-comissão das Palestras"
       },
       {
-        "nome": "Dainá Borio Xavier Discente"
+        "nome": "Dainá Borio Xavier"
       },
       {
-        "nome": "Bruno Cruz Candido Discente"
+        "nome": "Bruno Cruz Candido"
       },
       {
-        "nome": "Eric Vellar Gomes Discente"
+        "nome": "Eric Vellar Gomes"
       },
       {
-        "nome": "Marina Trindade Dias Discente"
+        "nome": "Marina Trindade Dias"
       },
       {
-        "nome": "Francisco Vianna Farias Discente"
+        "nome": "Francisco Vianna Farias"
       },
       {
-        "nome": "Thaís Leivas Pinheiro Discente"
+        "nome": "Thaís Leivas Pinheiro"
       },
       {
         "nome": "Sub-comissão das Oficinas"
@@ -46023,7 +48400,7 @@
         "siape": "3231255"
       },
       {
-        "nome": "Evelin Bianca Chollet Grellert Discente"
+        "nome": "Evelin Bianca Chollet Grellert"
       },
       {
         "nome": "Bruna Ferreira Gugliano",
@@ -46048,10 +48425,10 @@
         "siape": "1671654"
       },
       {
-        "nome": "Laura Bueno Alcântara Discente"
+        "nome": "Laura Bueno Alcântara"
       },
       {
-        "nome": "Helen Amorim Soares Discente"
+        "nome": "Helen Amorim Soares"
       },
       {
         "nome": "Sub-comissão Marcas dos Cursos"
@@ -46122,7 +48499,72 @@
     "ementa": "Ra ﬁcar a designação da equipe abaixo relac ionada que, sob a presidência da primeira, cons tui a Comissão de Divulgação do Ves bular 2021/2, do câmpus Passo Fundo, responsável por divulgar o Processo Sele vo 2021/2, a",
     "servidores": [
       {
-        "nome": "Divulgação do Ves"
+        "nome": "Natália Dias",
+        "siape": "1599919"
+      },
+      {
+        "nome": "Alana Arena Schneider",
+        "siape": "1818703"
+      },
+      {
+        "nome": "Alexsander Furtado Carneiro",
+        "siape": "1857182"
+      },
+      {
+        "nome": "Bruna da Silva Pereira",
+        "siape": "1212093"
+      },
+      {
+        "nome": "Élder Francisco Fontana Bernardi",
+        "siape": "1790459"
+      },
+      {
+        "nome": "Rafael Nogueira Barros",
+        "siape": "1163434"
+      },
+      {
+        "nome": "Roseli Nunes Rico Gonçalves",
+        "siape": "1817685"
+      },
+      {
+        "nome": "Silvana Lurdes Maschio",
+        "siape": "1865588"
+      },
+      {
+        "nome": "Gislaine Caimi Guedes",
+        "siape": "2137018"
+      },
+      {
+        "nome": "João Mário Lopes Brezolin",
+        "siape": "1643730"
+      },
+      {
+        "nome": "Alex Sebben da Cunha",
+        "siape": "2145592"
+      },
+      {
+        "nome": "Gustavo da Costa Borowski",
+        "siape": "1712890"
+      },
+      {
+        "nome": "Ionara Soveral Scalabrin",
+        "siape": "1812085"
+      },
+      {
+        "nome": "Tamara Francisca Baggio",
+        "siape": "2243740"
+      },
+      {
+        "nome": "José Antônio Oliveira de Figueiredo",
+        "siape": "2702340"
+      },
+      {
+        "nome": "Roberto Wiest",
+        "siape": "1892548"
+      },
+      {
+        "nome": "Fábio Telles",
+        "siape": "1074791"
       }
     ],
     "dataInicio": "2021-09-30",
@@ -46710,6 +49152,18 @@
     "servidores": [
       {
         "nome": "Alexandra Domingues"
+      },
+      {
+        "nome": "Jander Luis Fernandes Monks",
+        "siape": "2191445"
+      },
+      {
+        "nome": "Liliane da Costa Ores",
+        "siape": "1652900"
+      },
+      {
+        "nome": "Diego da Silva Isnardi",
+        "siape": "1610411"
       }
     ],
     "dataInicio": "2021-10-04",
@@ -47177,7 +49631,28 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a coor denação do primeiro, constituírem o Núcleo de Economia Solidária (NESOL), do câmpus avançado Novo Hambu rgo.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Gilson Cesar Pianta Correa",
+        "siape": "1243215"
+      },
+      {
+        "nome": "Marcus Eduardo Maciel Ribeiro",
+        "siape": "2279497"
+      },
+      {
+        "nome": "Erivelto Bauer de Matos",
+        "siape": "2875616"
+      },
+      {
+        "nome": "Rocelito Lopes de Andrade",
+        "siape": "2257171"
+      },
+      {
+        "nome": "Juneor dos Santos Brehm",
+        "siape": "2381863"
+      }
+    ],
     "dataInicio": "2021-10-06",
     "dataFim": null
   },
@@ -47933,10 +50408,49 @@
     "ementa": "Designar a equipe abaixo relacionada para, s ob a coordenação da primeira, constituir o Colegiado do Curso Superior de Tecnologia em Viticultura e Enologia, do câmpus Pelotas-Visconde da Graça: Nome completo Segmento SIA",
     "servidores": [
       {
-        "nome": "Colegiado do Curso Superior de Tecnologia"
+        "nome": "Deisi Cerbaro",
+        "siape": "1963518"
       },
       {
-        "nome": "da Graça:"
+        "nome": "Andréia Orsato",
+        "siape": "1731362"
+      },
+      {
+        "nome": "Cristiane Brauer Zaicovski",
+        "siape": "1634976"
+      },
+      {
+        "nome": "Elisane Schwartz",
+        "siape": "1812392"
+      },
+      {
+        "nome": "Luciana Rochedo Spencer dos Santos",
+        "siape": "1896625"
+      },
+      {
+        "nome": "Pablo Machado Mendes",
+        "siape": "1515676"
+      },
+      {
+        "nome": "Roberta da Silva e Silva",
+        "siape": "2805537"
+      },
+      {
+        "nome": "Vanessa Ribeiro Pestana Bauer",
+        "siape": "1580328"
+      },
+      {
+        "nome": "Valmor Guadagnin",
+        "siape": "1873567"
+      },
+      {
+        "nome": "Carolina Ortiz Machado"
+      },
+      {
+        "nome": "Juliana Fiss Mackedanz"
+      },
+      {
+        "nome": "Lucimar Fátima Machado dos Santos"
       }
     ],
     "dataInicio": "2021-10-08",
@@ -48087,7 +50601,28 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a coor denação do primeiro, constituírem o Núcleo Docente Estruturante - NDE do curso de Formação Pedagógi ca Para Graduados Não Licenciados do câmpus Pelotas.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Diogo Souza Madeira",
+        "siape": "1808486"
+      },
+      {
+        "nome": "Leomar da Costa Eslabão",
+        "siape": "274783"
+      },
+      {
+        "nome": "Jair Jonko Araújo",
+        "siape": "274599"
+      },
+      {
+        "nome": "Adriana Duarte Leon",
+        "siape": "2225456"
+      },
+      {
+        "nome": "Janete Otte",
+        "siape": "7274552"
+      }
+    ],
     "dataInicio": "2021-10-13",
     "dataFim": null
   },
@@ -49006,10 +51541,10 @@
         "siape": "1936939"
       },
       {
-        "nome": "Alice Canello Padilha Discente"
+        "nome": "Alice Canello Padilha"
       },
       {
-        "nome": "Daniel Machado Marques Schilling Discente"
+        "nome": "Daniel Machado Marques Schilling"
       },
       {
         "nome": "Diane Sbardelotto",
@@ -49024,23 +51559,23 @@
         "siape": "1174555"
       },
       {
-        "nome": "Henri Ribeiro Büsse Discente"
+        "nome": "Henri Ribeiro Büsse"
       },
       {
-        "nome": "João Guilherme Severo Schröer Discente"
+        "nome": "João Guilherme Severo Schröer"
       },
       {
         "nome": "Josiane de Souza",
         "siape": "1202835"
       },
       {
-        "nome": "Larissa Ticiane Ribeiro Maidana Discente"
+        "nome": "Larissa Ticiane Ribeiro Maidana"
       },
       {
-        "nome": "Letícia Picoli Rodrigues Discente"
+        "nome": "Letícia Picoli Rodrigues"
       },
       {
-        "nome": "Luiza Stumpf do Carmo Discente"
+        "nome": "Luiza Stumpf do Carmo"
       },
       {
         "nome": "Mack Leo Pedroso",
@@ -49051,14 +51586,14 @@
         "siape": "1050534"
       },
       {
-        "nome": "Raíssa Oliveira Brum Discente"
+        "nome": "Raíssa Oliveira Brum"
       },
       {
         "nome": "Roberto Luiz Rodriguez Ferreira",
         "siape": "2643936"
       },
       {
-        "nome": "Tuanne de Souza Gularte Discente"
+        "nome": "Tuanne de Souza Gularte"
       }
     ],
     "dataInicio": "2021-10-18",
@@ -49982,16 +52517,16 @@
         "siape": "2073094"
       },
       {
-        "nome": "Bianca Figueiredo de Sousa Discente"
+        "nome": "Bianca Figueiredo de Sousa"
       },
       {
-        "nome": "Melissa Rosadilla Paixão Coelho Discente"
+        "nome": "Melissa Rosadilla Paixão Coelho"
       },
       {
-        "nome": "Muriel Almeida Froener Discente"
+        "nome": "Muriel Almeida Froener"
       },
       {
-        "nome": "Sarah Ribeiro Alvarez Discente"
+        "nome": "Sarah Ribeiro Alvarez"
       }
     ],
     "dataInicio": "2021-10-20",
@@ -50011,7 +52546,32 @@
     "ementa": "Ratificar, a contar de 09/08/2021, a designação dos/das servidores/as abaixo relacionados/as para, sob a presidência do primeiro, constituírem a Comissão res ponsável pela Elaboração de Proposta da Política de Internaci",
     "servidores": [
       {
-        "nome": "de Internacionalização do IFSul:"
+        "nome": "César Augusto Azevedo Nogueira",
+        "siape": "2109868"
+      },
+      {
+        "nome": "Daniel Ricardo Arsand",
+        "siape": "1760730"
+      },
+      {
+        "nome": "Edgar Antônio Costa Mattarredona",
+        "siape": "274636"
+      },
+      {
+        "nome": "Gisela Loureiro Duarte",
+        "siape": "274680"
+      },
+      {
+        "nome": "Leonardo Betemps Kontz",
+        "siape": "2298096"
+      },
+      {
+        "nome": "Nilo André Pozza Rodrigues",
+        "siape": "1520951"
+      },
+      {
+        "nome": "Vinícius Martins",
+        "siape": "2619343"
       }
     ],
     "dataInicio": "2021-10-20",
@@ -50243,7 +52803,24 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência da primeira, constituir Comissão responsável por realizar alterações do Projeto Pedagógico do Curso de Especialização em Educação: Espaços e Possibilidades em",
     "servidores": [
       {
-        "nome": "Espaços e Possibilidades"
+        "nome": "Cinara Ourique do Nascimento",
+        "siape": "1467233"
+      },
+      {
+        "nome": "Marla Cristina da Silva Sopeña",
+        "siape": "2218615"
+      },
+      {
+        "nome": "Natali Farias Cardoso",
+        "siape": "2539975"
+      },
+      {
+        "nome": "Ricardo Lemos Sainz",
+        "siape": "2196534"
+      },
+      {
+        "nome": "Vinícius Carvalho Beck",
+        "siape": "1885549"
       }
     ],
     "dataInicio": "2021-10-21",
@@ -50301,7 +52878,32 @@
     "ementa": "Ratificar a designação da equipe abaixo relacion ada que, sob a presidência do primeiro e, a contar de 02/08/2021, constitui comissão organizadora responsável pela 14ª Jornada de Iniciação Científica e Tecnológica do IF",
     "servidores": [
       {
-        "nome": "Tecnológica do IFSul:"
+        "nome": "Vinicius Martins",
+        "siape": "2619343"
+      },
+      {
+        "nome": "Daniel Ricardo Arsand",
+        "siape": "1760730"
+      },
+      {
+        "nome": "Lucas Lopes Grischke",
+        "siape": "1849329"
+      },
+      {
+        "nome": "Mônica Strelow Vahl",
+        "siape": "2111986"
+      },
+      {
+        "nome": "Carla Rosani Silva Fiori",
+        "siape": "1568549"
+      },
+      {
+        "nome": "Gabrielli Ortiz Torres",
+        "siape": "1144804"
+      },
+      {
+        "nome": "Vinicius Tavares Guimarães",
+        "siape": "1630563"
       }
     ],
     "dataInicio": "2021-10-21",
@@ -50321,7 +52923,52 @@
     "ementa": "Ratificar a designação das/os servidoras/es abaixo re lacionadas/os que, sob a presidência do primeiro e, a contar de 30 de abril de 2020, constituem Grupo de Trabalho res ponsável pela montagem e definição do Regulament",
     "servidores": [
       {
-        "nome": "Regulamento e do Projeto Pedagógico do Curso de Especia"
+        "nome": "Rafael Batista Zortea",
+        "siape": "2350917"
+      },
+      {
+        "nome": "Carlos Alberto Schuch Bork",
+        "siape": "6274620"
+      },
+      {
+        "nome": "Carmen Iara Walter Calcagno",
+        "siape": "1280968"
+      },
+      {
+        "nome": "César Pedrini Neto",
+        "siape": "2302082"
+      },
+      {
+        "nome": "Dalila Cisco Collatto",
+        "siape": "1631329"
+      },
+      {
+        "nome": "Durval João de Barba Junior",
+        "siape": "1227147"
+      },
+      {
+        "nome": "Enio César Machado Fagundes",
+        "siape": "2299477"
+      },
+      {
+        "nome": "Janaína Pacheco Jaeger",
+        "siape": "2814987"
+      },
+      {
+        "nome": "Luis Ricardo Pedra Pierobon",
+        "siape": "2221065"
+      },
+      {
+        "nome": "Pedro Carlos Hernandez Junior",
+        "siape": "1218660"
+      },
+      {
+        "nome": "Tomaz Fantin de Souza",
+        "siape": "2969324"
+      },
+      {
+        "nome": "Vinícius Martins",
+        "siape": "2619343"
       }
     ],
     "dataInicio": "2021-10-21",
@@ -50611,7 +53258,7 @@
         "siape": "1202835"
       },
       {
-        "nome": "Daniel Machado Marques Schilling Discente"
+        "nome": "Daniel Machado Marques Schilling"
       }
     ],
     "dataInicio": "2021-10-25",
@@ -50631,7 +53278,26 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência do primeiro, constituir Comissão Eleitoral Única (CEU) para atuação na eleição de Coord enação de Cursos do câmpus Sapucaia do Sul: Nome completo Segmento SIAP",
     "servidores": [
       {
-        "nome": "Eleitoral Única"
+        "nome": "Paulo Ott Tavares",
+        "siape": "1312297"
+      },
+      {
+        "nome": "Bianca Gonçalves Dumk"
+      },
+      {
+        "nome": "Daniela Cardoso Salau Barboza",
+        "siape": "1577386"
+      },
+      {
+        "nome": "Josiane de Souza",
+        "siape": "1202835"
+      },
+      {
+        "nome": "Mônica Nunes Neves",
+        "siape": "1112812"
+      },
+      {
+        "nome": "Raíssa Oliveira Brum"
       }
     ],
     "dataInicio": "2021-10-25",
@@ -51901,7 +54567,20 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência da primeira, constituírem Comissão de Heteroidentificação responsável por avaliar e e mitir parecer quanto ao enquadramento, ou não, do candidato auto",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Sandra Beatriz Morais da Silveira",
+        "siape": "1373279"
+      },
+      {
+        "nome": "Ilce Stockmans",
+        "siape": "2397349"
+      },
+      {
+        "nome": "Italo Franco Costa",
+        "siape": "3250876"
+      }
+    ],
     "dataInicio": "2021-10-29",
     "dataFim": null
   },
@@ -52176,61 +54855,43 @@
         "nome": "Willian Guimarães"
       },
       {
-        "nome": "Adan Henrique Vazzoler dos Passos Discente"
+        "nome": "Adan Henrique Vazzoler dos Passos"
       },
       {
-        "nome": "Aron Yago Domeneghini Franceschi Discente"
+        "nome": "Aron Yago Domeneghini Franceschi"
       },
       {
-        "nome": "Gabriela Betina dos Santos Discente"
+        "nome": "Gabriela Betina dos Santos"
       },
       {
-        "nome": "Isaque dos Santos Oliveira Discente"
+        "nome": "Isaque dos Santos Oliveira"
       },
       {
-        "nome": "Israel Estevão Jost Discente"
+        "nome": "Israel Estevão Jost"
       },
       {
-        "nome": "Jean Felipe dos Santos Discente"
+        "nome": "Jean Felipe dos Santos"
       },
       {
-        "nome": "Luana Vanin Cardoso Discente"
+        "nome": "Luana Vanin Cardoso"
       },
       {
-        "nome": "Marcel Assunção da Silva Discente"
+        "nome": "Marcel Assunção da Silva"
       },
       {
-        "nome": "Nurieli Alves Rodrigues Discente"
+        "nome": "Nurieli Alves Rodrigues"
       },
       {
-        "nome": "Pedro Henrique Padilha Discente"
+        "nome": "Pedro Henrique Padilha"
       },
       {
-        "nome": "Pedro Henrique Sotilli da Silveira Discente"
+        "nome": "Pedro Henrique Sotilli da Silveira"
       },
       {
-        "nome": "Vinícius Tibolla Castellani Discente"
+        "nome": "Vinícius Tibolla Castellani"
       },
       {
         "nome": "Anna Guse"
-      },
-      {
-        "nome": "Schleder Discente"
-      },
-      {
-        "nome": "Emanuéli Conceição da Rosa Discente"
-      },
-      {
-        "nome": "Gabriela Cristina Lins Superti Discente"
-      },
-      {
-        "nome": "Kétlin Aparecida Pedroso Faustino Discente"
-      },
-      {
-        "nome": "Maria Eduarda da Silva Busanello Discente"
-      },
-      {
-        "nome": "Stephani Censi Ramos Discente"
       }
     ],
     "dataInicio": "2021-11-03",
@@ -52702,10 +55363,10 @@
         "siape": "2397349"
       },
       {
-        "nome": "Maria Fernanda Linck Vieira Discente"
+        "nome": "Maria Fernanda Linck Vieira"
       },
       {
-        "nome": "Luiza Victória de Vargas Carvalho Discente"
+        "nome": "Luiza Victória de Vargas Carvalho"
       }
     ],
     "dataInicio": "2021-11-04",
@@ -52743,7 +55404,20 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência da primeira, e no período d e 01/01/2021 a 31/12/2021, constituir o Grupo de Tra balho “Ações Solidárias COVID-19” do câmpus Sapucaia do Sul.",
     "servidores": [
       {
-        "nome": "Sapucaia do Sul."
+        "nome": "Cátia Cilene Mello Alano",
+        "siape": "2135263"
+      },
+      {
+        "nome": "Henrykheta Maria Rodrigues Fernandes Porto",
+        "siape": "1759903"
+      },
+      {
+        "nome": "Marlise Sozio Vitcel",
+        "siape": "1770465"
+      },
+      {
+        "nome": "Marcelio Adriano Diogo",
+        "siape": "2406173"
       }
     ],
     "dataInicio": "2021-11-04",
@@ -53712,10 +56386,10 @@
         "siape": "1770465"
       },
       {
-        "nome": "Diego Carneiro dos Santos Discente"
+        "nome": "Diego Carneiro dos Santos"
       },
       {
-        "nome": "Marcela Magalhães Antonio Paludo Discente"
+        "nome": "Marcela Magalhães Antonio Paludo"
       }
     ],
     "dataInicio": "2021-11-05",
@@ -53772,7 +56446,20 @@
       "designacao"
     ],
     "ementa": "Ratificar a designação dos(as) servidores(as) relacio nados(as) para, sob a presidência da primeira, constituírem Comissão de Heteroidentificação responsável por avaliar e emitir parecer quanto ao enquadramento, ou não,",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Sandra Beatriz Morais da Silveira",
+        "siape": "1373279"
+      },
+      {
+        "nome": "Ilce Stockmans",
+        "siape": "2397349"
+      },
+      {
+        "nome": "Italo Franco Costa",
+        "siape": "3250876"
+      }
+    ],
     "dataInicio": "2021-11-05",
     "dataFim": null
   },
@@ -54093,7 +56780,46 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a responsabilidade da primeira, compor o Núcleo de Gestão Ambiental Integrada/NUGAI, do câmpus Santana do Livramento.",
     "servidores": [
       {
-        "nome": "Gestão Ambiental Integrada/NUGAI, do"
+        "nome": "Milene Priebe e Silva",
+        "siape": "3221661"
+      },
+      {
+        "nome": "Ana Caroline Ferreira Rodrigues Acosta",
+        "siape": "3212985"
+      },
+      {
+        "nome": "Alvaro Tavares Duarte",
+        "siape": "1335099"
+      },
+      {
+        "nome": "Amanda Escobar Ximendes"
+      },
+      {
+        "nome": "Augusto Bisio de Souza"
+      },
+      {
+        "nome": "Carlos Felipe Machado Duarte"
+      },
+      {
+        "nome": "João Vitor de Cerqueira Moraes"
+      },
+      {
+        "nome": "Melissa de Moraes Machado"
+      },
+      {
+        "nome": "Melissa Rosadilla Paixão Coelho"
+      },
+      {
+        "nome": "Muriel Almeida Froener"
+      },
+      {
+        "nome": "Natieli Nascimento Aseff"
+      },
+      {
+        "nome": "Sarah Ribeiro Alvarez"
+      },
+      {
+        "nome": "Sofia Cortes de Moraes"
       }
     ],
     "dataInicio": "2021-11-08",
@@ -54129,7 +56855,18 @@
       "designacao"
     ],
     "ementa": "Designar os servidores e discentes relacionados para, sob a coordenação do primeiro, constituírem o Colegiado do Curso Médio Integrado em Mecatrônica, do câmpus Charqueadas.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "José Luiz Kowalski"
+      },
+      {
+        "nome": "Ana Paula da Costa Krumel",
+        "siape": "1889293"
+      },
+      {
+        "nome": "Carlos Arthur Carvalho Sarmanho"
+      }
+    ],
     "dataInicio": "2021-11-08",
     "dataFim": null
   },
@@ -54387,10 +57124,10 @@
         "siape": "1542783"
       },
       {
-        "nome": "Lucas Henrique Raenke dos Santos Discente"
+        "nome": "Lucas Henrique Raenke dos Santos"
       },
       {
-        "nome": "Lucas Alfonso Meyer Discente"
+        "nome": "Lucas Alfonso Meyer"
       }
     ],
     "dataInicio": "2021-11-09",
@@ -54409,7 +57146,76 @@
     "ementa": "Designar a equipe abaixo relacionada para exerc er no Concurso Público, Edital 049/2021, a Coordenação de Logística, Preparação e Execução, Editoração e Reprodução, junto ao Departamento de Seleção: Nome Segmento Siape",
     "servidores": [
       {
-        "nome": "Coordenação de Logística, Preparação e Execução, Editoração e Reprodução,"
+        "nome": "Adilson Braga Borges",
+        "siape": "1101446"
+      },
+      {
+        "nome": "Ágata Hax Miranda",
+        "siape": "1061475"
+      },
+      {
+        "nome": "Cacildo dos Santos Machado",
+        "siape": "1951528"
+      },
+      {
+        "nome": "Cátia Cilene Mello Alano",
+        "siape": "2135263"
+      },
+      {
+        "nome": "Catia Simone de Cardozo Xavier",
+        "siape": "2841447"
+      },
+      {
+        "nome": "Francine Silva da Rosa",
+        "siape": "2815191"
+      },
+      {
+        "nome": "Gabriel Silveira de Coimbra",
+        "siape": "1851150"
+      },
+      {
+        "nome": "Gisele Reis Vieira da Silva",
+        "siape": "2356656"
+      },
+      {
+        "nome": "Giulia D Avila Vieira",
+        "siape": "2620498"
+      },
+      {
+        "nome": "Julio Korzekwa",
+        "siape": "2079893"
+      },
+      {
+        "nome": "Kellen Lütdke Bierhals",
+        "siape": "3053738"
+      },
+      {
+        "nome": "Maria Alice Cardoso da Silva",
+        "siape": "274514"
+      },
+      {
+        "nome": "Maria Cecília Pereira Isaacsson",
+        "siape": "1067834"
+      },
+      {
+        "nome": "Paulo Martins Soares",
+        "siape": "274692"
+      },
+      {
+        "nome": "Renato Bacci Giusti",
+        "siape": "274233"
+      },
+      {
+        "nome": "Sandro Luiz Moraes de Barros",
+        "siape": "2199876"
+      },
+      {
+        "nome": "Silvana Lurdes Maschio",
+        "siape": "1865588"
+      },
+      {
+        "nome": "Willian Júnior Sperb",
+        "siape": "2390367"
       }
     ],
     "dataInicio": "2021-11-10",
@@ -54428,7 +57234,62 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação do primeiro, constituir o Colegiado do Curso Superior de Licenciatura em Ciências Biológicas, do câmpus Pelotas-Visconde da Graça: Nome Segmento SIAPE/Matrícul",
     "servidores": [
       {
-        "nome": "Curso Superior de Licenciatura"
+        "nome": "Fabricio Luís Lovato",
+        "siape": "1150140"
+      },
+      {
+        "nome": "Angelita Hentges",
+        "siape": "1778060"
+      },
+      {
+        "nome": "Doralice Lobato de Oliveira Fischer",
+        "siape": "1949878"
+      },
+      {
+        "nome": "Fernanda Kokowicz Pilatti",
+        "siape": "1282017"
+      },
+      {
+        "nome": "Gabriela Manzke Costa",
+        "siape": "1871798"
+      },
+      {
+        "nome": "Luis Ricardo Moretto Tusnski",
+        "siape": "3046157"
+      },
+      {
+        "nome": "Marcial Correa Carcamo",
+        "siape": "2934663"
+      },
+      {
+        "nome": "Maria Isabel Giusti Moreira",
+        "siape": "1581466"
+      },
+      {
+        "nome": "Maria Laura Brenner de Moraes",
+        "siape": "1777351"
+      },
+      {
+        "nome": "Matheus Zorzoli Krolow",
+        "siape": "1936351"
+      },
+      {
+        "nome": "Rosiane Borba de Aguiar da Rosa",
+        "siape": "2693554"
+      },
+      {
+        "nome": "Tangela Denise Perleberg",
+        "siape": "1893210"
+      },
+      {
+        "nome": "Franco Alexandre Dariz Técnico-administrativo",
+        "siape": "1459516"
+      },
+      {
+        "nome": "Cristiane de Moreira Largue"
+      },
+      {
+        "nome": "Jessica Blank Lopes"
       }
     ],
     "dataInicio": "2021-11-10",
@@ -55017,7 +57878,32 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência do primeiro, constituírem Comissão responsável por elaborar o Projeto Pedagógico do PROEJA/FIC de Ensino Fundamental em Operador de sistemas doméstic",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Gabriel Rockenbach de Almeida",
+        "siape": "2888310"
+      },
+      {
+        "nome": "Caroline Neugebauer Wille",
+        "siape": "1814591"
+      },
+      {
+        "nome": "Guilherme Karsten Schirmer",
+        "siape": "1824117"
+      },
+      {
+        "nome": "Joana Boesche Tomazelli",
+        "siape": "3249495"
+      },
+      {
+        "nome": "Luciana Rodrigues Nogueira",
+        "siape": "1866504"
+      },
+      {
+        "nome": "Rogerio Pires Santos",
+        "siape": "1893203"
+      }
+    ],
     "dataInicio": "2021-11-11",
     "dataFim": null
   },
@@ -55090,20 +57976,20 @@
         "siape": "1335099"
       },
       {
-        "nome": "Amanda Escobar Ximendes Discente"
+        "nome": "Amanda Escobar Ximendes"
       },
       {
-        "nome": "Augusto Bisio de Souza Discente"
+        "nome": "Augusto Bisio de Souza"
       },
       {
-        "nome": "Carlos Felipe Machado Duarte Discente"
+        "nome": "Carlos Felipe Machado Duarte"
       },
       {
         "nome": "Circi Nayar Oliveira Lourenço",
         "siape": "1935033"
       },
       {
-        "nome": "João Vitor de Cerqueira Moraes Discente"
+        "nome": "João Vitor de Cerqueira Moraes"
       },
       {
         "nome": "Jorge Vleberton Bessa de Andrade",
@@ -55118,26 +58004,26 @@
         "siape": "2167421"
       },
       {
-        "nome": "Melissa de Moraes Machado Discente"
+        "nome": "Melissa de Moraes Machado"
       },
       {
-        "nome": "Melissa Rosadilla Paixão Coelho Discente"
+        "nome": "Melissa Rosadilla Paixão Coelho"
       },
       {
-        "nome": "Muriel Almeida Froener Discente"
+        "nome": "Muriel Almeida Froener"
       },
       {
-        "nome": "Natieli Nascimento Aseff Discente"
+        "nome": "Natieli Nascimento Aseff"
       },
       {
-        "nome": "Sarah Ribeiro Alvarez Discente"
+        "nome": "Sarah Ribeiro Alvarez"
       },
       {
         "nome": "Silvia Romeu Pitrez",
         "siape": "1308924"
       },
       {
-        "nome": "Sofia Cortes de Moraes Discente"
+        "nome": "Sofia Cortes de Moraes"
       }
     ],
     "dataInicio": "2021-11-12",
@@ -55590,7 +58476,40 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a pre sidência do primeiro, constituírem a Comissão de Implantação de Curso (CIC), responsável pela elaboraç ão do PPC do curso de especialização em Ciência de Dados, no câmp",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "João Mário Lopes Brezolin",
+        "siape": "1643730"
+      },
+      {
+        "nome": "Alexandre Tagliari Lazzaretti",
+        "siape": "1643743"
+      },
+      {
+        "nome": "Anubis Graciela de Moraes Rossetto",
+        "siape": "1752156"
+      },
+      {
+        "nome": "Carlos Alberto Petry",
+        "siape": "1753204"
+      },
+      {
+        "nome": "Jorge Luis Boeira Bavaresco",
+        "siape": "2969348"
+      },
+      {
+        "nome": "Lucas Vanini",
+        "siape": "2378860"
+      },
+      {
+        "nome": "Rafael Marisco Bertei",
+        "siape": "1658474"
+      },
+      {
+        "nome": "Roberto Wiest",
+        "siape": "1892548"
+      }
+    ],
     "dataInicio": "2021-11-16",
     "dataFim": null
   },
@@ -55751,9 +58670,6 @@
     ],
     "ementa": "Incluir os nomes dos/a servidores/a abaixo relaciona dos/a na Portaria de pessoal n.",
     "servidores": [
-      {
-        "nome": "Local), do"
-      },
       {
         "nome": "Alfredo Del Fabro Neto",
         "siape": "1073195"
@@ -56319,7 +59235,28 @@
       "designacao"
     ],
     "ementa": "Ratificar a designação dos servidores relacionados q ue, sob a presidência do primeiro, constituem Comissão responsável por elaborar regulamento p ara criação e funcionamento do Núcleo de Educação para o Patrimônio Histó",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Cláudia Anahi Aguilera Larrosa",
+        "siape": "1022644"
+      },
+      {
+        "nome": "Ana Paula Sturbelle Schiller",
+        "siape": "1379602"
+      },
+      {
+        "nome": "Anita Silva de Souza",
+        "siape": "3060476"
+      },
+      {
+        "nome": "Danilo dos Santos Telechi",
+        "siape": "3148269"
+      },
+      {
+        "nome": "Franciele Fraga Pereira",
+        "siape": "3210591"
+      }
+    ],
     "dataInicio": "2021-11-22",
     "dataFim": null
   },
@@ -56767,7 +59704,84 @@
       "designacao"
     ],
     "ementa": "Ratificar a designação, a contar de 01 de jul ho de 2021, dos/as servidores/as relacionados/as para, sob a presidência da primeira, constituírem Grupo de Trabalho (GT) responsável por construir uma Minuta de Polí",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Marcia Miller Gomes de Pinho",
+        "siape": "2943868"
+      },
+      {
+        "nome": "Ana Paula Nogueira e Silva",
+        "siape": "2669420"
+      },
+      {
+        "nome": "Claudia Wollmann Carvalho",
+        "siape": "1984045"
+      },
+      {
+        "nome": "Cristina Zanella Rodrigues",
+        "siape": "1572441"
+      },
+      {
+        "nome": "Cristiano Centeno Specht",
+        "siape": "2075092"
+      },
+      {
+        "nome": "Daniel Ricardo Arsand",
+        "siape": "1760730"
+      },
+      {
+        "nome": "Fabiane Pereira Gentilini",
+        "siape": "1284151"
+      },
+      {
+        "nome": "Guilherme Karsten Schirmer",
+        "siape": "1824117"
+      },
+      {
+        "nome": "Julio Cesar Mesquita Ruzicki",
+        "siape": "2674661"
+      },
+      {
+        "nome": "Klaus Boesch",
+        "siape": "3177531"
+      },
+      {
+        "nome": "Mack Leo Pedroso",
+        "siape": "1191018"
+      },
+      {
+        "nome": "Naiara Dal Molin",
+        "siape": "1784251"
+      },
+      {
+        "nome": "Nelson Luiz Reyes Marques",
+        "siape": "2032437"
+      },
+      {
+        "nome": "Patricia Pinto Wolffenbuttel",
+        "siape": "1998549"
+      },
+      {
+        "nome": "Paulo Ricardo Cechelero Villa",
+        "siape": "1336304"
+      },
+      {
+        "nome": "Renata Porcher Scherer",
+        "siape": "3148281"
+      },
+      {
+        "nome": "Samuel Rodrigues Felix",
+        "siape": "1966183"
+      },
+      {
+        "nome": "Vinicius Martins",
+        "siape": "2619343"
+      },
+      {
+        "nome": "Walkiria Helena Cordenonzi",
+        "siape": "1822245"
+      }
+    ],
     "dataInicio": "2021-11-23",
     "dataFim": null
   },
@@ -58153,9 +61167,6 @@
     "ementa": "Designar a servidora e os servidores abaixo relacion ada/os para constituírem o Centro de Operações de Emergência em Saúde para a Educação (COE-E Local) da Reitoria do IFSul: Nome Segmento SIAPE n.",
     "servidores": [
       {
-        "nome": "Operações de Emergência"
-      },
-      {
         "nome": "Antônio Carlos Barum Brod",
         "siape": "274272"
       },
@@ -58227,7 +61238,28 @@
       "designacao"
     ],
     "ementa": "Designar os servidores relacionados para, sob a coor denação do primeiro, constituírem o Núcleo Docente Estruturante (NDE) do Curso Superior de Licencia tura em Computação, do câmpus Pelotas.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Tauã Milech Cabreira",
+        "siape": "1953477"
+      },
+      {
+        "nome": "Bárbara Hees Garré",
+        "siape": "3566499"
+      },
+      {
+        "nome": "Guilherme Ribeiro Rostas",
+        "siape": "1613964"
+      },
+      {
+        "nome": "Márcia Helena Sauáia Guimarães Rostas",
+        "siape": "2307965"
+      },
+      {
+        "nome": "Roger Luis Albernaz de Araujo",
+        "siape": "1276686"
+      }
+    ],
     "dataInicio": "2021-11-29",
     "dataFim": null
   },
@@ -59884,7 +62916,73 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação do primeiro, constituir o Colegiado do Curso Superior de Licenciatura em Física, do câmpus Pel otas-Visconde da Graça: Nome Segmento SIAPE/Matrícula n.",
     "servidores": [
       {
-        "nome": "do Curso Superior de Licenciatura"
+        "nome": "Luis Ricardo Moretto Tusnski",
+        "siape": "3046157"
+      },
+      {
+        "nome": "Angelita Hentges",
+        "siape": "1778060"
+      },
+      {
+        "nome": "Cristiano da Silva Buss",
+        "siape": "1731293"
+      },
+      {
+        "nome": "Dante Ronaldo Doleski Deon",
+        "siape": "1267090"
+      },
+      {
+        "nome": "Fabrício Luís Lovato",
+        "siape": "1150140"
+      },
+      {
+        "nome": "Gabriela Manzke Costa",
+        "siape": "1871798"
+      },
+      {
+        "nome": "Marcos André Betemps Vaz da Silva",
+        "siape": "1516517"
+      },
+      {
+        "nome": "Maria Isabel Giusti Moreira",
+        "siape": "1581466"
+      },
+      {
+        "nome": "Maria Laura Brenner de Moraes",
+        "siape": "1777351"
+      },
+      {
+        "nome": "Mauro Cristian Garcia Rickes",
+        "siape": "1550406"
+      },
+      {
+        "nome": "Maykon Gonçalves Muller",
+        "siape": "2296179"
+      },
+      {
+        "nome": "Nelson Luiz Reyes Marques",
+        "siape": "2032437"
+      },
+      {
+        "nome": "Neslei Noguez Nogueira",
+        "siape": "2929587"
+      },
+      {
+        "nome": "Patrícia Cabral Rossi",
+        "siape": "2068632"
+      },
+      {
+        "nome": "Rita Helena Moreira Seixas",
+        "siape": "420809"
+      },
+      {
+        "nome": "Silvana de Fátima Garcia Rodrigues"
+      },
+      {
+        "nome": "Fernando Augusto Treptow Brod"
+      },
+      {
+        "nome": "Bruno Ferraz Silveira"
       }
     ],
     "dataInicio": "2021-12-07",
@@ -59903,7 +63001,53 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação do primeiro, constituir o Colegiado do Curso Superior de Licenciatura em Química, do câmpus P elotas-Visconde da Graça: Nome Segmento SIAPE/Matrícula n.",
     "servidores": [
       {
-        "nome": "do Curso Superior de Licenciatura"
+        "nome": "Matheus Zorzoli Krolow",
+        "siape": "1936351"
+      },
+      {
+        "nome": "Alice Bierhals Bausch"
+      },
+      {
+        "nome": "Angelita Hentges",
+        "siape": "1778060"
+      },
+      {
+        "nome": "Fernando Augusto Treptow Brod",
+        "siape": "6990619"
+      },
+      {
+        "nome": "Luís Alberto Echenique Dominguez",
+        "siape": "3045578"
+      },
+      {
+        "nome": "Maria Laura Brenner de Moraes",
+        "siape": "1777351"
+      },
+      {
+        "nome": "Maykon Gonçalves Müller",
+        "siape": "2296179"
+      },
+      {
+        "nome": "Naciele Marini TA",
+        "siape": "1379953"
+      },
+      {
+        "nome": "Rita Helena Moreira Seixas",
+        "siape": "420809"
+      },
+      {
+        "nome": "Rosiane Borba de Aguiar da Rosa",
+        "siape": "2693554"
+      },
+      {
+        "nome": "Viviane Maciel da Silva",
+        "siape": "2820853"
+      },
+      {
+        "nome": "Paulo Renato da Cruz dos Santos"
+      },
+      {
+        "nome": "Josué Borges Conceição"
       }
     ],
     "dataInicio": "2021-12-07",
@@ -60056,7 +63200,16 @@
       "designacao"
     ],
     "ementa": "Ratificar, a contar de 29/09/2020 a designação dos servidores relacionados como representantes do IFSul câmpus Camaquã no Programa Inova RS.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "Fabio Aiub Sperotto",
+        "siape": "1138627"
+      },
+      {
+        "nome": "Joao Junior da Silva Machado",
+        "siape": "1296832"
+      }
+    ],
     "dataInicio": "2021-12-07",
     "dataFim": null
   },
@@ -60072,9 +63225,6 @@
     ],
     "ementa": "Ratificar, a contar de 08/07/2021. a designação do servidor abaixo relacionado como representante do IFSul câmpus Camaquã no Programa Cidade Empreended ora- Eixos Informática e Educação.",
     "servidores": [
-      {
-        "nome": "do IFSul"
-      },
       {
         "nome": "Joao Junior da Silva Machado",
         "siape": "1296832"
@@ -60690,7 +63840,7 @@
         "siape": "2550873"
       },
       {
-        "nome": "Frederico Dill Maciel Discente"
+        "nome": "Frederico Dill Maciel"
       }
     ],
     "dataInicio": "2021-12-08",
@@ -60707,7 +63857,28 @@
       "designacao"
     ],
     "ementa": "Designar os/as servidores/as relacionados/as para, sob a presidência do primeiro, constituírem a Banca de Avaliação de Desempenho responsável pelo estágio p robatório de Eduardo da Rosa Vieira.",
-    "servidores": [],
+    "servidores": [
+      {
+        "nome": "José Luiz Kowalski",
+        "siape": "2997625"
+      },
+      {
+        "nome": "Ana Paula da Costa Krumel",
+        "siape": "1889293"
+      },
+      {
+        "nome": "Danilo Fortes da Silveira Matos",
+        "siape": "3058117"
+      },
+      {
+        "nome": "Iara Cecília da Rosa Ribeiro",
+        "siape": "1778182"
+      },
+      {
+        "nome": "Paulo Ricardo Boesch Júnior",
+        "siape": "2925936"
+      }
+    ],
     "dataInicio": "2021-12-08",
     "dataFim": null
   },
@@ -61024,7 +64195,7 @@
         "siape": "1296832"
       },
       {
-        "nome": "Rodrigo Alexandre de Oliveira Discente"
+        "nome": "Rodrigo Alexandre de Oliveira"
       }
     ],
     "dataInicio": "2021-12-10",
@@ -61045,9 +64216,6 @@
     "servidores": [
       {
         "nome": "Estruturante do Curso Superior de Licenciatura"
-      },
-      {
-        "nome": "Visconde da Graça:"
       },
       {
         "nome": "Fabricio Luís Lovato",
@@ -61120,9 +64288,6 @@
     ],
     "ementa": "Ratificar a designação dos servidores abaixo relacio nados que, sob a presidência do primeiro e coordenação do segundo, constituem o Grupo de Trabalho r esponsável pela proposição de uma atualização no Referencial Curric",
     "servidores": [
-      {
-        "nome": "Instituto Federal Sul-rio-grandense:"
-      },
       {
         "nome": "Diego Afonso da Silva Lima",
         "siape": "2191264"
@@ -61586,9 +64751,6 @@
     "ementa": "Ratificar a designação da equipe abaixo relacion ada que, sob a presidência do primeiro e coordenação do segundo, constitui o Grupo de Trabalho re sponsável pela proposição de uma atualização no Referencial Curricular pa",
     "servidores": [
       {
-        "nome": "Federal Sul-rio-grandense:"
-      },
-      {
         "nome": "Alex Mulattieri Suarez Orozco",
         "siape": "1680792"
       },
@@ -62039,9 +65201,6 @@
     "servidores": [
       {
         "nome": "Estruturante do Curso Superior de Licenciatura"
-      },
-      {
-        "nome": "Visconde da Graça:"
       },
       {
         "nome": "Fabricio Luís Lovato",
@@ -62763,7 +65922,20 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a coordenação da primeira, constituir a Comissão de Organização e Avaliação Local do ENA (Exame Nacional de Acesso) do Mestrado ProfEPT Polo IFSul Charqueadas, turma 2022:",
     "servidores": [
       {
-        "nome": "de Organização e Avaliação Local do ENA"
+        "nome": "Marta Helena Blank Tessmann",
+        "siape": "2356661"
+      },
+      {
+        "nome": "Maria Raquel Caetano",
+        "siape": "2146690"
+      },
+      {
+        "nome": "Renata Porcher Scherer",
+        "siape": "3148281"
+      },
+      {
+        "nome": "Nei Jairo Fonseca dos Santos Junior",
+        "siape": "1726939"
       }
     ],
     "dataInicio": "2021-12-20",
@@ -62863,12 +66035,6 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência do primeiro, constituir Banca de Avaliação do Processo Seletivo para a contratação de Estagiá rios/as para a Pró-reitoria de Pesquisa, Inovação e Pós-Graduação",
     "servidores": [
       {
-        "nome": "Avaliação do"
-      },
-      {
-        "nome": "Inovação e Pós-Graduação da Reitoria,"
-      },
-      {
         "nome": "Daniel Ricardo Arsand",
         "siape": "1760730"
       },
@@ -62918,12 +66084,6 @@
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência da primeira, constituir Banca de Avaliação do Processo Seletivo para a contratação de Estagiá rios/as para a Coordenadoria de Comunicação Social da Reitoria, r",
     "servidores": [
       {
-        "nome": "Avaliação do"
-      },
-      {
-        "nome": "Comunicação Social da Reitoria,"
-      },
-      {
         "nome": "Greice Rosane Gomes",
         "siape": "2146283"
       },
@@ -62951,12 +66111,6 @@
     ],
     "ementa": "Designar a equipe abaixo relacionada para, sob a presidência do primeiro, constituir Banca de Avaliação do Processo Seletivo para a contratação de Estagiá rios/as para a Pró-reitoria de Gestão de Pessoas da Reitoria, ref",
     "servidores": [
-      {
-        "nome": "Avaliação do"
-      },
-      {
-        "nome": "Pessoas da Reitoria,"
-      },
       {
         "nome": "Gustavo Alberto Schneider",
         "siape": "1818460"
@@ -63109,9 +66263,6 @@
     "servidores": [
       {
         "nome": "e do"
-      },
-      {
-        "nome": "de Emergência"
       },
       {
         "nome": "Aline Maria Rodrigues Machado",
@@ -63299,9 +66450,6 @@
     "ementa": "Ratificar a designação da equipe abaixo relacion ada que, sob a presidência do primeiro, constitui Grupo de Trabalho responsável pelo planejame nto do SaberTec 2022, no câmpus Sapucaia do Sul: Nome Segmento SIAPE n.",
     "servidores": [
       {
-        "nome": "Sapucaia do Sul:"
-      },
-      {
         "nome": "André Lacerda Batista de Sousa",
         "siape": "1936939"
       },
@@ -63391,10 +66539,10 @@
         "siape": "1854728"
       },
       {
-        "nome": "Janaina Corneli Discente"
+        "nome": "Janaina Corneli"
       },
       {
-        "nome": "Daniel Machado Marques Schilling Discente"
+        "nome": "Daniel Machado Marques Schilling"
       }
     ],
     "dataInicio": "2021-12-22",

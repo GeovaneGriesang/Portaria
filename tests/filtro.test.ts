@@ -17,7 +17,14 @@ function portaria(sobrescritas: Partial<Portaria> = {}): Portaria {
   };
 }
 
-const SEM_FILTRO: Filtros = { busca: "", tipos: new Set(), unidades: new Set(), status: "todas" };
+const SEM_FILTRO: Filtros = {
+  busca: "",
+  numero: "",
+  conteudo: "",
+  tipos: new Set(),
+  unidades: new Set(),
+  status: "todas",
+};
 
 describe("passaFiltro", () => {
   it("sem nenhum filtro ativo, aceita qualquer portaria", () => {
@@ -36,6 +43,30 @@ describe("passaFiltro", () => {
 
   it("busca que não corresponde a nenhum servidor rejeita a portaria", () => {
     const filtros: Filtros = { ...SEM_FILTRO, busca: "Outro Nome" };
+    expect(passaFiltro(portaria(), filtros)).toBe(false);
+  });
+
+  it("busca por número aceita número parcial (sem ano)", () => {
+    const filtros: Filtros = { ...SEM_FILTRO, numero: "0001" };
+    expect(passaFiltro(portaria({ numero: "0001/2026" }), filtros)).toBe(true);
+    expect(passaFiltro(portaria({ numero: "0002/2026" }), filtros)).toBe(false);
+  });
+
+  it("busca por número aceita número completo com ano", () => {
+    const filtros: Filtros = { ...SEM_FILTRO, numero: "0001/2026" };
+    expect(passaFiltro(portaria({ numero: "0001/2026" }), filtros)).toBe(true);
+    expect(passaFiltro(portaria({ numero: "0001/2025" }), filtros)).toBe(false);
+  });
+
+  it("busca por conteúdo consulta o mapa de textos por id, tolerante a acento", () => {
+    const textos = new Map([["2026-0001", "Designa o coordenador do colegiado do TADS de Venâncio Aires"]]);
+    const filtros: Filtros = { ...SEM_FILTRO, conteudo: "colegiado do tads de venancio aires" };
+    expect(passaFiltro(portaria({ id: "2026-0001" }), filtros, textos)).toBe(true);
+    expect(passaFiltro(portaria({ id: "2026-0002" }), filtros, textos)).toBe(false);
+  });
+
+  it("busca por conteúdo sem mapa de textos disponível rejeita tudo", () => {
+    const filtros: Filtros = { ...SEM_FILTRO, conteudo: "colegiado" };
     expect(passaFiltro(portaria(), filtros)).toBe(false);
   });
 

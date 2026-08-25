@@ -18,7 +18,7 @@ const DATA_DIR = path.join(process.cwd(), "data", "portarias");
 export function getPortarias(dir: string = DATA_DIR): Portaria[] {
   if (!fs.existsSync(dir)) return [];
 
-  const arquivos = fs.readdirSync(dir).filter((nome) => nome.endsWith(".json"));
+  const arquivos = fs.readdirSync(dir).filter((nome) => nome.endsWith(".json") && !nome.endsWith(".texto.json"));
 
   const portarias = arquivos.flatMap((nome) => {
     const conteudo = fs.readFileSync(path.join(dir, nome), "utf-8");

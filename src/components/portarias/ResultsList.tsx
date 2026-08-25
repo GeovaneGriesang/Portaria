@@ -1,8 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { assetUrl } from "@/lib/basePath";
-import { calcularDuracao, formatarDuracao, isAtiva } from "@/lib/status";
-import { TIPO_LABELS, type Portaria } from "@/lib/types";
+import { calcularDuracao, formatarDataBr, formatarDuracao, isAtiva } from "@/lib/status";
+import { TIPO_LABELS, type Portaria, type Servidor } from "@/lib/types";
+import { EvolucaoServidor } from "./EvolucaoServidor";
 
 interface ResultsListProps {
   portarias: Portaria[];
@@ -10,12 +12,9 @@ interface ResultsListProps {
   onToggleSelecionada: (portaria: Portaria) => void;
 }
 
-function formatarDataBr(iso: string): string {
-  const [ano, mes, dia] = iso.split("-");
-  return `${dia}/${mes}/${ano}`;
-}
-
 export function ResultsList({ portarias, selecionadas, onToggleSelecionada }: ResultsListProps) {
+  const [servidorEvolucao, setServidorEvolucao] = useState<Servidor | null>(null);
+
   if (portarias.length === 0) {
     return (
       <p className="rounded-lg border border-dashed border-neutral-300 p-8 text-center text-sm text-neutral-500 dark:border-neutral-700 dark:text-neutral-400">
@@ -25,8 +24,9 @@ export function ResultsList({ portarias, selecionadas, onToggleSelecionada }: Re
   }
 
   return (
-    <ul className="flex flex-col gap-3">
-      {portarias.map((portaria) => {
+    <>
+      <ul className="flex flex-col gap-3">
+        {portarias.map((portaria) => {
         const ativa = isAtiva(portaria);
         const duracao = formatarDuracao(calcularDuracao(portaria.dataInicio, portaria.dataFim));
 
@@ -70,8 +70,21 @@ export function ResultsList({ portarias, selecionadas, onToggleSelecionada }: Re
               <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">{portaria.unidade}</p>
               {portaria.ementa && <p className="mt-1 text-sm text-neutral-700 dark:text-neutral-300">{portaria.ementa}</p>}
 
-              <p className="mt-2 text-sm text-neutral-700 dark:text-neutral-300">
-                {portaria.servidores.map((s) => s.nome + (s.siape ? ` (SIAPE ${s.siape})` : "")).join("; ")}
+              <p className="mt-2 flex flex-wrap items-center gap-x-1 text-sm text-neutral-700 dark:text-neutral-300">
+                {portaria.servidores.map((servidor, indice) => (
+                  <span key={servidor.siape ?? servidor.nome}>
+                    {indice > 0 && "; "}
+                    {servidor.nome}
+                    {servidor.siape && ` (SIAPE ${servidor.siape})`}{" "}
+                    <button
+                      type="button"
+                      onClick={() => setServidorEvolucao(servidor)}
+                      className="text-xs font-medium text-if-green underline-offset-2 hover:underline"
+                    >
+                      Ver linha do tempo
+                    </button>
+                  </span>
+                ))}
               </p>
 
               <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-400">
@@ -91,6 +104,8 @@ export function ResultsList({ portarias, selecionadas, onToggleSelecionada }: Re
           </li>
         );
       })}
-    </ul>
+      </ul>
+      {servidorEvolucao && <EvolucaoServidor servidor={servidorEvolucao} onFechar={() => setServidorEvolucao(null)} />}
+    </>
   );
 }

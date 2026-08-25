@@ -24,4 +24,9 @@ describe("getPortarias", () => {
   it("devolve lista vazia quando o diretorio nao existe (data/portarias real, antes da ingestao)", () => {
     expect(getPortarias(path.join(__dirname, "fixtures", "inexistente"))).toEqual([]);
   });
+
+  it("ignora os arquivos <ano>.texto.json (texto integral, não é um array de Portaria)", () => {
+    const portarias = getPortarias(FIXTURES_DIR);
+    expect(portarias.every((p) => typeof p === "object" && "numero" in p)).toBe(true);
+  });
 });

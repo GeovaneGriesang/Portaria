@@ -8,6 +8,8 @@ export type TamanhoPagina = "20" | "50" | "todas";
 
 export interface Filtros {
   busca: string;
+  numero: string;
+  conteudo: string;
   tipos: Set<TipoPortaria>;
   unidades: Set<string>;
   status: StatusFiltro;
@@ -15,12 +17,19 @@ export interface Filtros {
 
 export const FILTROS_INICIAIS: Filtros = {
   busca: "",
+  numero: "",
+  conteudo: "",
   tipos: new Set(),
   unidades: new Set(),
   status: "todas",
 };
 
-export function passaFiltro(portaria: Portaria, filtros: Filtros): boolean {
+/**
+ * `textos` só é necessário quando `filtros.conteudo` está preenchido — o
+ * mapa de texto integral é caro de carregar (dezenas de MB) e por isso só é
+ * lido pela API quando a busca por conteúdo é de fato usada.
+ */
+export function passaFiltro(portaria: Portaria, filtros: Filtros, textos?: Map<string, string>): boolean {
   if (filtros.busca.trim()) {
     const alvoNome = normalizar(filtros.busca);
     const alvoSiape = filtros.busca.trim();
@@ -28,6 +37,15 @@ export function passaFiltro(portaria: Portaria, filtros: Filtros): boolean {
       (servidor) => normalizar(servidor.nome).includes(alvoNome) || (servidor.siape ?? "").includes(alvoSiape),
     );
     if (!bate) return false;
+  }
+
+  if (filtros.numero.trim() && !portaria.numero.includes(filtros.numero.trim())) {
+    return false;
+  }
+
+  if (filtros.conteudo.trim()) {
+    const texto = textos?.get(portaria.id) ?? "";
+    if (!normalizar(texto).includes(normalizar(filtros.conteudo))) return false;
   }
 
   if (filtros.tipos.size > 0 && !portaria.tipos.some((tipo) => filtros.tipos.has(tipo))) {
@@ -57,6 +75,8 @@ export function filtrosDeParams(params: URLSearchParams): Filtros {
 
   return {
     busca: params.get("busca") ?? "",
+    numero: params.get("numero") ?? "",
+    conteudo: params.get("conteudo") ?? "",
     tipos: new Set(tipos),
     unidades: new Set(unidades),
     status: status === "ativas" || status === "expiradas" ? status : "todas",
@@ -67,6 +87,8 @@ export function filtrosDeParams(params: URLSearchParams): Filtros {
 export function paramsDeFiltros(filtros: Filtros, pagina: number, tamanhoPagina: TamanhoPagina): URLSearchParams {
   const params = new URLSearchParams();
   if (filtros.busca.trim()) params.set("busca", filtros.busca.trim());
+  if (filtros.numero.trim()) params.set("numero", filtros.numero.trim());
+  if (filtros.conteudo.trim()) params.set("conteudo", filtros.conteudo.trim());
   if (filtros.tipos.size > 0) params.set("tipos", Array.from(filtros.tipos).join(","));
   if (filtros.unidades.size > 0) params.set("unidades", Array.from(filtros.unidades).join(","));
   if (filtros.status !== "todas") params.set("status", filtros.status);

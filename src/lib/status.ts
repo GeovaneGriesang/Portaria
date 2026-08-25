@@ -43,6 +43,11 @@ export function calcularDuracao(inicioIso: string, fimIso?: string, hoje: Date =
   return { anos: Math.max(anos, 0), meses: Math.max(meses, 0), dias: Math.max(dias, 0) };
 }
 
+export function formatarDataBr(iso: string): string {
+  const [ano, mes, dia] = iso.split("-");
+  return `${dia}/${mes}/${ano}`;
+}
+
 export function formatarDuracao({ anos, meses, dias }: Duracao): string {
   const partes: string[] = [];
   if (anos > 0) partes.push(`${anos} ano${anos === 1 ? "" : "s"}`);
