@@ -231,7 +231,12 @@ function escolherSequenciaParaFechar(abertas: SequenciaBruta[], portariaDeEncerr
 function calcularResumoSequencia({ membros, encerradaPor }: SequenciaBruta): Sequencia {
   const entradas: EntradaSequencia[] = membros.map((portaria, indice) => {
     const proxima = membros[indice + 1];
-    const fim = proxima?.dataInicio ?? encerradaPor?.dataInicio ?? portaria.dataFim;
+    // `?? portaria.dataFim` sozinho não basta: no JSON gerado pela ingestão
+    // uma portaria sem data de fim tem `dataFim: null` explícito (não
+    // ausente) — `??` não normaliza o ÚLTIMO elo da cadeia, então esse
+    // `null` vazaria para `fim` e quebraria `formatarDataBr` no componente
+    // (`null.split(...)`). O `?? undefined` final converte esse null.
+    const fim = proxima?.dataInicio ?? encerradaPor?.dataInicio ?? portaria.dataFim ?? undefined;
     const emAndamento = fim === undefined;
 
     return {

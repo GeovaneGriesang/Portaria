@@ -184,4 +184,23 @@ describe("construirSequencias", () => {
     const [sequencia] = construirSequencias(portarias);
     expect(sequencia!.entradas[0]).toMatchObject({ fim: "2021-06-30", emAndamento: false });
   });
+
+  it("trata dataFim: null (valor real do JSON gerado pela ingestão) como em andamento, não crasha", () => {
+    // A ingestão grava "dataFim": null (não omite o campo) quando não há data de
+    // fim conhecida — bug real reproduzido em produção: sem essa normalização,
+    // `fim` ficava `null` em vez de `undefined` e quebrava a UI em
+    // formatarDataBr(null).split(...).
+    const portarias = [
+      portaria({
+        id: "p1",
+        numero: "1/2021",
+        dataInicio: "2021-01-01",
+        dataFim: null as unknown as undefined,
+        tipos: ["designacao"],
+      }),
+    ];
+    const [sequencia] = construirSequencias(portarias);
+    expect(sequencia!.entradas[0]).toMatchObject({ fim: undefined, emAndamento: true });
+    expect(sequencia!.periodoTotal.fim).toBeUndefined();
+  });
 });
