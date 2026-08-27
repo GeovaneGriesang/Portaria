@@ -27,9 +27,16 @@ export const FILTROS_INICIAIS: Filtros = {
 /**
  * `textos` só é necessário quando `filtros.conteudo` está preenchido — o
  * mapa de texto integral é caro de carregar (dezenas de MB) e por isso só é
- * lido pela API quando a busca por conteúdo é de fato usada.
+ * lido pela API quando a busca por conteúdo é de fato usada. `revogadas`
+ * (ver `construirNumerosRevogados`) precisa vir calculado sobre TODAS as
+ * portarias, não só as já filtradas — passar aqui pro filtro de status.
  */
-export function passaFiltro(portaria: Portaria, filtros: Filtros, textos?: Map<string, string>): boolean {
+export function passaFiltro(
+  portaria: Portaria,
+  filtros: Filtros,
+  textos?: Map<string, string>,
+  revogadas?: Set<string>,
+): boolean {
   if (filtros.busca.trim()) {
     const alvoNome = normalizar(filtros.busca);
     const alvoSiape = filtros.busca.trim();
@@ -57,7 +64,7 @@ export function passaFiltro(portaria: Portaria, filtros: Filtros, textos?: Map<s
   }
 
   if (filtros.status !== "todas") {
-    const ativa = isAtiva(portaria);
+    const ativa = isAtiva(portaria, { revogadas });
     if (filtros.status === "ativas" && !ativa) return false;
     if (filtros.status === "expiradas" && ativa) return false;
   }

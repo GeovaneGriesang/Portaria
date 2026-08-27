@@ -8,11 +8,13 @@ import { EvolucaoServidor } from "./EvolucaoServidor";
 
 interface ResultsListProps {
   portarias: Portaria[];
+  /** Números ("NNNN/AAAA") das portarias desta página revogadas por outra — ver `construirNumerosRevogados`. */
+  revogadas: Set<string>;
   selecionadas: Set<string>;
   onToggleSelecionada: (portaria: Portaria) => void;
 }
 
-export function ResultsList({ portarias, selecionadas, onToggleSelecionada }: ResultsListProps) {
+export function ResultsList({ portarias, revogadas, selecionadas, onToggleSelecionada }: ResultsListProps) {
   const [servidorEvolucao, setServidorEvolucao] = useState<Servidor | null>(null);
 
   if (portarias.length === 0) {
@@ -27,7 +29,8 @@ export function ResultsList({ portarias, selecionadas, onToggleSelecionada }: Re
     <>
       <ul className="flex flex-col gap-3">
         {portarias.map((portaria) => {
-        const ativa = isAtiva(portaria);
+        const revogada = revogadas.has(portaria.numero);
+        const ativa = isAtiva(portaria, { revogadas });
         const duracao = formatarDuracao(calcularDuracao(portaria.dataInicio, portaria.dataFim));
 
         return (
@@ -55,7 +58,7 @@ export function ResultsList({ portarias, selecionadas, onToggleSelecionada }: Re
                       : "bg-neutral-100 text-neutral-500 dark:bg-neutral-800 dark:text-neutral-400"
                   }`}
                 >
-                  {ativa ? "Ativa" : "Expirada"}
+                  {ativa ? "Ativa" : revogada ? "Revogada" : "Expirada"}
                 </span>
                 {portaria.tipos.map((tipo) => (
                   <span

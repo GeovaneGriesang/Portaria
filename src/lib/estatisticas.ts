@@ -12,15 +12,17 @@ export interface Estatisticas {
 /**
  * Agregados calculados no servidor a partir da lista completa (ou já
  * filtrada) de portarias — o cliente nunca recebe os objetos individuais só
- * para contar totais, apenas estes números já prontos.
+ * para contar totais, apenas estes números já prontos. `revogadas` (ver
+ * `construirNumerosRevogados`) deve vir calculado sobre TODAS as portarias,
+ * mesmo quando `portarias` aqui é só um subconjunto já filtrado.
  */
-export function calcularEstatisticas(portarias: Portaria[]): Estatisticas {
+export function calcularEstatisticas(portarias: Portaria[], revogadas?: Set<string>): Estatisticas {
   let ativas = 0;
   const porTipo: Partial<Record<TipoPortaria, number>> = {};
   const porUnidade: Record<string, number> = {};
 
   for (const portaria of portarias) {
-    if (isAtiva(portaria)) ativas += 1;
+    if (isAtiva(portaria, { revogadas })) ativas += 1;
 
     for (const tipo of portaria.tipos) {
       porTipo[tipo] = (porTipo[tipo] ?? 0) + 1;

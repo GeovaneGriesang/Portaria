@@ -27,6 +27,7 @@ interface Resultado {
   pagina: number;
   portarias: Portaria[];
   estatisticas: Estatisticas;
+  revogadas: string[];
 }
 
 export function PortariasExplorer({ estatisticasIniciais, periodoInicial }: PortariasExplorerProps) {
@@ -110,7 +111,12 @@ export function PortariasExplorer({ estatisticasIniciais, periodoInicial }: Port
 
           {resultado && (
             <div className={buscando ? "pointer-events-none opacity-50" : undefined}>
-              <ResultsList portarias={resultado.portarias} selecionadas={idsSelecionados} onToggleSelecionada={toggleSelecionada} />
+              <ResultsList
+                portarias={resultado.portarias}
+                revogadas={new Set(resultado.revogadas)}
+                selecionadas={idsSelecionados}
+                onToggleSelecionada={toggleSelecionada}
+              />
             </div>
           )}
 

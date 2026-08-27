@@ -91,6 +91,31 @@ DATA_INICIO_EXPLICITA_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Referencia explicita a outra portaria sendo revogada/tornada sem efeito
+# (ex.: "Art. 2° Revogar a Portaria nº 1993, de 24 de julho de 2025") — usada
+# pra saber quando uma portaria expirou por ter sido substituida, nao so por
+# ter passado da data de fim. Exige a data por extenso junto do numero (nao
+# so o numero) pra reduzir falso positivo e pra conseguir o ANO da portaria
+# revogada, que o texto normalmente nao repete perto do numero.
+MESES_PT = {
+    "janeiro": 1, "fevereiro": 2, "marco": 3, "abril": 4, "maio": 5, "junho": 6,
+    "julho": 7, "agosto": 8, "setembro": 9, "outubro": 10, "novembro": 11, "dezembro": 12,
+}
+# fuzzy() em cada mes (nao um generico [a-z]+) porque o mesmo artefato de
+# espaco-fantasma no meio de palavras (ex.: "setembro" -> "setembr o") atinge
+# nomes de mes tambem — um [a-zà-ÿ]+ simples para de capturar no espaco e
+# perde a referencia inteira. A data aparece tanto por extenso ("de 24 de
+# julho de 2025") quanto numerica ("de 16/09/2021", tambem sujeita ao mesmo
+# artefato de espaco em volta das barras) — as duas sao aceitas.
+_ALTERNATIVAS_MES = "|".join(fuzzy(mes) for mes in MESES_PT)
+REVOGA_RE = re.compile(
+    r"(?:" + fuzzy("revogar") + r"|" + fuzzy("tornar sem efeito") + r")"
+    r"[^\d\n]{0,40}?(?P<numero>\d{1,5})[,\.]?\s*de\s+"
+    r"(?:(?P<dia_ext>\d{1,2})\s+de\s+(?P<mes_ext>" + _ALTERNATIVAS_MES + r")\s+de\s+(?P<ano_ext>\d{4})"
+    r"|(?P<dia_num>\d{2})\s*/\s*(?P<mes_num>\d{2})\s*/\s*(?P<ano_num>\d{4}))",
+    re.IGNORECASE,
+)
+
 # Lista de nomes candidatos: captura apos "servidor(a)(s)/docente/discente/
 # equipe formada por" ate um terminador tipico. Best-effort — nomes com
 # hifen/apostrofo (D'Avila) e acentos sao aceitos; espacos duplos de
@@ -450,6 +475,29 @@ def extrair_ementa(corpo: str) -> str:
     return trecho
 
 
+def extrair_revogacoes(corpo: str) -> list[str]:
+    """Numeros ("NNNN/AAAA", zero-padded como o campo `numero` das entradas)
+    das portarias que esta revoga/torna sem efeito. O texto costuma citar o
+    numero sem zero a esquerda (ex.: "Portaria nº 76"), diferente do campo
+    `numero` desta ingestao (vem do nome do arquivo, zero-padded) — por isso
+    o zfill(4) abaixo, pra bater com o formato usado em todo o resto do
+    dataset na hora de cruzar essa referencia com outra portaria."""
+    revogadas: list[str] = []
+    for m in REVOGA_RE.finditer(corpo):
+        if m.group("ano_ext"):
+            mes_normalizado = remover_acentos(m.group("mes_ext")).lower().replace(" ", "")
+            if mes_normalizado not in MESES_PT:
+                continue
+            ano = m.group("ano_ext")
+        else:
+            ano = m.group("ano_num")
+        numero = str(int(m.group("numero"))).zfill(4)
+        referencia = f"{numero}/{ano}"
+        if referencia not in revogadas:
+            revogadas.append(referencia)
+    return revogadas
+
+
 def extrair_vigencia(corpo: str, data_assinatura: str) -> tuple[str, str | None]:
     m_inicio = DATA_INICIO_EXPLICITA_RE.search(corpo)
     data_inicio = data_assinatura
@@ -487,6 +535,7 @@ def processar_arquivo(caminho: Path, unidades_canonicas: list[str]) -> dict | No
     servidores, servidores_baixa_confianca = extrair_servidores(corpo)
     ementa = extrair_ementa(corpo)
     data_inicio, data_fim = extrair_vigencia(corpo, data_assinatura_iso)
+    revoga = extrair_revogacoes(corpo)
     texto = normalizar_espacos(corpo)
 
     # A partir de 2022 a serie "de pessoal" passou a ser nomeada so
@@ -507,6 +556,7 @@ def processar_arquivo(caminho: Path, unidades_canonicas: list[str]) -> dict | No
         "servidores": servidores,
         "dataInicio": data_inicio,
         "dataFim": data_fim,
+        "revoga": revoga,
     }
 
     baixa_confianca = unidade_baixa_confianca or servidores_baixa_confianca or tipos == ["outros"] or not servidores

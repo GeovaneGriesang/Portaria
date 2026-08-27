@@ -39,6 +39,8 @@ export interface Portaria {
   servidores: Servidor[];
   dataInicio: string;
   dataFim?: string;
+  /** Números ("NNNN/AAAA") de outras portarias que esta revoga/torna sem efeito, extraídos do texto. */
+  revoga?: string[];
   observacoes?: string;
 }
 

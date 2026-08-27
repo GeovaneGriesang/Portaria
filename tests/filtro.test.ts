@@ -93,4 +93,14 @@ describe("passaFiltro", () => {
     expect(passaFiltro(vencida, ativas)).toBe(false);
     expect(passaFiltro(vencida, expiradas)).toBe(true);
   });
+
+  it("filtro de vigência trata portaria revogada como expirada mesmo sem dataFim", () => {
+    const ativas: Filtros = { ...SEM_FILTRO, status: "ativas" };
+    const expiradas: Filtros = { ...SEM_FILTRO, status: "expiradas" };
+    const revogada = portaria({ numero: "0001/2026", dataFim: undefined });
+    const revogadas = new Set(["0001/2026"]);
+
+    expect(passaFiltro(revogada, ativas, undefined, revogadas)).toBe(false);
+    expect(passaFiltro(revogada, expiradas, undefined, revogadas)).toBe(true);
+  });
 });

@@ -1,21 +1,59 @@
 import { describe, expect, it } from "vitest";
-import { calcularDuracao, formatarDuracao, isAtiva } from "@/lib/status";
+import { calcularDuracao, construirNumerosRevogados, formatarDuracao, isAtiva } from "@/lib/status";
+import type { Portaria } from "@/lib/types";
 
 describe("isAtiva", () => {
   it("é ativa quando não há data de fim (vigência indeterminada)", () => {
-    expect(isAtiva({ dataFim: undefined })).toBe(true);
+    expect(isAtiva({ dataFim: undefined, numero: "0001/2026" })).toBe(true);
   });
 
   it("é ativa quando a data de fim ainda não chegou", () => {
-    expect(isAtiva({ dataFim: "2030-01-01" }, new Date(2026, 0, 1))).toBe(true);
+    expect(isAtiva({ dataFim: "2030-01-01", numero: "0001/2026" }, { referencia: new Date(2026, 0, 1) })).toBe(true);
   });
 
   it("é ativa no próprio dia da data de fim", () => {
-    expect(isAtiva({ dataFim: "2026-01-01" }, new Date(2026, 0, 1))).toBe(true);
+    expect(isAtiva({ dataFim: "2026-01-01", numero: "0001/2026" }, { referencia: new Date(2026, 0, 1) })).toBe(true);
   });
 
   it("está expirada quando a data de fim já passou", () => {
-    expect(isAtiva({ dataFim: "2025-01-01" }, new Date(2026, 0, 1))).toBe(false);
+    expect(isAtiva({ dataFim: "2025-01-01", numero: "0001/2026" }, { referencia: new Date(2026, 0, 1) })).toBe(false);
+  });
+
+  it("está expirada quando revogada, mesmo com data de fim futura ou indeterminada", () => {
+    const revogadas = new Set(["0001/2026"]);
+    expect(isAtiva({ dataFim: undefined, numero: "0001/2026" }, { revogadas })).toBe(false);
+    expect(isAtiva({ dataFim: "2099-01-01", numero: "0001/2026" }, { revogadas })).toBe(false);
+    expect(isAtiva({ dataFim: undefined, numero: "0002/2026" }, { revogadas })).toBe(true);
+  });
+});
+
+describe("construirNumerosRevogados", () => {
+  function portaria(sobrescritas: Partial<Portaria> = {}): Portaria {
+    return {
+      id: "2026-0001",
+      numero: "0001/2026",
+      ano: 2026,
+      mes: 1,
+      arquivo: "portarias/2026/01/portaria-0001.pdf",
+      unidade: "Reitoria",
+      tipos: ["designacao"],
+      servidores: [],
+      dataInicio: "2026-01-01",
+      ...sobrescritas,
+    };
+  }
+
+  it("reúne os números citados em `revoga` de todas as portarias", () => {
+    const revogadas = construirNumerosRevogados([
+      portaria({ numero: "0002/2026", revoga: ["0001/2026"] }),
+      portaria({ numero: "0003/2026", revoga: ["0002/2026", "0001/2025"] }),
+      portaria({ numero: "0004/2026" }),
+    ]);
+    expect(revogadas).toEqual(new Set(["0001/2026", "0002/2026", "0001/2025"]));
+  });
+
+  it("lista vazia sem revogações não quebra", () => {
+    expect(construirNumerosRevogados([portaria()])).toEqual(new Set());
   });
 });
 

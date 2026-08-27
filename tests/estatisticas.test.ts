@@ -55,4 +55,13 @@ describe("calcularEstatisticas", () => {
   it("lida com lista vazia sem erro", () => {
     expect(calcularEstatisticas([])).toEqual({ total: 0, ativas: 0, expiradas: 0, porTipo: {}, porUnidade: {} });
   });
+
+  it("conta portaria revogada como expirada mesmo sem dataFim", () => {
+    const resultado = calcularEstatisticas(
+      [portaria({ numero: "0001/2026", dataFim: undefined }), portaria({ numero: "0002/2026", dataFim: undefined })],
+      new Set(["0001/2026"]),
+    );
+    expect(resultado.ativas).toBe(1);
+    expect(resultado.expiradas).toBe(1);
+  });
 });
